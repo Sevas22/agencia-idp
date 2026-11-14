@@ -1,0 +1,280 @@
+[
+ {
+  "title": "Desarrollo web con CMS wordpress",
+  "tabs": [
+   {
+    "name": "Desarrollo web",
+    "plans": [
+     {
+      "name": "Básico",
+      "desc": "Página de aterrizaje con diseño personalizado, y estructura general de una landing page.",
+      "price": "$310usd",
+      "items": [
+       "Sección Header",
+       "Sección de banner principal",
+       "Sección de testimonio",
+       "Sección servicios",
+       "Sección pricing",
+       "Formulario de registro"
+      ]
+     },
+     {
+      "name": "Profesional",
+      "desc": "Página informática completa o E-commerce con diseño personalizado",
+      "price": "$650usd",
+      "items": [
+       "Página home page",
+       "Subpágina About Us",
+       "Subpágina productos",
+       "Subpágina contacto",
+       "Subpágina cuenta de usuario",
+       "Integración con pasarela",
+       "G analytics, Tag manager",
+       "Optimización SEO básica",
+       "Optimización de medios"
+      ]
+     },
+     {
+      "name": "Profesional avanzado",
+      "desc": "Página web con diseño único, o e-commerce para vender mucho.",
+      "price": "$1250usd",
+      "items": [
+       "Página home page",
+       "Subpágina About Us",
+       "Subpágina productos",
+       "Subpágina contacto",
+       "Subpágina cuenta de usuario",
+       "Subpágina Portafolio",
+       "Integración con pasarela",
+       "G analytics, Tag manager",
+       "Optimización SEO básica",
+       "Optimización de medios",
+       "Funcionalidad CROSS SELLING",
+       "Funcionalidad UP SELLING",
+       "Recuperación de carritos",
+       "Diseño de figma",
+       "Integración con CRM"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Administración",
+    "plans": [
+     {
+      "name": "Webmaster básico",
+      "desc": "Enfocado a emprendedores que quieren asegurarse de que su sitio funciones correctamente.",
+      "price": "$210/Mes",
+      "items": [
+       "Actualización mensual de plugins",
+       "Actualización mensual de versión de PHP",
+       "Actualización de versión de wordpress",
+       "Subida y actualización de hasta 8 productos mensuales",
+       "Subida de 2 blogs al mes, (Solo subida)k",
+       "Creación de hasta 2 secciones nuevas",
+       "Creación de hasta 1 landing page",
+       "Optimización SEO progresivo de cada subpagina, 2 páginas por mes hasta lograr la optimización"
+      ]
+     },
+     {
+      "name": "Webmaster estandar",
+      "desc": "Página de aterrizaje con diseño personalizado, y estructura general de una landing page.",
+      "price": "$460.9/Mes",
+      "items": [
+       "Actualización mensual de plugins",
+       "Actualización mensual de versión de PHP",
+       "Actualización de versión de wordpress",
+       "Optimización de medios",
+       "Subida y actualización de hasta 20 productos mensuales",
+       "Subida de 4 blogs al mes, (Solo subida)k",
+       "Creación de hasta 6 secciones nuevas",
+       "Creación de una landing page, de máximo 5 secciones por página.",
+       "Optimización SEO progresivo de cada subpagina, 2 páginas por mes hasta lograr la optimización"
+      ]
+     },
+     {
+      "name": "Webmaster avanzado",
+      "desc": "Página de aterrizaje con diseño personalizado, y estructura general de una landing page.",
+      "price": "$650/Mes",
+      "items": [
+       "Actualización mensual de plugins",
+       "Actualización mensual de versión de PHP",
+       "Actualización de versión de wordpress",
+       "Optimización de medios",
+       "Subida y actualización de hasta 40 productos mensuales",
+       "Subida de 4 blogs al mes, (Solo subida)k",
+       "Creación de hasta 6 secciones nuevas",
+       "Creación de una landing page, de máximo 5 secciones por página.",
+       "Optimización SEO progresivo de cada subpagina, 5 páginas por mes hasta lograr la optimización"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Desarrollo web con CMS Shopify",
+  "tabs": [
+   {
+    "name": "Desarrollo web",
+    "plans": [
+     {
+      "name": "Ecommerce Básico",
+      "desc": "E-commerce básico conectado a pasarela de pagos",
+      "price": "$710usd",
+      "items": [
+       "Página home page",
+       "Subpágina About Us",
+       "Subpágina productos",
+       "Subpágina contacto",
+       "Subpágina cuenta de usuario",
+       "Integración con pasarela",
+       "Creación de popup promocional"
+      ]
+     },
+     {
+      "name": "Profesional",
+      "desc": "Página informátiva completa o E-commerce con diseño personalizado",
+      "price": "$1100usd",
+      "items": [
+       "Página home page",
+       "Subpágina About Us",
+       "Subpágina productos",
+       "Subpágina contacto",
+       "Subpágina cuenta de usuario",
+       "Integración con pasarela",
+       "G analytics, Tag manager",
+       "Optimización SEO básica",
+       "Creación de popup promocional"
+      ]
+     },
+     {
+      "name": "Profesional avanzado",
+      "desc": "Página web con diseño único, o e-commerce para vender mucho.",
+      "price": "$1850usd",
+      "items": [
+       "Página home page",
+       "Subpágina About Us",
+       "Subpágina productos",
+       "Subpágina contacto",
+       "Subpágina cuenta de usuario",
+       "Subpágina Portafolio",
+       "Integración con pasarela",
+       "G analytics, Tag manager",
+       "Optimización SEO básica",
+       "Funcionalidad CROSS SELLING",
+       "Funcionalidad UP SELLING",
+       "Recuperación de carritos",
+       "Diseño de figma",
+       "Creación de popup promocional"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Administración",
+    "plans": [
+     {
+      "name": "Web master básico",
+      "desc": "Enfocado a emprendedores que quieren un e-commerce funcional, con pocos productos.",
+      "price": "$208/Mes",
+      "items": [
+       "Subida y actualización de hasta12 productos mensuales",
+       "Subida de 2 blogs al mes, (Solo subida) optimizados para SEO",
+       "Creación de hasta 2 secciones nuevas",
+       "Optimización SEO progresivo de cada subpagina, 2 páginas por mes hasta lograr la optimización",
+       "Cambios de textos e imágenes del subpáginas ilimitado"
+      ]
+     },
+     {
+      "name": "Webmaster estandar",
+      "desc": "Enfocado a empresas que quieren un e-commerce continuamente actualizado, con hasta 200 productos.",
+      "price": "$300/Mes",
+      "items": [
+       "Optimización de medios",
+       "Subida y actualización de hasta 20 productos mensuales",
+       "Subida de 4 blogs al mes, (Solo subida) y optimizadas para SEO",
+       "Creación de hasta 6 secciones nuevas",
+       "Creación de una landing page, de máximo 5 secciones por página.",
+       "Optimización SEO progresivo de cada subpagina, 2 páginas por mes hasta lograr la optimización"
+      ]
+     },
+     {
+      "name": "Webmaster avanzado",
+      "desc": "Enfocado a empresas grandes que quieren un e-commerce funcional, actualizado y optimizado continuamente.",
+      "price": "$438/Mes",
+      "items": [
+       "Optimización de medios",
+       "Subida y actualización de hasta 40 productos mensuales",
+       "Subida de 6 blogs al mes, (Solo subida)",
+       "Creación y subida de 2 blogs al mes, optimizados para SEO",
+       "Creación de hasta 6 secciones nuevas",
+       "Creación de una landing page, de máximo 5 secciones por página.",
+       "Optimización SEO progresivo de cada subpagina, 5 páginas por mes hasta lograr la optimización"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Planes de SEO",
+  "tabs": [
+   {
+    "name": "Planes",
+    "plans": [
+     {
+      "name": "SEO básico",
+      "desc": "Posicionamiento básico en google, con estrategia básica de SEO",
+      "price": "$330/mes",
+      "items": [
+       "Estrategia de posicionamiento (200 USD adicionales solo al inicio)",
+       "Benchmarking",
+       "Integración SEARCH CONSOLE",
+       "Integración RANK MATH",
+       "Optimización de 2 subáginas mensuales",
+       "Optimización de 2 blogs mensuales",
+       "Informes de rendimiento quincenal en SE ranking",
+       "Optimización de arquitectura web",
+       "Posicionamiento solo en los motores de Google"
+      ]
+     },
+     {
+      "name": "SEO profesional",
+      "desc": "Posicionamiento continuo y progresivo del sitio, con estrategia inicial.",
+      "price": "$430/mes",
+      "items": [
+       "Estrategia de posicionamiento (200 USD adicionales solo al inicio)",
+       "Benchmarking",
+       "Integración SEARCH CONSOLE",
+       "Integración RANK MATH PRO",
+       "Optimización SEO de 4 subáginas mensuales",
+       "Optimización SEO de 4 blogs mensuales",
+       "Informes de rendimiento quincenal en SE ranking",
+       "Optimización de arquitectura web",
+       "Posicionamiento en los motores de Google y Bing"
+      ]
+     },
+     {
+      "name": "SEO avanzado",
+      "desc": "Posicionamiento continuo y progresivo multicanal, con estrategia inicial.",
+      "price": "$650/mes",
+      "items": [
+       "Estrategia de posicionamiento (200 USD adicionales solo al inicio)",
+       "Benchmarking",
+       "Integración SEARCH CONSOLE",
+       "Integración RANK MATH",
+       "Optimización SEO de 6 subáginas mensuales",
+       "Optimización SEO de 6 blogs mensuales",
+       "Informes de rendimiento quincenal en SE ranking",
+       "Optimización de arquitectura web",
+       "Optimización de medios web",
+       "Posicionamiento en pinterest",
+       "Posicionamiento Google, Bing, Yandex"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

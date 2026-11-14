@@ -1,0 +1,375 @@
+{
+ "slug": "crea-paginas-web-profesionales-colombia",
+ "title": "Case studies: apps, websites and online stores by Agencia IDP",
+ "seo": {
+  "title": "Case Studies: Web, App and E-commerce Projects | Agencia IDP",
+  "description": "See web apps, mobile apps, WordPress sites and Shopify stores built by Agencia IDP for companies in Colombia, the US, Mexico and Latin America. Visit each project live.",
+  "image": "/media/2026-06-captura-de-pantalla-2026-06-17-132342.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "App development"
+    },
+    {
+     "t": "card",
+     "title": "Colombia Memories",
+     "html": "<p><strong>Colombia Memories</strong> is a digital platform that connects people with Colombia’s cultural, historical and tourism heritage through an interactive web experience.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-17-132342.webp",
+      "width": 1600,
+      "height": 733,
+      "alt": ""
+     },
+     "href": "https://v0-colombia-memories-mvp.vercel.app/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Beanster",
+     "html": "<p><strong>Beanster</strong> is a mobile app for coffee lovers, offering a digital experience focused on discovering, exploring and enjoying the world of coffee.</p>",
+     "kicker": "Mobile app",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-17-132930.webp",
+      "width": 1600,
+      "height": 772,
+      "alt": ""
+     },
+     "href": "https://beanster.app/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Tu Columna Habla",
+     "html": "<p><strong>Tu Columna Habla</strong> is a web platform for spine health education, guidance and follow-up, with accessible information and digital tools that promote good posture.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-152317.webp",
+      "width": 1600,
+      "height": 734,
+      "alt": ""
+     },
+     "href": "https://v0-tucolumnahabla.vercel.app/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Zona Pet",
+     "html": "<p><strong>Zona Pet</strong> is a mobile app that brings together everything related to pet care in one digital tool that users can access from their phones.</p>",
+     "kicker": "Mobile app",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-153212.webp",
+      "width": 1600,
+      "height": 726,
+      "alt": ""
+     },
+     "href": "https://zonapet.mx/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Posrank",
+     "html": "<p><strong>Posrank</strong> is the platform to grow and measure your product’s visibility in search engines, AI engines and the 25 review channels that drive purchase decisions, backed by a real community.</p>",
+     "kicker": "Web app",
+     "image": {
+      "src": "/media/2026-10-captura-de-pantalla-2026-10-27-161726.webp",
+      "width": 1600,
+      "height": 849,
+      "alt": ""
+     },
+     "href": "https://www.pideloya.app/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Capihost",
+     "html": "<p>We built a platform for selling domains, servers and email hosting that works worldwide, with servers located in the US and India.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-153010.webp",
+      "width": 1600,
+      "height": 739,
+      "alt": ""
+     },
+     "href": "https://capihost.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Push Leads",
+     "html": "<p><strong>Push Leads</strong> is a CRM built to streamline customer management, automate follow-ups and improve sales conversion.</p>",
+     "kicker": "Web app",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-153923.webp",
+      "width": 1332,
+      "height": 857,
+      "alt": ""
+     },
+     "href": "https://pushleads.co/",
+     "cta": "View project"
+    },
+    {
+     "t": "card",
+     "title": "SEDEFY",
+     "html": "<p><strong>SEDEFY</strong> is an academic management system that simplifies grade tracking, grading and school organization, letting schools manage attendance, student records and grades in one place.</p>",
+     "kicker": "Web app",
+     "image": {
+      "src": "/media/2026-10-captura-de-pantalla-2026-10-26-151820.webp",
+      "width": 1147,
+      "height": 812,
+      "alt": ""
+     },
+     "href": "https://sedeapp.com/",
+     "cta": "Visit project"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Our WordPress work"
+    },
+    {
+     "t": "card",
+     "title": "Bon Studio",
+     "html": "<p><strong>Bon Studio</strong> designs sensitive architecture that adapts to the way people live, creating functional, beautiful and harmonious spaces.</p>",
+     "kicker": "WordPress website",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-213206-r0zo1mx3g1a76ozprrek9ery30964g2hldr4ykhg00.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 213206"
+     },
+     "href": "https://bonstudio.com.co/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Topa House",
+     "html": "<p><strong>Topa House</strong> is a modern informational website that showcases stylish, functional rooms, offering inspiration and details about each space with a focus on design trends.</p>",
+     "kicker": "WordPress website",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-220601-r0zpkuxqymvn9ys0b4qi8z3ugy2hcaas6pj2yslsg0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 220601"
+     },
+     "href": "https://topahouse.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "The Studio Miami",
+     "html": "<p><strong>The Studio Miami</strong> is a multidisciplinary interior design studio specializing in high-end residential and commercial projects, delivering practical architecture and design solutions that reflect each client’s vision and strengthen their brand.</p>",
+     "kicker": "Online store",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-214330-r0zojko7v7u6qsxq10j9cdtm6puc0ia325xpnnvz9c.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 214330"
+     },
+     "href": "https://thestudio.miami/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Maria Pilera",
+     "html": "<p><strong>María Pilera</strong> is an online store offering carefully selected, exceptionally crafted products to ensure customer satisfaction with every purchase.</p>",
+     "kicker": "Online store",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-210019-r0zmof3blbwp9qhe5zit7bw2boua2zoghs0vbzgjsw.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Woocommerce"
+     },
+     "href": "https://mariapilera.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Ossalud",
+     "html": "<p><strong>Ossalud</strong> is an online store for medical and surgical supplies, with a broad catalog of high-quality products, secure payments, fast shipping and efficient customer service in a design built for easy, reliable shopping.</p>",
+     "kicker": "Online store",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-215142-r0zow6o9k73oigm9dys2ap993tomabcfsl18gb6ts0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 215142"
+     },
+     "href": "https://www.ossaludonline.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Religare",
+     "html": "<p><strong>Religare</strong> is a luxury clothing store offering an exclusive shopping experience with a curated catalog, secure payments, premium shipping and personal service, in an elegant design optimized for every device.</p>",
+     "kicker": "Online store",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-214558-r0zonfsbyp4mh3bngoo1lepu3qsnnpmcxahkom5pog.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 214558"
+     },
+     "href": "https://religarestore.com/?v=14d94be42e49",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Dr Joaquí",
+     "html": "<p><strong>Dr. Joaquí</strong> is a physician specializing in IV therapy and regenerative medicine, with an informational website about his treatments, benefits and personalized approaches to patient health and wellness.</p>",
+     "kicker": "WordPress website",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-222221-r0zq8cwhtj1pj0n73aeql1mp3q8trvl7f0o2vtrgw0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 222221"
+     },
+     "href": "https://drjoaqui.com/en/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Sebastián Uribe",
+     "html": "<p><strong>Sebastián Uribe</strong> is an online ceramics store with unique, handmade pieces focused on quality and craftsmanship, ideal for adding a personal, sophisticated touch to any space.</p>",
+     "kicker": "Online store",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-221330-r0zpue0u95xazmxnnr1c12j3al3gdt4t5vnb4sh3cw.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 221330"
+     },
+     "href": "https://sebastianuribestudio.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Factum Digital",
+     "html": "<p><strong>Factum Digital</strong> is a digital marketing agency whose website presents its services, tailored strategies and case studies, helping brands improve their online presence and reach their business goals.</p>",
+     "kicker": "WordPress website",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-222621-r0zqehsmvaztm7d8f49hixwq09ixshf7605uwqkg8w.webp",
+      "width": 1600,
+      "height": 780,
+      "alt": "Captura de pantalla 2025-02-03 222621"
+     },
+     "href": "https://factumdigital.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Andrés Vallejo Balen",
+     "html": "<p><strong>Andrés Vallejo Balén</strong> is a surgeon whose website offers clear, reliable information about surgical procedures, pre- and post-operative recommendations and professional guidance for patients.</p>",
+     "kicker": "WordPress website",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-204657-r0zm3fd46dy14nsktr1h3lltde2lk7ksw6ltlyjbr4.webp",
+      "width": 1540,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 204657"
+     },
+     "href": "https://drandresvallejobalen.com/",
+     "cta": "Visit project"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Our Shopify work"
+    },
+    {
+     "t": "card",
+     "title": "Solua for People USA",
+     "html": "<p><strong>Solua for People</strong> is an online clothing store with easy navigation, secure payments, discounts, order management and customer service, in a design built for mobile and desktop.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/thumbs-whatsapp-image-2024-08-12-at-4-22-14-pm-r0zodlf6e5niw3mdxxhoze525hba1tjjwkjirar4u8.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "WhatsApp Image 2024-08-12 at 4.22.14 PM"
+     },
+     "href": "https://soluaforpeople.com",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Dodo Nature",
+     "html": "<p><strong>Dodo Nature</strong> is a Shopify store selling clothing made from natural materials, committed to well-being and sustainability.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-212832-r0znw6gtrnt9s6x2mwhjaaclxh5gfpel6dennqkq4g.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 212832"
+     },
+     "href": "https://dodonature.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Fajas Sens",
+     "html": "<p><strong>Fajas Sens</strong> is an online shapewear store with quality products, Klaviyo integration for personalized customer management, fast shipping, secure payments and efficient service, all easy to browse on any device.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-215749-r0zp5qp71k6mjqqjl3hinafyiukyjja73vsy3l0qio.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 215749"
+     },
+     "href": "https://fajassens.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Fajas Tributo MX",
+     "html": "<p><strong>Fajas Tributo MX</strong> is an online shapewear store with an easy-to-browse catalog, secure payments, discounts and customer service, optimized for mobile and desktop.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-214036-r0zof2zz7pov9vgk92nffimc0fz78kg93xq742jozk.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 214036"
+     },
+     "href": "https://fajastributo.com.mx/?srsltid=AfmBOooE6MTr0EH_SNto2kd9a1AUxLfcH-RuVGAvsY4fBLdCjvImiJU-",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Trascendenza USA",
+     "html": "<p><strong>Trascendenza</strong> is a Shopify store selling meaningful jewelry that combines elegant design and symbolism to create unique pieces representing special moments and personal values.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-224306-r0zr4t9vslh4ebi2ktg06csnhoa2jnfk7nkmern41s.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 224306"
+     },
+     "href": "https://trascendenza.co/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Amorfa Gemz",
+     "html": "<p><strong>Amorfa Gemz</strong> is an online jewelry store with an exclusive selection of elegant pieces, secure payments, fast shipping and personal service, in a sophisticated design adapted to every device.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-220137-r0zpbsrr34h5d9xs7pqyprewc8q45bbx9v5lfs1ef4.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 220137"
+     },
+     "href": "https://amorfagemz.com/",
+     "cta": "Visit project"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-10-27T16:21:43"
+}

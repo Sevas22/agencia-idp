@@ -1,0 +1,36 @@
+{
+ "slug": "seguridad-aplicaciones-web-mejores-practicas-2026",
+ "title": "Seguridad en aplicaciones web: mejores prácticas para 2026",
+ "modified": "2026-11-05T09:00:00",
+ "excerpt": "La seguridad se diseña desde el inicio. Prioriza el control de acceso, la autenticación, la validación de datos, el cifrado y el monitoreo.",
+ "html": "<p class=\"answer\"><strong>Para proteger una aplicación web, prioriza cinco cosas: control de acceso, autenticación fuerte, validación de datos, cifrado y monitoreo.</strong> Corregir una falla en el diseño cuesta mucho menos que hacerlo después de un incidente.</p>\n<p>El riesgo es real: según el informe de IBM de 2025, una filtración de datos cuesta en promedio 4,44 millones de dólares a nivel global. Es una cifra de grandes organizaciones en varios países, no un costo típico de una pyme, pero muestra la magnitud del problema.</p>\n<h2>Las 5 prioridades</h2>\n<table><thead><tr><th>Prioridad</th><th>Qué hacer</th><th>Qué evitar</th></tr></thead><tbody>\n<tr><td>Control de acceso</td><td>Verificar permisos en el servidor</td><td>Ocultar botones como única protección</td></tr>\n<tr><td>Autenticación</td><td>2FA y contraseñas con hash (Argon2 o bcrypt)</td><td>MD5, SHA-1 o texto plano</td></tr>\n<tr><td>Validación</td><td>Consultas parametrizadas y validación en servidor</td><td>Concatenar datos del usuario en SQL</td></tr>\n<tr><td>Cifrado</td><td>HTTPS en todo el sitio y datos sensibles cifrados</td><td>Claves dentro del código</td></tr>\n<tr><td>Monitoreo</td><td>Registros, alertas y actualizaciones</td><td>Enterarse por los clientes</td></tr>\n</tbody></table>\n<h2>Control de acceso: el riesgo principal</h2>\n<p>El <a href=\"https://owasp.org/www-project-top-ten/\" target=\"_blank\" rel=\"noopener noreferrer\">OWASP Top 10</a> es la referencia más usada sobre riesgos de aplicaciones web, y el control de acceso defectuoso encabeza su lista. Ocurre cuando alguien entra a datos que no le corresponden, por ejemplo al cambiar un número en la URL. La solución es comprobar los permisos en el servidor en cada solicitud.</p>\n<h2>Autenticación y sesiones</h2>\n<p>Exige 2FA para cuentas con privilegios, limita los intentos de ingreso y expira las sesiones. Nunca guardes contraseñas sin un algoritmo de hash diseñado para eso.</p>\n<h2>Inyecciones y datos de usuarios</h2>\n<p>Trata toda entrada como no confiable. Usa consultas parametrizadas, valida en el servidor y aplica una política de seguridad de contenido (CSP) para reducir el riesgo de XSS.</p>\n<h2>Cifrado y secretos</h2>\n<p>Usa HTTPS en todo el sitio, cifra los datos sensibles y guarda las claves en variables de entorno o gestores de secretos, nunca en el repositorio.</p>\n<h2>Dependencias y plugins</h2>\n<p>Gran parte del código de una aplicación moderna no lo escribió tu equipo. Bibliotecas, temas y plugins pueden traer fallas conocidas. Mantén un inventario, elimina lo que no uses y automatiza las alertas de actualizaciones. Por eso un sitio con pocas piezas y sin panel público expuesto tiene menos superficie de ataque.</p>\n<h2>Datos personales en Colombia</h2>\n<p>Si guardas datos de clientes, debes cumplir la Ley 1581 de 2012 sobre protección de datos personales. En la práctica, recoge solo lo necesario, informa para qué lo usas, limita quién puede verlo y ten un procedimiento para atender solicitudes de los titulares. Consulta a tu asesor legal para tu caso.</p>\n<h2>Qué hacer si ocurre un incidente</h2>\n<ol>\n<li><strong>Contén:</strong> revoca accesos y aísla lo afectado.</li>\n<li><strong>Preserva evidencia:</strong> guarda los registros antes de cambiar nada.</li>\n<li><strong>Evalúa:</strong> identifica qué datos y qué usuarios se vieron afectados.</li>\n<li><strong>Corrige:</strong> resuelve la causa, no solo el síntoma.</li>\n<li><strong>Comunica:</strong> informa a los afectados y a las autoridades cuando corresponda.</li>\n</ol>\n<p>Tener estos pasos escritos antes del problema reduce el tiempo de respuesta. IBM reportó que en 2025 identificar y contener una filtración tomó en promedio 241 días, así que la detección temprana importa tanto como la prevención.</p>\n<h2>Lista rápida para revisar hoy</h2>\n<ul>\n<li>¿Las dependencias y plugins están actualizados?</li>\n<li>¿Las cuentas administrativas tienen 2FA?</li>\n<li>¿Tienes copias de seguridad y probaste restaurarlas?</li>\n<li>¿Tu sitio envía cabeceras de seguridad?</li>\n<li>¿Sabes quién tiene acceso a producción?</li>\n</ul>\n<p>Si tu sitio depende de muchos plugins o no sabes cuándo se actualizó, <a href=\"/contacto/\">escríbenos para revisarlo</a>. Construimos <a href=\"/agencia-de-software-en-colombia/\">software a la medida</a> con estas prácticas desde el diseño.</p>",
+ "faqs": [
+  {
+   "q": "¿Cuál es la vulnerabilidad web más común?",
+   "a": "El control de acceso defectuoso encabeza la lista OWASP Top 10, una de las referencias más usadas del sector."
+  },
+  {
+   "q": "¿HTTPS es suficiente para proteger mi sitio?",
+   "a": "No. HTTPS protege los datos en tránsito, pero no corrige fallas de permisos, inyecciones ni dependencias desactualizadas."
+  },
+  {
+   "q": "¿Cada cuánto debo revisar la seguridad?",
+   "a": "Revisa dependencias de forma continua y haz una revisión completa cuando haya cambios importantes en la aplicación."
+  }
+ ],
+ "sources": [
+  {
+   "label": "OWASP Top 10",
+   "url": "https://owasp.org/www-project-top-ten/"
+  },
+  {
+   "label": "CyberScoop: informe de IBM sobre el costo de una filtración, 2025",
+   "url": "https://cyberscoop.com/ibm-cost-data-breach-2025/"
+  }
+ ],
+ "seo": {
+  "title": "Seguridad en aplicaciones web: mejores prácticas 2026",
+  "description": "Prácticas esenciales de seguridad web: control de acceso, autenticación, inyecciones, cifrado y monitoreo, con una lista para revisar tu aplicación.",
+  "image": "/media/2026-09-b9116676-cc45-48e4-be60-594eb42240ce.webp"
+ }
+}

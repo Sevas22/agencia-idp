@@ -1,0 +1,468 @@
+{
+ "slug": "transforma-agencia-software-colombia",
+ "title": "Software Development Agency in Colombia: Transform and Optimize Your Business",
+ "seo": {
+  "title": "About Agencia IDP: Software Development Agency in Colombia",
+  "description": "Meet Agencia IDP, a software development agency in Medellín, Colombia. We build MVPs, web platforms, apps and AI solutions for companies in Latin America and the US.",
+  "image": "/media/2025-04-jefferson-espana.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Software development agency in Colombia"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "A digital transformation factory"
+    },
+    {
+     "t": "card",
+     "title": "Our story",
+     "html": ""
+    },
+    {
+     "t": "rich",
+     "html": "<p>It all started with a simple but powerful idea: <strong>people and companies are made to evolve</strong>. In a world where technology changes at the speed of a click, we understood that adapting is not enough. You have to go one step further.</p><p>That is how <strong>Agencia IDP</strong> was born, with the clear purpose of reinventing professional services. From our very first project we set out to do more than build software or digital strategies: <strong>we wanted to create experiences capable of transforming businesses, teams and entire visions</strong>.</p><p>Our mission took shape with every line of code, every campaign launched and every client who trusted us: <strong>to create agile, intelligent and tailored technology solutions</strong> that do not just meet a need but drive real growth for those who choose us.</p>"
+    },
+    {
+     "t": "card",
+     "title": "Our values",
+     "html": ""
+    },
+    {
+     "t": "rich",
+     "html": "<p>At <a href=\"/en/\"><strong>IDP software</strong></a> we deeply value innovation, quality and commitment to every one of our clients. We are driven by the belief that technology should go beyond solving today’s needs: it should anticipate the future. That is why we build solutions that not only answer the present but also stay ahead of the trends and challenges to come.</p>"
+    },
+    {
+     "t": "chips",
+     "items": [
+      "RESPONSIBILITY",
+      "OPTIMIZATION",
+      "EMPATHY",
+      "PASSION",
+      "KIND-HEARTED",
+      "TECH-GEEK"
+     ]
+    },
+    {
+     "t": "video",
+     "src": "https://www.youtube-nocookie.com/embed/_esKEreSdh8"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "About us"
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Jefferson España",
+     "role": "CEO and Co-founder",
+     "image": {
+      "src": "/media/2025-04-jefferson-espana.webp",
+      "width": 1163,
+      "height": 1163,
+      "alt": "Jefferson España"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Emerson",
+     "role": "Marketing Director",
+     "image": {
+      "src": "/media/2025-04-emerson-agencia-idp.webp",
+      "width": 853,
+      "height": 853,
+      "alt": "Emerson"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Alejandro Franco",
+     "role": "Sales Manager",
+     "image": {
+      "src": "/media/2025-04-alejandro-idp.webp",
+      "width": 654,
+      "height": 655,
+      "alt": "Alejandro Franco"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Felipe",
+     "role": "Project Coordinator",
+     "image": {
+      "src": "/media/2024-08-atencion-al-cliente-con-ia.webp",
+      "width": 500,
+      "height": 500,
+      "alt": "Felipe"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Isabela",
+     "role": "Project Coordinator",
+     "image": {
+      "src": "/media/2025-04-isabela.webp",
+      "width": 960,
+      "height": 960,
+      "alt": "Isabela"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Diego",
+     "role": "Low-Code Developer",
+     "image": {
+      "src": "/media/2025-04-foto-diego.webp",
+      "width": 640,
+      "height": 640,
+      "alt": "Diego"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Anna",
+     "role": "Backend Developer",
+     "image": {
+      "src": "/media/2024-08-atencion-al-cliente-con-ia.webp",
+      "width": 500,
+      "height": 500,
+      "alt": "Anna"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Jhoan",
+     "role": "CISO, Cybersecurity",
+     "image": {
+      "src": "/media/2026-08-chatgpt-image-18-ago-2026-02-11-19-p-m.webp",
+      "width": 1145,
+      "height": 1374,
+      "alt": "Jhoan"
+     }
+    },
+    {
+     "t": "person",
+     "text": "",
+     "name": "Jesus",
+     "role": "Full Stack Developer",
+     "image": {
+      "src": "/media/2026-08-chatgpt-image-18-ago-2026-06-20-56-p-m.webp",
+      "width": 1190,
+      "height": 1322,
+      "alt": "Jesus"
+     }
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Companies we have worked with"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-amazon-web-service-scaled.webp",
+     "width": 1600,
+     "height": 1067,
+     "alt": "Transforma"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-corpaul.webp",
+     "width": 828,
+     "height": 291,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-epayco.webp",
+     "width": 401,
+     "height": 123,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-logo-etk-pequeno-etkweb.webp",
+     "width": 202,
+     "height": 81,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-logo-camara-de-comercio-de-bogota-ccb-svg.webp",
+     "width": 1200,
+     "height": 393,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-logo-starter-3-e1712901499922.webp",
+     "width": 590,
+     "height": 282,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-logo-grupo-exito-0.webp",
+     "width": 430,
+     "height": 250,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-gilinski-1-e1712901684689.webp",
+     "width": 424,
+     "height": 166,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-logo-t.webp",
+     "width": 180,
+     "height": 180,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-logo.webp",
+     "width": 300,
+     "height": 103,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-images.webp",
+     "width": 331,
+     "height": 152,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-04-2xb20200819082827.webp",
+     "width": 500,
+     "height": 180,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-272248251-1012468372642302-7756649832547750105-n.webp",
+     "width": 320,
+     "height": 320,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-intuix-2.webp",
+     "width": 1118,
+     "height": 302,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-captura-de-pantalla-2025-04-10-133534-removebg-preview.webp",
+     "width": 522,
+     "height": 405,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-logo-tributo.webp",
+     "width": 256,
+     "height": 68,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-humano-seguros.webp",
+     "width": 750,
+     "height": 265,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-starco.webp",
+     "width": 640,
+     "height": 223,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-sociedad-orquideologica.webp",
+     "width": 300,
+     "height": 83,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-net-conecta-tu-vida-color.webp",
+     "width": 1600,
+     "height": 989,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-hopiatal-logo.webp",
+     "width": 430,
+     "height": 118,
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Our projects"
+    },
+    {
+     "t": "rich",
+     "html": "<p>As a software company, we are proud to have worked with some of the largest brands in Colombia, delivering innovative technology solutions that transformed their operations and digital experiences. We have had the privilege of working with well-known companies in retail, banking, healthcare and manufacturing.</p>"
+    },
+    {
+     "t": "button",
+     "href": "/en/contact/",
+     "text": "See more work"
+    },
+    {
+     "t": "card",
+     "title": "STARTBOOK",
+     "html": "<p>We connect you with the Latin American startup ecosystem in <strong>real time</strong> so your investments and acquisitions are on target.</p>",
+     "kicker": "WEB DEVELOPMENT",
+     "image": {
+      "src": "/media/tor-thumbs-c0c55cae-c16f-4f86-ac0d-2764515c9bbb-qml6j93gp0wvea1as1wjhrnew1lkq7v2k6bl2bvmm8.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "c0c55cae-c16f-4f86-ac0d-2764515c9bbb"
+     },
+     "href": "https://startbook.net/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Capihost",
+     "html": "<p>The internet is a major polluter. Host your website with a leading eco-friendly hosting provider and make a positive impact on the environment.</p>",
+     "kicker": "WEB DEVELOPMENT",
+     "image": {
+      "src": "/media/tor-thumbs-69a1a242-1332-41d8-8a0b-d1b8462e2123-qmkqbulmuua1f5glfvgjwzk1ql4797smclmdzow8jk.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "69a1a242-1332-41d8-8a0b-d1b8462e2123"
+     },
+     "href": "https://landing.capihost.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "PUSHLEADS",
+     "html": "<p>Built to transform the way your company manages customer relationships. It focuses on a robust, customizable CRM that improves customer interaction, operational efficiency and retention.</p>",
+     "kicker": "WEB DEVELOPMENT",
+     "image": {
+      "src": "/media/tor-thumbs-6a23ffc1-02b4-4096-87e9-c330b60c654b-qmkqs70lp4njb1pvzxt09v2llsjz3qol9i0cewnscg.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "6a23ffc1-02b4-4096-87e9-c330b60c654b"
+     },
+     "href": "https://pushleads.co/",
+     "cta": "Visit project"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "WE WORK WITH AMBITION. Have a project to start? Let's talk and build something truly impressive."
+    },
+    {
+     "t": "label",
+     "text": "EMAIL"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "afranco@idpagency.co"
+    },
+    {
+     "t": "label",
+     "text": "PHONE NUMBER"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "(+57) 311 4019338"
+    },
+    {
+     "t": "label",
+     "text": "ADDRESS"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Medellín, Colombia"
+    },
+    {
+     "t": "button",
+     "href": "http://wa.me/573135815353",
+     "text": "START A PROJECT"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "FAQ"
+    },
+    {
+     "t": "faq",
+     "q": "What kind of software solutions does your company offer?",
+     "a": "<p>We offer a wide range of custom software solutions tailored to each client’s needs: mobile apps (iOS and Android), web development, ERP systems, e-commerce, systems integration, custom software and more. Our goal is to deliver innovative technology that drives efficiency and business growth.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "How do you work with clients to build custom solutions?",
+     "a": "<p>We start with a detailed consultation to understand your goals and requirements. Our software team then designs a tailored solution that tackles your business challenges efficiently. Throughout the process we keep open, transparent communication so the final product meets your expectations.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "What industry experience do you have?",
+     "a": "<p>We have worked with clients in retail, banking and finance, healthcare, education, manufacturing, technology and more. That range lets us adapt our solutions to the specific requirements of each industry.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "How do you ensure the quality of your software services?",
+     "a": "<p>We hold high quality standards at every stage of development. We follow industry best practices, run thorough testing and use up-to-date technologies to deliver robust, reliable solutions, and we use ongoing client feedback to keep improving.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "How long does a software project take?",
+     "a": "<p>Development time depends on the complexity and scope of the project. Before starting, we run a detailed assessment and give you an accurate estimate of time and resources. We work to meet agreed deadlines and keep you informed on progress at all times.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "Do you offer support and maintenance after a project is delivered?",
+     "a": "<p>Yes. We provide ongoing technical support and maintenance to keep your solution performing at its best, from the initial rollout to future updates and improvements.</p>"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-08-18T18:21:26"
+}

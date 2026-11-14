@@ -1,0 +1,27 @@
+import type { MetadataRoute } from 'next'
+import { getPage, getPageSlugs, getPosts } from '@/lib/content'
+import { keyOf, languagesOf, routes } from '@/lib/i18n'
+import { site } from '@/lib/site'
+
+export const revalidate = 3600
+
+/** Las páginas traducidas llevan sus alternativas hreflang también en el sitemap. */
+const withAlternates = (path: string, lastModified?: string) => {
+  const key = keyOf(path)
+  return { url: `${site.url}${path}`, lastModified, ...(key ? { alternates: { languages: languagesOf(key) } } : {}) }
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const fixed = ['/', '/contacto/', '/precios/', '/blog/', '/agentes-seo/', '/pagina-posicionamiento-seo/', '/ui-ux/']
+  const english = Object.values(routes).map(([es, en]) => {
+    const slug = es.replace(/^\/|\/$/g, '')
+    const modified = getPageSlugs().includes(slug) ? getPage(slug).modified : undefined
+    return withAlternates(en, modified)
+  })
+  return [
+    ...fixed.map((path) => withAlternates(path)),
+    ...getPageSlugs().map((slug) => withAlternates(`/${slug}/`, getPage(slug).modified)),
+    ...english,
+    ...(await getPosts()).map((post) => ({ url: `${site.url}/${post.slug}/`, lastModified: post.modified })),
+  ]
+}

@@ -1,0 +1,228 @@
+{
+ "slug": "empresa-de-transformacion-digital",
+ "title": "Empresa de transformación digital",
+ "seo": {
+  "title": "Empresa de Transformación Digital en Colombia | Agencia IDP",
+  "description": "Agencia IDP es la empresa de transformación digital líder en Colombia. Modernizamos procesos, digitalizamos operaciones e implementamos IA para que tu empresa compita en el siglo XXI.",
+  "image": "/media/2025-05-a-man-is-working-logo-and-icon-2025-02-10-09-42-03-utc-scaled-e1746638586992.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Asociarnos con nuestros clientes nos permite abordar juntos problemas importantes."
+    },
+    {
+     "t": "rich",
+     "html": "<p>Estamos aquí para ayudarte a convertir tus ideas en cambios reales y duraderos. Ya sea que empieces desde cero o te estés expandiendo hacia el futuro, nuestros servicios están diseñados para satisfacer tus necesidades e impulsar tu negocio. Desde el concepto hasta el lanzamiento, nos comprometemos a ofrecer soluciones impactantes y sostenibles.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "¿Qué podemos hacer por tu negocio?"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Una empresa de Transformación digital"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "01"
+    },
+    {
+     "t": "card",
+     "title": "Planificación",
+     "html": "En el acelerado panorama digital e impulsado por la IA actual, mantenerse a la vanguardia es crucial. Colaborar con los expertos adecuados le permite implementar actualizaciones e iniciativas esenciales que impulsan la transformación digital y de IA, ayudando a su negocio a avanzar."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "02"
+    },
+    {
+     "t": "card",
+     "title": "Descubrimiento",
+     "html": "Una investigación, un descubrimiento y una planificación eficaces son esenciales, sobre todo al trabajar con usuarios consolidados y datos de producción. Nuestro enfoque es integral: colaboramos estrechamente con las principales partes interesadas para crear una estrategia que aborde tanto los retos inmediatos como los objetivos a largo plazo, con apoyo continuo tras el lanzamiento."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "03"
+    },
+    {
+     "t": "card",
+     "title": "Investigación",
+     "html": "A medida que las organizaciones generan más datos, cobra cada vez mayor importancia que sus sistemas funcionen a la perfección. Un flujo de datos adecuado no es solo una necesidad técnica; es vital para la eficiencia operativa, la medición y el impulso del crecimiento sostenible."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Soluciones de software personalizadas"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-a-man-is-working-logo-and-icon-2025-02-10-09-42-03-utc-scaled-e1746638586992.webp",
+     "width": 750,
+     "height": 500,
+     "alt": ""
+    },
+    {
+     "t": "card",
+     "title": "Diseño de producto",
+     "html": "Desarrollar un producto completamente nuevo puede ser una experiencia increíblemente emocionante. El descubrimiento y el diseño del producto nos permiten ayudarle a definir y priorizar la funcionalidad para que pueda demostrar su valor comercial e iterar según las opiniones de las partes interesadas y los usuarios finales."
+    },
+    {
+     "t": "image",
+     "src": "/media/e-photo-editor-discussing-over-computer-with-2025-04-04-14-24-30-utc-scaled-e1746638426625.webp",
+     "width": 750,
+     "height": 500,
+     "alt": ""
+    },
+    {
+     "t": "card",
+     "title": "Diseño UX/UI",
+     "html": "La pasión por la tecnología es la base de nuestro negocio y guía todo lo que hacemos. Nuestros ingenieros de software amplían constantemente sus habilidades para aportar más valor a nuestros clientes."
+    },
+    {
+     "t": "image",
+     "src": "/media/er-protecting-company-critical-infrastructur-2025-02-20-07-47-24-utc-scaled-e1746638662778.webp",
+     "width": 750,
+     "height": 500,
+     "alt": ""
+    },
+    {
+     "t": "card",
+     "title": "Ingeniería de software",
+     "html": "Casi todos los proyectos de desarrollo que asumimos requieren algún aspecto del diseño UI/UX , y creemos firmemente que crear una interfaz hermosa e intuitiva es tan importante como un código sólido y mantenible."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Desarrollo web"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Somos expertos en la creación de soluciones multiplataforma para la web moderna. Nuestros equipos de desarrollo son full-stack, lo que significa que podemos gestionar tanto los componentes frontend como backend de un proyecto, garantizando la perfecta sincronía entre ambos.</p>"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Las tecnologías web forman parte de prácticamente todos nuestros proyectos. Ya sea que necesite un nuevo sitio web responsivo diseñado según las mejores prácticas de SEO o una aplicación web personalizada, cubrimos sus necesidades <b>de diseño y desarrollo web</b> .</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "quiero diseñar mi web con IDP"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Desarrollo de aplicaciones móviles"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Hemos diseñado e implementado aplicaciones para apoyar el marketing y las ventas, las operaciones comerciales, la salud y el bienestar, el entretenimiento y la interacción con el usuario. Contamos con una amplia experiencia en este campo y nos encanta materializar tus ideas en <b>aplicaciones móviles para iOS y Android.</b></p>"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Ya sea que se esté aventurando en las ventas en línea por primera vez o tenga una plataforma global existente que necesite una revisión, tenemos experiencia en brindar soluciones de comercio electrónico que simplifican la experiencia del usuario final y la administración de back office. </p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "quiero diseñar mi app con IDP"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "IA y datos"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Nuestro equipo de datos ha contribuido a la creación de un nuevo paradigma en integración de datos, IA personalizada, aprendizaje automático y visualización de datos. Sabemos que sus datos pueden serle de mayor utilidad. Con esa mentalidad abordamos los problemas empresariales y tecnológicos para encontrar soluciones óptimas.</p>"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Desarrollamos <b>modelos de aprendizaje automático e inteligencia artificial</b> para clientes que cuentan con datos digitalizados y un caso de uso específico, pero carecen de los recursos para aprovechar esta información. Ya sea para detectar errores en una línea de producción o para optimizar la pesca, nuestros proyectos son específicos y de gran impacto.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "quiero hablar con IDP"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Bienvenidos al hogar de las realidades digitales. #innovadesarrollandoproducto."
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-alejandro-idp.webp",
+     "width": 654,
+     "height": 655,
+     "alt": ""
+    },
+    {
+     "t": "quote",
+     "text": "\"Nos encanta ayudar a crear prosperidad a traves de la innovación de la mano de nuestros clientes\"",
+     "name": "Alejandro Franco",
+     "role": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-jefferson-espana.webp",
+     "width": 1163,
+     "height": 1163,
+     "alt": ""
+    },
+    {
+     "t": "quote",
+     "text": "\"Hemos llevado muchas ideas de los empresarios colombianos a una realidad en sus negocios, y eso nos llena de orgullo.\"",
+     "name": "Jefferson España",
+     "role": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-emerson-agencia-idp.webp",
+     "width": 853,
+     "height": 853,
+     "alt": ""
+    },
+    {
+     "t": "quote",
+     "text": "\"Atención al detalle en cada investigación y producto que desarrollamos.\"",
+     "name": "Emerson Benavides",
+     "role": ""
+    }
+   ]
+  }
+ ],
+ "modified": "2025-11-20T13:48:20"
+}

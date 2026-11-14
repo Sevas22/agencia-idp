@@ -1,0 +1,32 @@
+{
+ "slug": "inteligencia-artificial-para-pymes-colombia-casos-de-uso",
+ "title": "Inteligencia artificial para pymes en Colombia: 6 usos prácticos",
+ "modified": "2026-11-06T09:00:00",
+ "excerpt": "Una pyme puede empezar con IA en atención al cliente, contenido, ventas o tareas administrativas. Lo importante es elegir un proceso y medirlo.",
+ "html": "<p class=\"answer\"><strong>Una pyme colombiana puede empezar con inteligencia artificial en seis áreas: atención al cliente, contenido, ventas, administración, análisis de datos y cartera.</strong> La regla es elegir un proceso repetitivo, medir cuánto cuesta hoy y probar a pequeña escala.</p>\n<p>El país ya tiene una hoja de ruta: la Política Nacional de Inteligencia Artificial (CONPES 4144), aprobada en febrero de 2025, plantea desarrollar capacidades para un uso ético y sostenible de esta tecnología.</p>\n<h2>6 usos prácticos y por dónde empezar</h2>\n<table><thead><tr><th>Área</th><th>Qué hace la IA</th><th>Primer paso</th></tr></thead><tbody>\n<tr><td>Atención al cliente</td><td>Responde preguntas frecuentes</td><td>Reúne tus 20 preguntas más comunes</td></tr>\n<tr><td>Contenido</td><td>Genera borradores de textos e ideas</td><td>Define tu tono y ejemplos</td></tr>\n<tr><td>Ventas</td><td>Hace seguimiento a clientes potenciales</td><td>Ordena tus contactos en un CRM</td></tr>\n<tr><td>Administración</td><td>Extrae datos de documentos</td><td>Identifica la tarea más repetida</td></tr>\n<tr><td>Análisis</td><td>Resume ventas y detecta patrones</td><td>Reúne tus datos en un solo lugar</td></tr>\n<tr><td>Cartera</td><td>Envía recordatorios de pago</td><td>Define reglas y mensajes</td></tr>\n</tbody></table>\n<h2>Atención al cliente</h2>\n<p>Las preguntas sobre horarios, precios y estados de pedido se repiten todos los días. Un asistente puede resolverlas y pasar a una persona lo complejo. La clave es darle información correcta y dejar siempre una salida hacia un humano.</p>\n<h2>Contenido y marketing</h2>\n<p>La IA acelera borradores de publicaciones, correos y descripciones. Úsala para producir más rápido, no para publicar sin revisar: el contenido genérico no te diferencia y puede contener errores. Aporta tus datos, tus casos y tu punto de vista.</p>\n<h2>Ventas y seguimiento</h2>\n<p>Muchas ventas se pierden por no responder a tiempo. Un sistema puede clasificar consultas, recordar seguimientos y sugerir mensajes. Herramientas como <a href=\"https://pushleads.co/\" target=\"_blank\" rel=\"noopener noreferrer\">Pushleads</a>, un CRM con IA creado por nuestro equipo, se enfocan en esta tarea.</p>\n<h2>Administración y cartera</h2>\n<p>Extraer datos de facturas, clasificar correos o enviar recordatorios son tareas ideales: son repetitivas y fáciles de comprobar. Mantén una revisión humana en todo lo que afecte dinero o documentos oficiales.</p>\n<h2>Qué riesgos debes controlar</h2>\n<ul>\n<li><strong>Información falsa:</strong> los modelos pueden equivocarse con mucha seguridad.</li>\n<li><strong>Datos personales:</strong> no compartas datos de clientes con herramientas sin revisar sus condiciones. La Ley 1581 de 2012 sigue aplicando.</li>\n<li><strong>Dependencia:</strong> documenta tus procesos para no quedar atado a una herramienta.</li>\n<li><strong>Confianza del cliente:</strong> no ocultes que está hablando con un sistema automático.</li>\n</ul>\n<h2>Análisis de datos sin ser experto</h2>\n<p>Con un archivo de ventas limpio, una herramienta de IA puede resumir tendencias, encontrar productos con baja rotación y responder preguntas en lenguaje natural. Comprueba los resultados con tus números reales: un resumen convincente no siempre es correcto. La calidad de la respuesta depende de la calidad de tus datos.</p>\n<h2>Qué necesitas tener listo</h2>\n<ul>\n<li><strong>Información ordenada:</strong> precios, políticas y preguntas frecuentes vigentes.</li>\n<li><strong>Un responsable:</strong> alguien que revise y mantenga el sistema.</li>\n<li><strong>Una métrica:</strong> tiempo, costo o errores antes de empezar.</li>\n<li><strong>Reglas de uso:</strong> qué datos se pueden compartir y cuáles no.</li>\n</ul>\n<h2>Herramienta lista o solución a medida</h2>\n<table><thead><tr><th></th><th>Herramienta lista</th><th>Solución a medida</th></tr></thead><tbody>\n<tr><td>Inicio</td><td>Rápido</td><td>Requiere desarrollo</td></tr>\n<tr><td>Integración</td><td>Limitada</td><td>Se conecta con tus sistemas</td></tr>\n<tr><td>Ideal para</td><td>Probar y tareas individuales</td><td>Procesos centrales del negocio</td></tr>\n</tbody></table>\n<p>Empieza con lo simple. Pasa a una solución a medida cuando ya sepas qué funciona.</p>\n<h2>Cómo empezar en 4 semanas</h2>\n<ol>\n<li><strong>Semana 1:</strong> elige un proceso y mide tiempo, costo y errores actuales.</li>\n<li><strong>Semana 2:</strong> prueba una herramienta con datos no sensibles.</li>\n<li><strong>Semana 3:</strong> úsala con supervisión en casos reales.</li>\n<li><strong>Semana 4:</strong> compara contra lo medido y decide si seguir.</li>\n</ol>\n<p>Si necesitas conectar la IA con tus sistemas, revisa <a href=\"/agentes-de-ia-que-son-como-implementar-empresa-2026/\">qué son los agentes de IA</a> o conoce nuestras <a href=\"/automatizaciones-con-ia/\">automatizaciones con IA</a>.</p>",
+ "faqs": [
+  {
+   "q": "¿La IA es costosa para una pyme?",
+   "a": "No necesariamente. Muchas herramientas cobran por uso o por mes. El costo real está en definir bien el proceso y mantener la información."
+  },
+  {
+   "q": "¿Qué proceso debo automatizar primero?",
+   "a": "Uno frecuente, medible y de bajo riesgo, como responder preguntas repetidas."
+  },
+  {
+   "q": "¿Puedo usar datos de clientes en herramientas de IA?",
+   "a": "Solo tras revisar las condiciones de la herramienta y cumplir la Ley 1581 de 2012 sobre datos personales."
+  }
+ ],
+ "sources": [
+  {
+   "label": "OECD.AI: Política Nacional de Inteligencia Artificial (CONPES 4144)",
+   "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-policy-on-artificial-intelligence-conpes-4144-3012"
+  }
+ ],
+ "seo": {
+  "title": "IA para pymes en Colombia: 6 usos prácticos | Agencia IDP",
+  "description": "Seis usos de inteligencia artificial que una pyme colombiana puede aplicar hoy, qué riesgos controlar y cómo empezar con un proyecto pequeño.",
+  "image": "/media/2026-09-chatgpt-image-9-sept-2026-03-46-24-p-m.webp"
+ }
+}

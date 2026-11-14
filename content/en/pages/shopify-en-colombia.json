@@ -1,0 +1,184 @@
+{
+ "slug": "shopify-en-colombia",
+ "title": "Shopify development agency",
+ "seo": {
+  "title": "Shopify Development Agency in Colombia | Agencia IDP",
+  "description": "Launch your Shopify store with Agencia IDP, a Shopify agency in Colombia. Custom design, payment and shipping setup, SEO optimization and ongoing support for your e-commerce.",
+  "image": "/media/2025-05-whatsapp-image-2025-05-16-at-10-38-52.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Shopify agency in Colombia focused on sales and scalability."
+    },
+    {
+     "t": "card",
+     "title": "Shopify experts",
+     "html": ""
+    },
+    {
+     "t": "rich",
+     "html": "<p>Looking to launch or improve your online store? <strong>Agencia IDP</strong> is a <strong>Shopify agency in Colombia</strong> that builds modern online stores optimized to convert and grow. Our team of <strong>Shopify experts</strong> supports you from planning to launch and ongoing maintenance of your e-commerce.</p>"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-whatsapp-image-2025-05-16-at-10-38-52.webp",
+     "width": 811,
+     "height": 383,
+     "alt": "shopify en colombia"
+    },
+    {
+     "t": "card",
+     "title": "Why choose Agencia IDP?",
+     "html": ""
+    },
+    {
+     "t": "rich",
+     "html": "<p>🔹 We are a <strong>Shopify agency in Colombia</strong> with more than 6 years of e-commerce experience.<br/>🔹 Our team is made up of certified <strong>Shopify experts</strong>.<br/>🔹 We have launched more than 80 online stores in fashion, technology, food and beauty.<br/>🔹 We do more than code: we build shopping experiences that sell.</p>"
+    },
+    {
+     "t": "chips",
+     "items": [
+      "RESPONSIBLE",
+      "OPEN-MINDED",
+      "EMPATHETIC",
+      "EASY-GOING",
+      "KIND-HEARTED",
+      "TECH-GEEK"
+     ]
+    },
+    {
+     "t": "video",
+     "src": "https://www.youtube-nocookie.com/embed/_esKEreSdh8"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Learn more"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "Custom, responsive design",
+     "html": "We build a unique store tailored to your brand and focused on user experience."
+    },
+    {
+     "t": "card",
+     "title": "Complete Shopify setup",
+     "html": "We handle product uploads, payment gateways, shipping methods, domains and more."
+    },
+    {
+     "t": "card",
+     "title": "SEO-ready and fast",
+     "html": "Your store will be ready to rank in search engines and load fast on every device."
+    },
+    {
+     "t": "card",
+     "title": "Key integrations",
+     "html": "We connect your Shopify store with WhatsApp, Instagram, Google Analytics, Facebook Ads and marketing tools."
+    },
+    {
+     "t": "card",
+     "title": "Support and training",
+     "html": "We provide post-launch support and train your team to manage the store."
+    },
+    {
+     "t": "card",
+     "title": "Delivery in 1 week",
+     "html": "We can deliver your online store in as little as one week."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Request a free consultation"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Want to start your store today or migrate from another platform?<br/>Leave us your details and we will contact you for a <strong>free consultation with a Shopify expert</strong>.</p>"
+    },
+    {
+     "t": "label",
+     "text": "EMAIL"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "afranc@idpagency.co"
+    },
+    {
+     "t": "label",
+     "text": "PHONE"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "(+57) 3235114265"
+    },
+    {
+     "t": "label",
+     "text": "ADDRESS"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Medellín, Colombia"
+    },
+    {
+     "t": "button",
+     "href": "/en/contact/",
+     "text": "Start a project"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "FAQ"
+    },
+    {
+     "t": "faq",
+     "q": "How quickly can you build a Shopify store?",
+     "a": "<p>In record time. We can have your store fully working <strong>in under a week</strong>, depending on the number of products and customizations. Ideal if you need to launch fast or migrate from another platform.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "How much does a Shopify store built by Agencia IDP cost?",
+     "a": "<p>The price depends on the level of customization, number of products and extra features (such as integrations or premium design). Contact us for a <strong>no-obligation custom quote</strong>.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "Do you upload the products and set everything up?",
+     "a": "<p>Yes, we offer an <strong>all-inclusive</strong> service: we upload your products and set up payment gateways, shipping methods, domain, SSL certificates and more. We also show you how to manage your store.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "Can I sell in Colombia and abroad with Shopify?",
+     "a": "<p>Absolutely. Shopify lets you sell locally and internationally. We set up your store to accept payments in different currencies, adjust shipping costs and sell in multiple countries.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "What if I already have a store and want to migrate to Shopify?",
+     "a": "<p>We handle the <strong>full migration</strong> of your e-commerce from platforms like WooCommerce, Wix, PrestaShop or TiendaNube, keeping your inventory, customers and order history whenever possible.</p>"
+    },
+    {
+     "t": "faq",
+     "q": "Will the store work on mobile?",
+     "a": "<p>Yes. All our designs are <strong>100% responsive</strong> and adapt to phones, tablets and any device. A good mobile experience is key to your sales.</p>"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-04-08T14:49:51"
+}

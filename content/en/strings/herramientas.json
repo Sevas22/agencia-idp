@@ -1,0 +1,22 @@
+{
+ "title": "Tools",
+ "seo.title": "Digital Tools for Businesses and Founders | Agencia IDP",
+ "seo.description": "Free diagnostics and digital products by Agencia IDP: SEO & GEO audit, heuristic UX/UI review, restaurant software, marketing CRM and tools to validate and fund startups.",
+ "sections[0].blocks[0].text": "Tools for founders",
+ "sections[0].blocks[1].title": "SEO & GEO diagnostic (Spanish)",
+ "sections[0].blocks[1].cta": "View tool",
+ "sections[0].blocks[2].title": "Heuristic UX/UI diagnostic (Spanish)",
+ "sections[0].blocks[2].cta": "View tool",
+ "sections[0].blocks[3].title": "Restaurant software",
+ "sections[0].blocks[3].html": "<p><strong>Pídelo Ya</strong> is an app for restaurants to create virtual menus with automated payment for table orders.</p>",
+ "sections[0].blocks[3].cta": "View tool",
+ "sections[0].blocks[4].title": "Marketing CRM for founders",
+ "sections[0].blocks[4].html": "<p><strong>Push Leads</strong> is a CRM built to streamline customer management, automate follow-ups and improve sales conversion.</p>",
+ "sections[0].blocks[4].cta": "View tool",
+ "sections[0].blocks[5].title": "Business validation system",
+ "sections[0].blocks[5].html": "<p><strong>Inexistente</strong> is a site that helps you check whether your idea is viable through an innovative system.</p>",
+ "sections[0].blocks[5].cta": "View tool",
+ "sections[0].blocks[6].title": "Investor relations platform",
+ "sections[0].blocks[6].html": "<p><strong>Quantum</strong> is the platform where startups manage their metrics, documents and reports to keep investors informed.</p>",
+ "sections[0].blocks[6].cta": "View tool"
+}

@@ -1,0 +1,228 @@
+{
+ "slug": "empresa-de-transformacion-digital",
+ "title": "Digital transformation company",
+ "seo": {
+  "title": "Digital Transformation Company in Colombia | Agencia IDP",
+  "description": "Agencia IDP is a digital transformation company in Colombia. We modernize processes, digitize operations and implement AI so your business can compete today.",
+  "image": "/media/2025-05-a-man-is-working-logo-and-icon-2025-02-10-09-42-03-utc-scaled-e1746638586992.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Partnering with our clients lets us tackle important problems together."
+    },
+    {
+     "t": "rich",
+     "html": "<p>We are here to help you turn your ideas into real, lasting change. Whether you are starting from scratch or expanding into the future, our services are designed to meet your needs and grow your business. From concept to launch, we are committed to delivering impactful, sustainable solutions.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "What can we do for your business?"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "A digital transformation company"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "01"
+    },
+    {
+     "t": "card",
+     "title": "Planning",
+     "html": "In today’s fast-moving, AI-driven digital landscape, staying ahead is crucial. Working with the right experts lets you roll out the updates and initiatives that drive digital and AI transformation and move your business forward."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "02"
+    },
+    {
+     "t": "card",
+     "title": "Discovery",
+     "html": "Effective research, discovery and planning are essential, especially when working with established users and production data. Our approach is holistic: we work closely with key stakeholders to build a strategy that addresses both immediate challenges and long-term goals, with ongoing support after launch."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "03"
+    },
+    {
+     "t": "card",
+     "title": "Research",
+     "html": "As organizations generate more data, it becomes ever more important that their systems work seamlessly. A sound data flow is not just a technical need; it is vital for operational efficiency, measurement and sustainable growth."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Custom software solutions"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-a-man-is-working-logo-and-icon-2025-02-10-09-42-03-utc-scaled-e1746638586992.webp",
+     "width": 750,
+     "height": 500,
+     "alt": ""
+    },
+    {
+     "t": "card",
+     "title": "Product design",
+     "html": "Building a brand-new product can be an incredibly exciting experience. Product discovery and design let us help you define and prioritize functionality so you can prove its business value and iterate based on feedback from stakeholders and end users."
+    },
+    {
+     "t": "image",
+     "src": "/media/e-photo-editor-discussing-over-computer-with-2025-04-04-14-24-30-utc-scaled-e1746638426625.webp",
+     "width": 750,
+     "height": 500,
+     "alt": ""
+    },
+    {
+     "t": "card",
+     "title": "UX/UI design",
+     "html": "A passion for technology is the foundation of our business and guides everything we do. Our software engineers keep expanding their skills to bring more value to our clients."
+    },
+    {
+     "t": "image",
+     "src": "/media/er-protecting-company-critical-infrastructur-2025-02-20-07-47-24-utc-scaled-e1746638662778.webp",
+     "width": 750,
+     "height": 500,
+     "alt": ""
+    },
+    {
+     "t": "card",
+     "title": "Software engineering",
+     "html": "Almost every development project we take on involves some UI/UX design, and we firmly believe a beautiful, intuitive interface is as important as solid, maintainable code."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Web development"
+    },
+    {
+     "t": "rich",
+     "html": "<p>We are experts in building cross-platform solutions for the modern web. Our development teams are full-stack, so we can handle both the frontend and backend of a project and keep them perfectly in sync.</p>"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Web technologies are part of virtually all our projects. Whether you need a new responsive website built on SEO best practices or a custom web application, we cover your <b>web design and development</b> needs.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "I want to build my website with IDP"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Mobile app development"
+    },
+    {
+     "t": "rich",
+     "html": "<p>We have designed and built apps for marketing and sales, business operations, health and wellness, entertainment and user engagement. We have broad experience in this field and love turning your ideas into <b>mobile apps for iOS and Android.</b></p>"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Whether you are selling online for the first time or have a global platform that needs an overhaul, we have experience delivering e-commerce solutions that simplify both the end-user experience and back-office management.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "I want to build my app with IDP"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "AI and data"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Our data team has helped shape a new approach to data integration, custom AI, machine learning and data visualization. We know your data can do more for you, and that mindset drives how we solve business and technology problems.</p>"
+    },
+    {
+     "t": "rich",
+     "html": "<p>We build <b>machine learning and artificial intelligence models</b> for clients who have digitized data and a specific use case but lack the resources to put that information to work. Whether it is detecting defects on a production line or optimizing fishing operations, our projects are focused and high-impact.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "I want to talk to IDP"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Welcome to the home of digital realities. #innovatebydevelopingproduct"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-alejandro-idp.webp",
+     "width": 654,
+     "height": 655,
+     "alt": ""
+    },
+    {
+     "t": "quote",
+     "text": "\"We love helping create prosperity through innovation, hand in hand with our clients.\"",
+     "name": "Alejandro Franco",
+     "role": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-jefferson-espana.webp",
+     "width": 1163,
+     "height": 1163,
+     "alt": ""
+    },
+    {
+     "t": "quote",
+     "text": "\"We have turned many Colombian entrepreneurs’ ideas into real businesses, and that makes us proud.\"",
+     "name": "Jefferson España",
+     "role": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-04-emerson-agencia-idp.webp",
+     "width": 853,
+     "height": 853,
+     "alt": ""
+    },
+    {
+     "t": "quote",
+     "text": "\"Attention to detail in every piece of research and every product we build.\"",
+     "name": "Emerson Benavides",
+     "role": ""
+    }
+   ]
+  }
+ ],
+ "modified": "2025-11-20T13:48:20"
+}

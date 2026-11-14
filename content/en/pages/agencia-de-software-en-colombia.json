@@ -1,0 +1,250 @@
+{
+ "slug": "agencia-de-software-en-colombia",
+ "title": "Software development company in Colombia",
+ "seo": {
+  "title": "Software Development Company in Colombia | Agencia IDP",
+  "description": "Agencia IDP is a software development company in Colombia. We build web and mobile apps, custom software, MVPs and integrations for companies in the US, Europe and Latin America.",
+  "image": "/media/2025-05-desarrollando-software-agencia-idp-1024x683.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Software Development Company in Colombia"
+    },
+    {
+     "t": "card",
+     "title": "",
+     "html": "<strong>Digital solutions</strong> that drive your growth.\n<br/>\nAt Agencia IDP, <strong>we turn ideas into high-impact digital products.</strong> We are a software agency based in Colombia, specialized in <strong>web and mobile app development and custom solutions for companies of every size.</strong>",
+     "image": {
+      "src": "/media/2025-05-transformando-ideas-en-productos-digitales-scaled.webp",
+      "width": 1600,
+      "height": 1068,
+      "alt": "Reunión con empresas transformando ideas en productos digitales"
+     },
+     "href": "https://api.whatsapp.com/send/?phone=573135815353&text&type=phone_number&app_absent=0"
+    },
+    {
+     "t": "gallery",
+     "images": [
+      {
+       "src": "/media/2025-05-desarrollando-software-agencia-idp-scaled.webp",
+       "width": 1600,
+       "height": 1067,
+       "alt": "Desarrollando software en agencia IDP"
+      },
+      {
+       "src": "/media/2025-05-desarrollando-paginas-web-agencia-idp-scaled.webp",
+       "width": 1600,
+       "height": 1067,
+       "alt": "desarrollando páginas web con agencia IDP"
+      },
+      {
+       "src": "/media/2025-05-desarrollando-ecommerce-agenciaidp-scaled.webp",
+       "width": 1600,
+       "height": 1067,
+       "alt": "desarrollando-ecommerce-agenciaIDP"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "More than 6 years of industry experience",
+     "html": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "We have helped startups, SMBs and corporations in several countries build robust, secure and scalable software."
+    },
+    {
+     "t": "button",
+     "href": "https://api.whatsapp.com/send/?phone=573135815353&text&type=phone_number&app_absent=0",
+     "text": "I want more information"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "Why choose a software company in Colombia?",
+     "html": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "At Agencia IDP we pair that advantage with:"
+    },
+    {
+     "t": "rich",
+     "html": "<p><strong>Colombia has become a technology hub in Latin America</strong> thanks to its highly skilled talent, competitive costs and a strategic location for companies in the United States, Europe and Latin America.</p>"
+    },
+    {
+     "t": "card",
+     "title": "High-level software architecture",
+     "html": ""
+    },
+    {
+     "t": "card",
+     "title": "Agile, multidisciplinary teams",
+     "html": ""
+    },
+    {
+     "t": "card",
+     "title": "Focus on security and performance",
+     "html": ""
+    },
+    {
+     "t": "card",
+     "title": "Development experience across many industries",
+     "html": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "Web and Mobile Apps",
+     "html": "We use technologies such as React, Next.js, Node.js, Flutter and Laravel to build functional, intuitive apps that are ready to scale."
+    },
+    {
+     "t": "card",
+     "title": "Custom software",
+     "html": "We build solutions for your specific needs, from business management systems (ERP/CRM) to marketplaces, e-learning and SaaS platforms."
+    },
+    {
+     "t": "card",
+     "title": "Integrations and APIs",
+     "html": "We connect your software with payment gateways, third-party systems, CRM, ERP and more, using REST, GraphQL and webhooks."
+    },
+    {
+     "t": "card",
+     "title": "Digital transformation",
+     "html": "We support your company through technology innovation: automation, cloud migration, process optimization and more."
+    },
+    {
+     "t": "card",
+     "title": "What can you find with us?",
+     "html": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Our software development services."
+    },
+    {
+     "t": "rich",
+     "html": "<p>In a constantly evolving digital world, <strong>efficient technology is key to standing out and growing</strong>. We offer software development services <strong>tailored to each client’s needs</strong>, combining experience, innovation and <strong>the best technologies on the market.</strong></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Our work speaks for us"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Featured projects:</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "Domm",
+     "html": "<p><strong>Domm</strong> is a platform for digitizing assets such as vehicles and real estate.</p>",
+     "kicker": "Web app",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-210714-r0zmzbzuy2uk2qmofpcv5kqqmr1pgh09bsptxn9zk0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Crea"
+     },
+     "href": "https://capihost.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "card",
+     "title": "Capihost",
+     "html": "<p>Hosting platform with digital management tools.</p>",
+     "kicker": "Web development",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-211215-r0zn6fnyl0kjsobayrvdzs847k1jm578yy5wgwqwjk.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 211215"
+     },
+     "href": "https://capihost.com/",
+     "cta": "Visit project"
+    },
+    {
+     "t": "image",
+     "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-211600-r0zncex022r7ndmn1uwycrwo8sklktxs4jk3d9vqyo.webp",
+     "width": 1440,
+     "height": 800,
+     "alt": "Captura de pantalla 2025-02-03 211600"
+    },
+    {
+     "t": "label",
+     "text": "Web app"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Push Leads"
+    },
+    {
+     "t": "rich",
+     "html": "<p><strong>Push Leads</strong> is a marketing automation tool.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://pushleads.co/",
+     "text": "View project"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "rich",
+     "html": "<p>Looking for a reliable software agency in Colombia?</p><p>Whether you need a full team to build your product or extra hands for your current team, Agencia IDP is ready to start.</p>"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Book a meeting with us"
+    },
+    {
+     "t": "rich",
+     "html": "<p>And find out how we can help you build the right solution.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://api.whatsapp.com/send/?phone=573135815353&text&type=phone_number&app_absent=0",
+     "text": "I want more information"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-forcta5-1.webp",
+     "width": 1500,
+     "height": 1350,
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "modified": "2025-05-09T14:14:39"
+}

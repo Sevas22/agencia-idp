@@ -1,0 +1,375 @@
+{
+ "slug": "crea-paginas-web-profesionales-colombia",
+ "title": "Crea Páginas Web Profesionales en Colombia Impulsa tu Negocio con 5 Ventajas",
+ "seo": {
+  "title": "Páginas Web Profesionales en Colombia | 5 Ventajas | Agencia IDP",
+  "description": "Crea tu página web profesional en Colombia con Agencia IDP. Diseño UX, velocidad, SEO y conversión desde el primer día. Más de 5 ventajas que hacen crecer tu negocio digital.",
+  "image": "/media/2026-06-captura-de-pantalla-2026-06-17-132342.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Desarrollo de aplicaciones"
+    },
+    {
+     "t": "card",
+     "title": "Colombia Memories",
+     "html": "<p><strong>Colombia Memories</strong> es una plataforma digital desarrollada para conectar a las personas con la riqueza cultural, histórica y turística de Colombia mediante una experiencia web interactiva.</p>",
+     "kicker": "Desarrollo web",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-17-132342.webp",
+      "width": 1600,
+      "height": 733,
+      "alt": ""
+     },
+     "href": "https://v0-colombia-memories-mvp.vercel.app/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Beanster",
+     "html": "<p><strong>Beanster</strong> es una aplicación móvil creada para personas apasionadas por el café, ofreciendo una experiencia digital enfocada en descubrir, explorar y disfrutar el mundo cafetero.</p>",
+     "kicker": "Aplicación Móvil",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-17-132930.webp",
+      "width": 1600,
+      "height": 772,
+      "alt": ""
+     },
+     "href": "https://beanster.app/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Tu Columna Habla",
+     "html": "<p><strong>Tu Columna Habla</strong> Plataforma web enfocada en educación, orientación y seguimiento relacionado con la salud de la columna, brindando información accesible y herramientas digitales para promover el cuidado postural.</p>",
+     "kicker": "Desarrollo web",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-152317.webp",
+      "width": 1600,
+      "height": 734,
+      "alt": ""
+     },
+     "href": "https://v0-tucolumnahabla.vercel.app/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Zona Pet",
+     "html": "<p><strong>Zona Pet</strong> es una aplicación móvil creada para centralizar diferentes necesidades relacionadas con el cuidado de mascotas, ofreciendo a los usuarios una herramienta digital accesible desde sus dispositivos móviles.</p>",
+     "kicker": "Aplicación Móvil",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-153212.webp",
+      "width": 1600,
+      "height": 726,
+      "alt": ""
+     },
+     "href": "https://zonapet.mx/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Posrank",
+     "html": "<p><strong>Posrank</strong> La plataforma para hacer crecer y medir la visibilidad de tu producto en buscadores, motores de IA y los 25 canales de reseñas que deciden la compra con una comunidad real detrás.</p>",
+     "kicker": "Aplicación web",
+     "image": {
+      "src": "/media/2026-10-captura-de-pantalla-2026-10-27-161726.webp",
+      "width": 1600,
+      "height": 849,
+      "alt": ""
+     },
+     "href": "https://www.pideloya.app/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Capihost",
+     "html": "<p>Desarrollamos una plataforma para la venta de dominios y servidores y sistema de correo electrónicos que funciona a nivel mundial y con ubicación de servidores en USA e INDIA</p>",
+     "kicker": "Desarrollo web",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-153010.webp",
+      "width": 1600,
+      "height": 739,
+      "alt": ""
+     },
+     "href": "https://capihost.com/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Push Leads",
+     "html": "<p><strong>Push Leads</strong> es un CRM diseñado para optimizar la gestión de clientes, automatizar seguimientos y mejorar la conversión de ventas.</p>",
+     "kicker": "Aplicación Web",
+     "image": {
+      "src": "/media/2026-06-captura-de-pantalla-2026-06-16-153923.webp",
+      "width": 1332,
+      "height": 857,
+      "alt": ""
+     },
+     "href": "https://pushleads.co/",
+     "cta": "Ver proyecto"
+    },
+    {
+     "t": "card",
+     "title": "SEDEFY",
+     "html": "<p><strong>SEDEFY</strong> es un sistema de gestión académica que facilita el seguimiento de notas, agiliza la calificación y organización escolar. Esta app permite a las instituciones educativas gestionar todo en sus colegios, incluyendo asistencia, registro de estudiantes y calificaciones.</p>",
+     "kicker": "Aplicación Web",
+     "image": {
+      "src": "/media/2026-10-captura-de-pantalla-2026-10-26-151820.webp",
+      "width": 1147,
+      "height": 812,
+      "alt": ""
+     },
+     "href": "https://sedeapp.com/",
+     "cta": "Visitar proyecto"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Nuestro trabajo WordPress"
+    },
+    {
+     "t": "card",
+     "title": "Bon Studio",
+     "html": "<p><strong>Bon Studio</strong> diseña arquitectura sensible que se adapta al habitar de las personas, creando espacios funcionales, estéticos y armoniosos.</p>",
+     "kicker": "Informativa WordPress",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-213206-r0zo1mx3g1a76ozprrek9ery30964g2hldr4ykhg00.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 213206"
+     },
+     "href": "https://bonstudio.com.co/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Topa House",
+     "html": "<p><strong>Topa House</strong> es una página informativa de diseño moderno que presenta habitaciones con estilo y funcionalidad, ofreciendo inspiración y detalles sobre cada espacio, con un enfoque en tendencias de diseño.</p>",
+     "kicker": "Informativa WordPress",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-220601-r0zpkuxqymvn9ys0b4qi8z3ugy2hcaas6pj2yslsg0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 220601"
+     },
+     "href": "https://topahouse.com/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "The Studio Miami",
+     "html": "<p><strong>The Studio Miami</strong> es una casa de diseño interior multidisciplinaria especializada en proyectos residenciales y comerciales de alto nivel, ofreciendo soluciones arquitectónicas y de diseño prácticas que reflejan la visión única de cada cliente y mejoran la identidad de su marca.</p>",
+     "kicker": "Comercio Virtual",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-214330-r0zojko7v7u6qsxq10j9cdtm6puc0ia325xpnnvz9c.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 214330"
+     },
+     "href": "https://thestudio.miami/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Maria Pilera",
+     "html": "<p><strong>María Pilera</strong> es una tienda virtual que ofrece productos de calidad excepcional, cuidadosamente seleccionados y elaborados para garantizar la satisfacción de sus clientes en cada compra.</p>",
+     "kicker": "Comercio Virtual",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-210019-r0zmof3blbwp9qhe5zit7bw2boua2zoghs0vbzgjsw.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Woocommerce"
+     },
+     "href": "https://mariapilera.com/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Ossalud",
+     "html": "<p><strong>Ossalud</strong> es una tienda virtual especializada en insumos médicos y quirúrgicos, que ofrece un catálogo amplio de productos de alta calidad, pagos seguros, opciones de envío rápido y atención al cliente eficiente, todo en un diseño optimizado para una experiencia de compra fácil y confiable.</p>",
+     "kicker": "Comercio Virtual",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-215142-r0zow6o9k73oigm9dys2ap993tomabcfsl18gb6ts0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 215142"
+     },
+     "href": "https://www.ossaludonline.com/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Religare",
+     "html": "<p><strong>Religare</strong> es una tienda virtual de ropa de lujo que ofrece una experiencia de compra exclusiva con un catálogo curado, pagos seguros, opciones de envío premium y atención personalizada, todo en un diseño elegante y optimizado para todos los dispositivos.</p>",
+     "kicker": "Comercio Virtual",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-214558-r0zonfsbyp4mh3bngoo1lepu3qsnnpmcxahkom5pog.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 214558"
+     },
+     "href": "https://religarestore.com/?v=14d94be42e49",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Dr Joaquí",
+     "html": "<p><strong>Dr. Joaquí</strong> es un médico especializado en sueroterapia y medicina regenerativa, con un sitio web informativo que ofrece detalles sobre sus tratamientos, beneficios y enfoques personalizados para mejorar la salud y el bienestar de sus pacientes.</p>",
+     "kicker": "Informativa WordPress",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-222221-r0zq8cwhtj1pj0n73aeql1mp3q8trvl7f0o2vtrgw0.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 222221"
+     },
+     "href": "https://drjoaqui.com/en/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Sebastián Uribe",
+     "html": "<p><strong>Sebastián Uribe</strong> es una tienda virtual de cerámica que ofrece piezas únicas y exclusivas, hechas a mano con un enfoque en la calidad y el diseño artesanal, ideales para añadir un toque personal y sofisticado a cualquier espacio.</p>",
+     "kicker": "Comercio Virtual",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-221330-r0zpue0u95xazmxnnr1c12j3al3gdt4t5vnb4sh3cw.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 221330"
+     },
+     "href": "https://sebastianuribestudio.com/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Factum Digital",
+     "html": "<p><strong>Factum Digital</strong> es una agencia de marketing digital con un sitio web informativo que ofrece detalles sobre sus servicios, estrategias personalizadas y casos de éxito, ayudando a las marcas a optimizar su presencia en línea y alcanzar sus objetivos comerciales.</p>",
+     "kicker": "Informativa WordPress",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-222621-r0zqehsmvaztm7d8f49hixwq09ixshf7605uwqkg8w.webp",
+      "width": 1600,
+      "height": 780,
+      "alt": "Captura de pantalla 2025-02-03 222621"
+     },
+     "href": "https://factumdigital.com/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Andrés Vallejo Balen",
+     "html": "<p><strong>Andrés Vallejo Balén</strong> es un médico cirujano especializado en brindar información clara y confiable sobre procedimientos quirúrgicos. Su página ofrece detalles sobre tratamientos, recomendaciones pre y postoperatorias, y orientación profesional para sus pacientes.</p>",
+     "kicker": "Informativa WordPress",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-204657-r0zm3fd46dy14nsktr1h3lltde2lk7ksw6ltlyjbr4.webp",
+      "width": 1540,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 204657"
+     },
+     "href": "https://drandresvallejobalen.com/",
+     "cta": "visitar proyecto"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Nuestro trabajo Shopify"
+    },
+    {
+     "t": "card",
+     "title": "Solua for People USA",
+     "html": "<p><strong>Solua for People</strong> es una tienda virtual que ofrece un catálogo de ropa con navegación fácil, pagos seguros, opciones de descuentos, gestión de pedidos y atención al cliente, todo en un diseño adaptado a dispositivos móviles y computadoras.</p>",
+     "kicker": "Desarrollo web",
+     "image": {
+      "src": "/media/thumbs-whatsapp-image-2024-08-12-at-4-22-14-pm-r0zodlf6e5niw3mdxxhoze525hba1tjjwkjirar4u8.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "WhatsApp Image 2024-08-12 at 4.22.14 PM"
+     },
+     "href": "https://soluaforpeople.com",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Dodo Nature",
+     "html": "<p><strong>Dodo Nature</strong> es una tienda virtual en Shopify que ofrece ropa de origen natural, comprometida con el bienestar y la sostenibilidad.</p>",
+     "kicker": "Desarrollo web",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-212832-r0znw6gtrnt9s6x2mwhjaaclxh5gfpel6dennqkq4g.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 212832"
+     },
+     "href": "https://dodonature.com/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Fajas Sens",
+     "html": "<p><strong>Fajas Sens</strong> es una tienda virtual de fajas que ofrece productos de calidad, con integración a Klaviyo para una gestión personalizada de clientes, envíos rápidos, pagos seguros y atención eficiente, todo en un diseño fácil de navegar en cualquier dispositivo.</p>",
+     "kicker": "Desarrollo Web",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-215749-r0zp5qp71k6mjqqjl3hinafyiukyjja73vsy3l0qio.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 215749"
+     },
+     "href": "https://fajassens.com/",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Fajas Tributo MX",
+     "html": "<p><strong>Fajas Tributo MX</strong> es una tienda virtual especializada en fajas, con un catálogo fácil de navegar, pagos seguros, opciones de descuento y atención al cliente, todo en un diseño optimizado para dispositivos móviles y computadoras.</p>",
+     "kicker": "Desarrollo Web",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-214036-r0zof2zz7pov9vgk92nffimc0fz78kg93xq742jozk.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 214036"
+     },
+     "href": "https://fajastributo.com.mx/?srsltid=AfmBOooE6MTr0EH_SNto2kd9a1AUxLfcH-RuVGAvsY4fBLdCjvImiJU-",
+     "cta": "Visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Trascendenza USA",
+     "html": "<p><strong>Trascendenza</strong> es una tienda virtual en Shopify que ofrece joyería con un profundo significado, combinando diseño elegante y simbolismo para crear piezas únicas que representan momentos especiales y valores personales.</p>",
+     "kicker": "Desarrollo Web",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-224306-r0zr4t9vslh4ebi2ktg06csnhoa2jnfk7nkmern41s.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 224306"
+     },
+     "href": "https://trascendenza.co/",
+     "cta": "visitar proyecto"
+    },
+    {
+     "t": "card",
+     "title": "Amorfa Gemz",
+     "html": "<p><strong>Amorfa Gemz</strong> es una tienda virtual de joyas que ofrece una exclusiva selección de piezas elegantes, con pagos seguros, opciones de envío rápido y atención al cliente personalizada, todo en un diseño sofisticado y adaptado a todos los dispositivos.</p>",
+     "kicker": "Desarrollo Web",
+     "image": {
+      "src": "/media/or-thumbs-captura-de-pantalla-2025-02-03-220137-r0zpbsrr34h5d9xs7pqyprewc8q45bbx9v5lfs1ef4.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Captura de pantalla 2025-02-03 220137"
+     },
+     "href": "https://amorfagemz.com/",
+     "cta": "visitar proyecto"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-10-27T16:21:43"
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "geo-vs-seo-posicionamiento-google-inteligencia-artificial-2026",
+ "title": "GEO vs SEO: cómo aparecer en Google y en las IA en 2026",
+ "modified": "2026-11-05T09:00:00",
+ "excerpt": "El SEO busca posiciones en Google. El GEO busca que las IA citen tu contenido. La base es la misma: contenido útil, verificable y fácil de rastrear.",
+ "html": "<p class=\"answer\"><strong>El SEO busca que tu sitio aparezca en los resultados de Google; el GEO (Generative Engine Optimization) busca que respuestas de IA como ChatGPT, Gemini o Perplexity citen tu contenido.</strong> No compiten: el GEO se apoya en un buen SEO, porque una IA no puede citar lo que no encuentra ni entiende.</p>\n<h2>Diferencias entre SEO y GEO</h2>\n<table><thead><tr><th></th><th>SEO</th><th>GEO</th></tr></thead><tbody>\n<tr><td>Dónde apareces</td><td>Lista de resultados</td><td>Dentro de una respuesta generada</td></tr>\n<tr><td>Objetivo</td><td>Clics y tráfico</td><td>Menciones y citas</td></tr>\n<tr><td>Se mide con</td><td>Posiciones, clics e impresiones</td><td>Presencia en respuestas para tus preguntas clave</td></tr>\n<tr><td>Base común</td><td colspan=\"2\">Contenido útil, rastreable y confiable</td></tr>\n</tbody></table>\n<h2>Qué dice la evidencia</h2>\n<p>El término viene de una investigación de Princeton y otras instituciones, presentada en KDD 2024. Sus autores reportan que ciertas técnicas pueden aumentar la visibilidad hasta en un 40 % en respuestas generativas, y aclaran que el efecto varía según el tema. Agregar citas, fuentes y estadísticas estuvo entre las tácticas más útiles.</p>\n<p>Ese \"hasta\" importa: es un máximo en un experimento, no una promesa de resultados.</p>\n<h2>Qué recomienda Google</h2>\n<p>La guía de Google para sus funciones de IA no pide trucos nuevos. Prioriza contenido único y útil, permitir el rastreo, enlazar internamente las páginas y ofrecer una buena experiencia. Tampoco exige archivos especiales para aparecer. Además, sus políticas contra el spam también aplican a las respuestas con IA, así que publicar páginas en masa sin valor es un riesgo, no un atajo.</p>\n<h2>Qué hacer primero</h2>\n<ol>\n<li><strong>Revisa lo técnico.</strong> Tus páginas deben poder rastrearse e indexarse.</li>\n<li><strong>Responde en las primeras líneas.</strong> Cada artículo debe resolver la pregunta de inmediato.</li>\n<li><strong>Agrega datos con fuente.</strong> Cita el origen de cada cifra.</li>\n<li><strong>Aporta lo que solo tú sabes.</strong> Tus precios, procesos y casos reales no están en ningún otro sitio.</li>\n<li><strong>Enlaza tus temas.</strong> Conecta cada guía con tus servicios y artículos relacionados.</li>\n<li><strong>Cuida tu marca fuera del sitio.</strong> Mantén coherentes tu nombre y tus datos en perfiles y directorios.</li>\n</ol>\n<h2>Cómo debe verse un contenido citable</h2>\n<p>Las respuestas generativas toman fragmentos claros. Por eso conviene que cada página tenga:</p>\n<ul>\n<li><strong>Una respuesta directa al inicio,</strong> en dos o tres frases que se entiendan solas.</li>\n<li><strong>Títulos con forma de pregunta real,</strong> como las que escribe tu cliente.</li>\n<li><strong>Tablas y listas</strong> para comparaciones y procesos.</li>\n<li><strong>Fuentes visibles,</strong> enlazadas a la investigación original.</li>\n<li><strong>Datos propios,</strong> como tus precios públicos o tu proceso real.</li>\n<li><strong>Fecha de actualización y autoría,</strong> para que se sepa quién responde.</li>\n</ul>\n<h2>Datos estructurados: útiles, pero no mágicos</h2>\n<p>Marcar tu organización, tus artículos y tu ruta de navegación con Schema.org ayuda a que las máquinas entiendan el contenido. No es una garantía de aparecer en respuestas de IA, y lo marcado debe coincidir con lo visible en la página.</p>\n<h2>Errores que debes evitar</h2>\n<ul>\n<li><strong>Publicar en masa sin aportar nada.</strong> Varios artículos casi iguales compiten entre sí.</li>\n<li><strong>Citar cifras sin fuente.</strong> Una estadística inventada daña tu credibilidad.</li>\n<li><strong>Repetir palabras clave.</strong> Escribe para personas.</li>\n<li><strong>Bloquear rastreadores sin querer.</strong> Revisa tu robots.txt y tu CDN.</li>\n<li><strong>Olvidar la marca.</strong> Si nadie habla de ti fuera de tu sitio, es más difícil que una IA te recomiende.</li>\n</ul>\n<h2>Cómo medirlo</h2>\n<p>Para SEO usa Google Search Console. Para GEO no hay una métrica universal: define unas 20 preguntas que haría tu cliente y revisa cada mes si las IA te mencionan y qué fuentes citan. Son pruebas orientativas, porque las respuestas cambian.</p>\n<p>Puedes empezar por saber dónde estás con nuestro <a href=\"/agentes-seo/\">diagnóstico SEO y GEO</a>, que analiza etiquetas, Schema.org, robots.txt, velocidad y contenido.</p>",
+ "faqs": [
+  {
+   "q": "¿El GEO reemplaza al SEO?",
+   "a": "No. El GEO se apoya en el SEO. Si tu sitio no se puede rastrear ni entender, difícilmente será citado."
+  },
+  {
+   "q": "¿Necesito un archivo llms.txt?",
+   "a": "No es un requisito. Es una propuesta abierta y no hay confirmación amplia de que los buscadores con IA dependan de él. Es opcional y de bajo costo."
+  },
+  {
+   "q": "¿Cuánto tarda en verse un resultado?",
+   "a": "No hay un plazo garantizado. Depende de tu sitio, de la competencia y de la calidad del contenido."
+  },
+  {
+   "q": "¿Publicar muchos artículos con IA mejora el posicionamiento?",
+   "a": "No por sí solo. Google considera spam generar muchas páginas sin valor para los usuarios, sin importar cómo se hagan."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Aggarwal et al., GEO: Generative Engine Optimization (KDD 2024)",
+   "url": "https://arxiv.org/abs/2311.09735"
+  },
+  {
+   "label": "Google Search Central: funciones de IA y tu sitio web",
+   "url": "https://developers.google.com/search/docs/appearance/ai-features"
+  }
+ ],
+ "seo": {
+  "title": "GEO vs SEO: cómo aparecer en Google y en las IA | Agencia IDP",
+  "description": "El SEO te posiciona en Google y el GEO busca que las IA te citen. Qué dice la evidencia, qué recomienda Google y qué hacer primero en tu empresa.",
+  "image": "/media/2026-09-chatgpt-image-9-sept-2026-03-52-25-p-m.webp"
+ }
+}

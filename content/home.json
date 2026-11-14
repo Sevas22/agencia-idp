@@ -1,0 +1,73 @@
+{
+ "intro": "La mejor fabrica de productos mínimos viables",
+ "about": "Tanto las personas como las empresas están en constante crecimiento, cambio y evolución. En IDP software, vamos un paso más allá. Estamos reinventando el sector de los servicios de innovación. Descubre el poder de la reinvención con nosotros y conoce nuestras transformaciones más exitosas.",
+ "techIntro": [
+  "En Agencia IDP, combinamos lo mejor del ecosistema tecnológico actual, integrando herramientas de código abierto (open source) y soluciones propietarias de alto rendimiento, para desarrollar productos digitales que destacan por su velocidad, seguridad y eficiencia.",
+  "Somos una fábrica de software en Colombia que selecciona cuidadosamente cada tecnología con base en su madurez, soporte comunitario, escalabilidad y alineación con los objetivos del proyecto. Gracias a esta estrategia híbrida, logramos un equilibrio entre flexibilidad, costos y robustez técnica."
+ ],
+ "focus": [
+  "Rendimiento superior: Optimizamos cada capa del software —desde la arquitectura hasta el frontend— para asegurar tiempos de carga mínimos, ejecución fluida y una experiencia de usuario ágil.",
+  "Seguridad avanzada: Implementamos buenas prácticas de ciberseguridad desde el diseño, utilizando cifrado, autenticación robusta y políticas de control de acceso para proteger los datos de nuestros clientes y usuarios finales.",
+  "Escalabilidad y eficiencia: Diseñamos soluciones que crecen con el negocio, adaptables a diferentes cargas y escenarios, sin sacrificar rendimiento ni incrementar innecesariamente los costos operativos.",
+  "Innovación y respaldo: Al integrar tecnologías open source de vanguardia con herramientas comerciales líderes, garantizamos un entorno tecnológico actualizado, respaldado por grandes comunidades y proveedores confiables."
+ ],
+ "focusEnd": "El resultado: productos digitales sólidos, confiables y preparados para el futuro.",
+ "techs": [
+  {
+   "title": "Tecnologías FRONT",
+   "pct": 93,
+   "text": "Transformamos tu experiencia digital con tecnologías front-end de última generación. Desde diseño responsive hasta optimización de rendimiento, creamos interfaces atractivas y funcionales que cautivan a tus usuarios y potencian la interacción con tu marca en todos los dispositivos.",
+   "stack": "React JS · Angular · Flutter"
+  },
+  {
+   "title": "Tecnologías BACKEND",
+   "pct": 96,
+   "text": "Fortalecemos tu infraestructura digital con tecnologías backend de alto rendimiento. Desde bases de datos escalables hasta desarrollo de API robustas, optimizamos tus procesos internos y garantizamos un funcionamiento eficiente de tu plataforma, asegurando una experiencia confiable y segura para tus usuarios",
+   "stack": "Node JS · PHP · .NET"
+  },
+  {
+   "title": "Ciencia de datos",
+   "pct": 82,
+   "text": "Impulsamos tu análisis de datos con metodologías avanzadas de ciencia de datos. Desde la recopilación y limpieza de datos hasta la implementación de modelos predictivos, te ayudamos a obtener insights valiosos y tomar decisiones informadas, optimizando así tus estrategias y procesos basados en datos de manera efectiva",
+   "stack": "Python"
+  },
+  {
+   "title": "Gestores de contenido",
+   "pct": 86,
+   "text": "Potenciamos tu gestión de contenido con herramientas y estrategias innovadoras. Desde la creación y organización de contenido hasta la automatización de publicaciones y análisis de rendimiento, optimizamos tu flujo de trabajo y maximizamos el impacto de tu contenido, impulsando así tu presencia digital de manera eficiente",
+   "stack": ""
+  },
+  {
+   "title": "Aplicaciones móviles",
+   "pct": 90,
+   "text": "Elevamos tu experiencia móvil con aplicaciones intuitivas y de alto rendimiento. Desde el diseño y desarrollo de interfaces atractivas hasta la integración de funcionalidades avanzadas y optimización de rendimiento, creamos aplicaciones móviles que cautivan a tus usuarios y potencian la interacción con tu marca en todos los dispositivos",
+   "stack": ""
+  }
+ ],
+ "services": [
+  {
+   "title": "Low Code",
+   "paragraphs": [
+    "Desarrollamos sitios web, e-commerce, marketplaces, landing pages y formularios web mediante plataformas Low Code. Esto nos permite crear soluciones rápidas, eficientes y a menor costo, integrando pasarelas de pago, plugins y herramientas avanzadas para mejorar el rendimiento de cada proyecto."
+   ]
+  },
+  {
+   "title": "Desarrollo de Software",
+   "paragraphs": [
+    "Creamos plataformas, aplicaciones móviles, web apps y apps progresivas a medida, utilizando tecnologías de vanguardia para adaptarnos a las necesidades específicas de tu negocio. Integramos chatbots con IA, arquitectura de software robusta y herramientas de data science, ofreciendo soluciones innovadoras, escalables y altamente eficientes."
+   ]
+  },
+  {
+   "title": "Marketing Digital (SEO)",
+   "paragraphs": [
+    "Somos expertos en SEO, la clave para el posicionamiento orgánico de tu sitio web en los motores de búsqueda. Implementamos estrategias integrales de marketing digital que incluyen SEO, SEM y gestión de redes sociales, apoyándonos en el análisis de datos para impulsar el crecimiento de tu negocio."
+   ]
+  }
+ ],
+ "work": "Nuestra experiencia enfocada en el cumplimiento de los objetivos te dará tranquilidad al tiempo que ahorras dinero en una transformación empresarial correcta.",
+ "testimonials": [
+  "¡Increíble experiencia trabajando con esta agencia de software en Medellín. Han convertido nuestras ideas en una aplicación funcional y atractiva que ha mejorado enormemente la experiencia de nuestros usuarios. Su atención al detalle y su capacidad para entender nuestras necesidades han sido excepcionales. Definitivamente los recomendaría a cualquier persona que busque una solución de desarrollo de aplicaciones de calidad.",
+  "Estamos encantados con los resultados que hemos obtenido gracias al trabajo de este equipo de marketing digital. Han aumentado nuestra visibilidad en línea, mejorado nuestras estrategias de publicidad y nos han ayudado a alcanzar a nuestro público objetivo de manera efectiva. Su profesionalismo y conocimientos nos han permitido crecer significativamente en el mercado digital. ¡Muy recomendado!",
+  "No podríamos estar más contentos con el trabajo de diseño gráfico y diseño web realizado por Agencia IDP. Han transformado por completo nuestra imagen de marca con diseños creativos y atractivos que han captado la atención de nuestros clientes. Además, su enfoque en la usabilidad y la experiencia del usuario ha sido fundamental para el éxito de nuestro sitio web. ¡Son verdaderos expertos en su campo"
+ ]
+}

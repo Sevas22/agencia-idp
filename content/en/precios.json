@@ -1,0 +1,280 @@
+[
+ {
+  "title": "WordPress web development",
+  "tabs": [
+   {
+    "name": "Web development",
+    "plans": [
+     {
+      "name": "Basic",
+      "desc": "Landing page with custom design and the standard structure of a landing page.",
+      "price": "$310usd",
+      "items": [
+       "Header section",
+       "Main banner section",
+       "Testimonials section",
+       "Services section",
+       "Pricing section",
+       "Sign-up form"
+      ]
+     },
+     {
+      "name": "Professional",
+      "desc": "Complete informational website or e-commerce store with custom design",
+      "price": "$650usd",
+      "items": [
+       "Home page",
+       "About Us page",
+       "Products page",
+       "Contact page",
+       "User account page",
+       "Payment gateway integration",
+       "Google Analytics, Tag Manager",
+       "Basic SEO optimization",
+       "Media optimization"
+      ]
+     },
+     {
+      "name": "Advanced professional",
+      "desc": "Website with a unique design, or an e-commerce store built to sell at scale.",
+      "price": "$1250usd",
+      "items": [
+       "Home page",
+       "About Us page",
+       "Products page",
+       "Contact page",
+       "User account page",
+       "Portfolio page",
+       "Payment gateway integration",
+       "Google Analytics, Tag Manager",
+       "Basic SEO optimization",
+       "Media optimization",
+       "Cross-selling functionality",
+       "Upselling functionality",
+       "Abandoned cart recovery",
+       "Figma design",
+       "CRM integration"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Maintenance",
+    "plans": [
+     {
+      "name": "Basic webmaster",
+      "desc": "For founders who want to make sure their site keeps working properly.",
+      "price": "$210/Mes",
+      "items": [
+       "Monthly plugin updates",
+       "Monthly PHP version updates",
+       "WordPress version updates",
+       "Upload and update up to 8 products per month",
+       "Upload of 2 blog posts per month (upload only)",
+       "Up to 2 new sections",
+       "Up to 1 landing page",
+       "Progressive SEO optimization of each page, 2 pages per month until fully optimized"
+      ]
+     },
+     {
+      "name": "Standard webmaster",
+      "desc": "Landing page with custom design and the standard structure of a landing page.",
+      "price": "$460.9/Mes",
+      "items": [
+       "Monthly plugin updates",
+       "Monthly PHP version updates",
+       "WordPress version updates",
+       "Media optimization",
+       "Upload and update up to 20 products per month",
+       "Upload of 4 blog posts per month (upload only)",
+       "Up to 6 new sections",
+       "One landing page with up to 5 sections.",
+       "Progressive SEO optimization of each page, 2 pages per month until fully optimized"
+      ]
+     },
+     {
+      "name": "Advanced webmaster",
+      "desc": "Landing page with custom design and the standard structure of a landing page.",
+      "price": "$650/Mes",
+      "items": [
+       "Monthly plugin updates",
+       "Monthly PHP version updates",
+       "WordPress version updates",
+       "Media optimization",
+       "Upload and update up to 40 products per month",
+       "Upload of 4 blog posts per month (upload only)",
+       "Up to 6 new sections",
+       "One landing page with up to 5 sections.",
+       "Progressive SEO optimization of each page, 5 pages per month until fully optimized"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Shopify web development",
+  "tabs": [
+   {
+    "name": "Web development",
+    "plans": [
+     {
+      "name": "Basic e-commerce",
+      "desc": "Basic e-commerce store connected to a payment gateway",
+      "price": "$710usd",
+      "items": [
+       "Home page",
+       "About Us page",
+       "Products page",
+       "Contact page",
+       "User account page",
+       "Payment gateway integration",
+       "Promotional pop-up"
+      ]
+     },
+     {
+      "name": "Professional",
+      "desc": "Complete informational website or e-commerce store with custom design",
+      "price": "$1100usd",
+      "items": [
+       "Home page",
+       "About Us page",
+       "Products page",
+       "Contact page",
+       "User account page",
+       "Payment gateway integration",
+       "Google Analytics, Tag Manager",
+       "Basic SEO optimization",
+       "Promotional pop-up"
+      ]
+     },
+     {
+      "name": "Advanced professional",
+      "desc": "Website with a unique design, or an e-commerce store built to sell at scale.",
+      "price": "$1850usd",
+      "items": [
+       "Home page",
+       "About Us page",
+       "Products page",
+       "Contact page",
+       "User account page",
+       "Portfolio page",
+       "Payment gateway integration",
+       "Google Analytics, Tag Manager",
+       "Basic SEO optimization",
+       "Cross-selling functionality",
+       "Upselling functionality",
+       "Abandoned cart recovery",
+       "Figma design",
+       "Promotional pop-up"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Maintenance",
+    "plans": [
+     {
+      "name": "Basic webmaster",
+      "desc": "For founders who want a working e-commerce store with a small catalog.",
+      "price": "$208/Mes",
+      "items": [
+       "Upload and update up to 12 products per month",
+       "Upload of 2 SEO-optimized blog posts per month (upload only)",
+       "Up to 2 new sections",
+       "Progressive SEO optimization of each page, 2 pages per month until fully optimized",
+       "Unlimited text and image changes on pages"
+      ]
+     },
+     {
+      "name": "Standard webmaster",
+      "desc": "For companies that want a continuously updated e-commerce store with up to 200 products.",
+      "price": "$300/Mes",
+      "items": [
+       "Media optimization",
+       "Upload and update up to 20 products per month",
+       "Upload of 4 SEO-optimized blog posts per month (upload only)",
+       "Up to 6 new sections",
+       "One landing page with up to 5 sections.",
+       "Progressive SEO optimization of each page, 2 pages per month until fully optimized"
+      ]
+     },
+     {
+      "name": "Advanced webmaster",
+      "desc": "For large companies that want a working e-commerce store that is continuously updated and optimized.",
+      "price": "$438/Mes",
+      "items": [
+       "Media optimization",
+       "Upload and update up to 40 products per month",
+       "Upload of 6 blog posts per month (upload only)",
+       "Writing and upload of 2 SEO-optimized blog posts per month",
+       "Up to 6 new sections",
+       "One landing page with up to 5 sections.",
+       "Progressive SEO optimization of each page, 5 pages per month until fully optimized"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "SEO plans",
+  "tabs": [
+   {
+    "name": "Plans",
+    "plans": [
+     {
+      "name": "Basic SEO",
+      "desc": "Basic Google rankings with a basic SEO strategy",
+      "price": "$330/mes",
+      "items": [
+       "SEO strategy (one-time additional USD 200 at the start)",
+       "Benchmarking",
+       "Search Console integration",
+       "Rank Math integration",
+       "Optimization of 2 pages per month",
+       "Optimization of 2 blog posts per month",
+       "Biweekly performance reports in SE Ranking",
+       "Website architecture optimization",
+       "Rankings in Google only"
+      ]
+     },
+     {
+      "name": "Professional SEO",
+      "desc": "Continuous, progressive site rankings with an initial strategy.",
+      "price": "$430/mes",
+      "items": [
+       "SEO strategy (one-time additional USD 200 at the start)",
+       "Benchmarking",
+       "Search Console integration",
+       "Rank Math Pro integration",
+       "SEO optimization of 4 pages per month",
+       "SEO optimization of 4 blog posts per month",
+       "Biweekly performance reports in SE Ranking",
+       "Website architecture optimization",
+       "Rankings in Google and Bing"
+      ]
+     },
+     {
+      "name": "Advanced SEO",
+      "desc": "Continuous, progressive multichannel rankings with an initial strategy.",
+      "price": "$650/mes",
+      "items": [
+       "SEO strategy (one-time additional USD 200 at the start)",
+       "Benchmarking",
+       "Search Console integration",
+       "Rank Math integration",
+       "SEO optimization of 6 pages per month",
+       "SEO optimization of 6 blog posts per month",
+       "Biweekly performance reports in SE Ranking",
+       "Website architecture optimization",
+       "Web media optimization",
+       "Pinterest rankings",
+       "Rankings in Google, Bing and Yandex"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

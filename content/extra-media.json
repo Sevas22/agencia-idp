@@ -1,0 +1,42 @@
+{
+ "autoHero": {
+  "src": "/media/2024-08-fondo-agencia-idp-automatizaciones-1-scaled.webp",
+  "width": 1600,
+  "height": 972
+ },
+ "paper": {
+  "src": "/media/2024-04-9977596f-1667-47f9-a325-5c699769b31e.webp",
+  "width": 1600,
+  "height": 616
+ },
+ "transformHero": {
+  "src": "/media/f-system-engineer-writing-data-and-discussin-2025-02-17-20-18-54-utc-scaled-e1746637459956.webp",
+  "width": 850,
+  "height": 567
+ },
+ "asociaciones": {
+  "src": "/media/2024-10-asociaciones.webp",
+  "width": 1600,
+  "height": 900
+ },
+ "mvpAvatar": {
+  "src": "/media/2025-05-nexi-37.webp",
+  "width": 800,
+  "height": 969
+ },
+ "colombiaPeople": {
+  "src": "/media/2025-05-desarrollo-software-idp-empresarios-felices-scaled.webp",
+  "width": 1600,
+  "height": 1067
+ },
+ "colombiaTeam": {
+  "src": "/media/2025-05-transformando-ideas-en-productos-digitales-scaled.webp",
+  "width": 1600,
+  "height": 1068
+ },
+ "ecoBadge": {
+  "src": "/media/sello-eco-friendly.webp",
+  "width": 1600,
+  "height": 541
+ }
+}

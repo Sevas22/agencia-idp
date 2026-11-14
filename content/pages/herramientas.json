@@ -1,0 +1,99 @@
+{
+ "slug": "herramientas",
+ "title": "Herramientas",
+ "seo": {
+  "title": "Herramientas Digitales para Empresas | Agencia IDP",
+  "description": "Descubre las mejores herramientas digitales para optimizar tu empresa. Agencia IDP selecciona y configura las soluciones tecnológicas que maximizan tu productividad y crecimiento.",
+  "image": "/media/2026-08-chatgpt-image-26-ago-2026-03-35-25-p-m.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Herramientas para emprendedores"
+    },
+    {
+     "t": "card",
+     "title": "Diagnóstico SEO & GEO",
+     "html": "",
+     "image": {
+      "src": "/media/2026-08-captura-de-pantalla-2026-08-21-151342.webp",
+      "width": 1516,
+      "height": 828,
+      "alt": ""
+     },
+     "href": "/agentes-seo",
+     "cta": "ver herramienta"
+    },
+    {
+     "t": "card",
+     "title": "Diagnóstico UX/UI Heurístico",
+     "html": "",
+     "image": {
+      "src": "/media/2026-08-ui-ux.webp",
+      "width": 1298,
+      "height": 795,
+      "alt": ""
+     },
+     "href": "/ui-ux/",
+     "cta": "ver herramienta"
+    },
+    {
+     "t": "card",
+     "title": "Software para restaurantes",
+     "html": "<p><strong>Pídelo Ya</strong> es una aplicación diseñada para restaurantes que permite la creación de menús virtuales con un sistema de pago automatizado para pedidos en mesa.</p>",
+     "image": {
+      "src": "/media/2026-07-pideloya-gestion-de-restaurantes-scaled.webp",
+      "width": 1600,
+      "height": 902,
+      "alt": ""
+     },
+     "href": "https://www.pideloya.app/",
+     "cta": "Ver herramienta"
+    },
+    {
+     "t": "card",
+     "title": "CRM de marketing para emprendedores",
+     "html": "<p><strong>Push Leads</strong> es un CRM diseñado para optimizar la gestión de clientes, automatizar seguimientos y mejorar la conversión de ventas.</p>",
+     "image": {
+      "src": "/media/2026-07-pushleads-crm-multicanal-scaled.webp",
+      "width": 1600,
+      "height": 902,
+      "alt": ""
+     },
+     "href": "https://pushleads.co/",
+     "cta": "Ver herramienta"
+    },
+    {
+     "t": "card",
+     "title": "Sistema de validación de negocios",
+     "html": "<p><strong>Inexistente</strong> es un sitio que te ayudará a validar si tu idea es viable a través de un sistema innovador.</p>",
+     "image": {
+      "src": "/media/2026-07-inexistente-la-tienda-de-problemas-sin-resolver-scaled.webp",
+      "width": 1600,
+      "height": 902,
+      "alt": ""
+     },
+     "href": "https://inexistente.co",
+     "cta": "Ver herramienta"
+    },
+    {
+     "t": "card",
+     "title": "Sistema de conexión con inversionistas",
+     "html": "<p><strong>Quantum </strong>es la plataforma donde las startups gestionan sus métricas, documentos y reportes para mantener informados a sus inversionistas.</p>",
+     "image": {
+      "src": "/media/uantum-inversion-inteligente-en-startups-scaled-rq25xp70hqvlchcnnvuacbnwyaz4sz5wme9arnfneo.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "Quantum - Inversión Inteligente en Startups"
+     },
+     "href": "https://quantumlatam.co",
+     "cta": "ver herramienta"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-08-26T15:41:22"
+}

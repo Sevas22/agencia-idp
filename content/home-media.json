@@ -1,0 +1,58 @@
+{
+ "founder": {
+  "src": "/media/2025-04-fa55e558-3750-4068-85e3-0da57a8a819e.webp",
+  "width": 1080,
+  "height": 1163
+ },
+ "testimonios": {
+  "src": "/media/4-people-hand-holding-a-pen-for-working-to-write-on-a-book-for-letter-or-business-document.webp",
+  "width": 1600,
+  "height": 1067
+ },
+ "pintuco": {
+  "src": "/media/2025-04-pintuco.webp",
+  "width": 998,
+  "height": 481
+ },
+ "corpaul": {
+  "src": "/media/2025-04-corpaul.webp",
+  "width": 828,
+  "height": 291
+ },
+ "comfama": {
+  "src": "/media/2025-04-comfama.webp",
+  "width": 900,
+  "height": 306
+ },
+ "humano": {
+  "src": "/media/2025-04-humanoseguros.webp",
+  "width": 337,
+  "height": 118
+ },
+ "starco": {
+  "src": "/media/2025-04-starco.webp",
+  "width": 640,
+  "height": 223
+ },
+ "logoCliente": {
+  "src": "/media/2025-04-logo.svg",
+  "width": 1800,
+  "height": 501
+ },
+ "t1": {
+  "src": "/media/2024-04-portrait-of-a-woman-6m4s34k.webp",
+  "width": 800,
+  "height": 800
+ },
+ "t2": {
+  "src": "/media/2024-04-handsome-man-smiling-in-the-park-rkuhfqb.webp",
+  "width": 800,
+  "height": 800
+ },
+ "t3": {
+  "src": "/media/2024-04-portrait-of-an-african-woman-smiling-8lrbatx.webp",
+  "width": 800,
+  "height": 800
+ },
+ "brochure": "/docs/presentacion-corporativa-agencia-idp.pdf"
+}

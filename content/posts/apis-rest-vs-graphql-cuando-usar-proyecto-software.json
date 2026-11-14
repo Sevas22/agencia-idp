@@ -1,0 +1,20 @@
+{
+ "slug": "apis-rest-vs-graphql-cuando-usar-proyecto-software",
+ "title": "APIs REST vs GraphQL: Cuándo Usar Cada Una en tu Proyecto",
+ "date": "2026-09-29T09:00:00",
+ "modified": "2026-09-30T15:47:25",
+ "excerpt": "El debate REST vs GraphQL es uno de los más frecuentes en el diseño de APIs modernas. Ambas son excelentes herramientas — pero para casos de uso diferentes. Esta…",
+ "category": "Blog",
+ "image": {
+  "src": "/media/2026-09-d58d1eab-a94f-469c-8f5c-2b6503761e26.webp",
+  "width": 1600,
+  "height": 900,
+  "alt": "APIs REST vs GraphQL: Cuándo Usar Cada Una en tu Proyecto"
+ },
+ "seo": {
+  "title": "APIs REST vs GraphQL: Cuándo Usar Cada Una en tu Proyecto | Agencia IDP",
+  "description": "Comparativa completa APIs REST vs GraphQL. Diferencias, ventajas, casos de uso y cuándo elegir cada arquitectura para tu proyecto de software en Colombia 2026.",
+  "image": "/media/2026-09-d58d1eab-a94f-469c-8f5c-2b6503761e26.webp"
+ },
+ "html": "<p>El debate <strong>REST vs GraphQL</strong> es uno de los más frecuentes en el diseño de APIs modernas. Ambas son excelentes herramientas — pero para casos de uso diferentes. Esta comparativa explica cuándo usar cada una, con criterios concretos que puedes aplicar a tu próximo proyecto de software.</p>\n<strong>Contenido:</strong>\n<ul>\n<li><a href=\"#s1\">¿Qué es una API REST?</a></li>\n<li><a href=\"#s2\">¿Qué es GraphQL?</a></li>\n<li><a href=\"#s3\">Cuándo elegir REST</a></li>\n<li><a href=\"#s4\">Cuándo elegir GraphQL</a></li>\n<li><a href=\"#s5\">La solución pragmática: empieza con REST</a></li>\n</ul>\n<h2>¿Qué es una API REST?</h2>\n<p>Una <strong>API REST</strong> (Representational State Transfer) organiza los datos en recursos (usuarios, productos, pedidos) accesibles mediante URLs fijas y métodos HTTP estándar (GET, POST, PUT, DELETE). Es el estándar más adoptado del mundo — prácticamente todas las APIs públicas (Stripe, Twitter, GitHub, Mercado Pago) son REST. Su ventaja principal: es simple, bien entendida, con excelente soporte en todos los lenguajes y frameworks.</p>\n<h2>¿Qué es GraphQL?</h2>\n<p><strong>GraphQL</strong> (creado por Facebook/Meta en 2012, open source desde 2015) es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, en una sola petición. En lugar de múltiples endpoints fijos, hay un único endpoint /graphql donde el cliente define la «forma» de los datos que quiere. Esto elimina el problema de over-fetching (recibir más datos de los necesarios) y under-fetching (necesitar múltiples peticiones para los datos requeridos).</p>\n<h2>Cuándo elegir REST</h2>\n<p>Elige <strong>REST</strong> cuando: la API será pública o consumida por terceros (es el estándar más familiar), el equipo tiene experiencia en REST pero no en GraphQL, los recursos son bien definidos y estables, la API es relativamente simple (menos de 20-30 endpoints), o necesitas máxima compatibilidad con herramientas de monitoreo y testing existentes. La mayoría de APIs de aplicaciones de negocio estándar funcionan perfectamente con REST.</p>\n<h2>Cuándo elegir GraphQL</h2>\n<p>Elige <strong>GraphQL</strong> cuando: múltiples clientes (web, móvil, tablet) necesitan diferentes subconjuntos del mismo dato, las consultas son complejas con múltiples relaciones entre entidades, el rendimiento es crítico y quieres minimizar la cantidad de peticiones de red, o estás construyendo un producto donde las necesidades de los clientes evolucionan rápidamente y no quieres versionar la API constantemente.</p>\n<h2>La solución pragmática: empieza con REST</h2>\n<p>Para la mayoría de proyectos en Colombia, la recomendación es empezar con <strong>REST</strong> — es más rápido de implementar, más fácil de documentar, y el 90% de los proyectos no alcanzan la complejidad que justifica GraphQL. Si en el futuro el proyecto crece y aparecen los problemas que GraphQL resuelve, se puede migrar o añadir GraphQL como capa adicional. En <a href=\"/servicios/\">Agencia IDP</a> tomamos estas decisiones de arquitectura basadas en el contexto específico de cada proyecto. <a href=\"/contacto/\">Consúltanos tu caso.</a></p>"
+}

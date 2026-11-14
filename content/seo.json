@@ -1,0 +1,52 @@
+{
+ "formulario-prueba": {
+  "title": "Formulario prueba - Agencia IDP",
+  "description": "Descubre cómo te ven Google y las IAs (ChatGPT, Gemini, Perplexity). Recibe tu informe en segundos.",
+  "image": null
+ },
+ "agenciaidp-com-informe-seo-geo": {
+  "title": " agenciaidp.com/informe-seo-geo - Agencia IDP",
+  "description": "Confirmando tu pago y analizando tu sitio. Esto toma unos segundos.",
+  "image": null
+ },
+ "informe-seo-geo": {
+  "title": "informe-seo-geo - Agencia IDP",
+  "description": "Confirmando tu pago y analizando tu sitio. Esto toma unos segundos.",
+  "image": null
+ },
+ "blog": {
+  "title": "blog - Agencia IDP",
+  "description": "",
+  "image": null
+ },
+ "ui-ux": {
+  "title": "Diseño UI/UX para Apps y Plataformas Digitales | Agencia IDP",
+  "description": "Agencia IDP diseña experiencias de usuario (UI/UX) centradas en conversión. Apps móviles, plataformas web y dashboards con diseño profesional para empresas colombianas.",
+  "image": null
+ },
+ "precios": {
+  "title": "Precios y Planes de Desarrollo de Software | Agencia IDP",
+  "description": "Consulta los precios y planes de desarrollo de software de Agencia IDP. Soluciones a medida para startups, PYMEs y empresas en Colombia. Sin costos ocultos.",
+  "image": null
+ },
+ "pagina-posicionamiento-seo": {
+  "title": "Posicionamiento SEO en Colombia | Estrategia y Resultados | Agencia IDP",
+  "description": "Mejora tu posicionamiento SEO en Colombia con Agencia IDP. Estrategias de contenido, optimización técnica y SEO local para que tu empresa aparezca primero en Google.",
+  "image": null
+ },
+ "agentes-seo": {
+  "title": "agentes seo y geo en colombia numero 1",
+  "description": "agentes seo y geo en colombia numero 1 enfocado en las empresas que buscan posicionarse en colombia",
+  "image": null
+ },
+ "home": {
+  "title": "Agencia de Desarrollo de Software en Colombia | Agencia IDP",
+  "description": "Agencia IDP es tu agencia de desarrollo de software en Colombia. Construimos MVPs, apps móviles, plataformas web y soluciones de IA para empresas que quieren crecer. Medellín · Colombia · Nearshore.",
+  "image": "/media/2026-07-db1be1c7-ecf7-4092-b9b2-d699ef95f6be.webp"
+ },
+ "contacto": {
+  "title": "Contáctanos | Agencia IDP – Agencia de Software en Colombia",
+  "description": "Habla con nuestro equipo. En Agencia IDP respondemos en menos de 24 horas. Cuéntanos tu proyecto de software, MVP o transformación digital y te damos una propuesta sin costo.",
+  "image": null
+ }
+}

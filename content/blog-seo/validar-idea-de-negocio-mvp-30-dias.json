@@ -1,0 +1,32 @@
+{
+ "slug": "validar-idea-de-negocio-mvp-30-dias",
+ "title": "Cómo validar una idea de negocio en 30 días con un MVP",
+ "modified": "2026-11-05T09:00:00",
+ "excerpt": "En 30 días no construyes el producto final: pruebas si alguien lo quiere. Plan semana a semana, con hipótesis, landing y señales reales de compra.",
+ "html": "<p class=\"answer\"><strong>Para validar una idea en 30 días, escribe una hipótesis, publica una página simple, llévale personas de tu público y mide acciones reales, como registros, reservas o pagos.</strong> No construyes el producto final: construyes el experimento más barato que te permita decidir.</p>\n<p>Vale la pena hacerlo: en un análisis de CB Insights sobre 101 startups cerradas, el 42 % citó la falta de necesidad en el mercado como causa de su fracaso.</p>\n<h2>El plan semana a semana</h2>\n<table><thead><tr><th>Semana</th><th>Objetivo</th><th>Entregable</th></tr></thead><tbody>\n<tr><td>1</td><td>Definir la hipótesis</td><td>Una frase y una landing</td></tr>\n<tr><td>2</td><td>Llegar a tu público</td><td>Visitas y conversaciones reales</td></tr>\n<tr><td>3</td><td>Medir intención</td><td>Registros, reservas o preventas</td></tr>\n<tr><td>4</td><td>Decidir</td><td>Seguir, ajustar o detener</td></tr>\n</tbody></table>\n<h2>Semana 1: hipótesis y landing</h2>\n<p>Completa esta frase: <em>creo que [cliente] tiene [problema] y pagaría [precio] por [solución]</em>. Si no puedes completarla, aún no tienes algo que probar. Luego crea una página con el problema, la propuesta, el precio y una sola acción.</p>\n<h2>Semana 2: lleva personas reales</h2>\n<p>Usa LinkedIn si vendes a empresas, y comunidades de tu sector o una pauta pequeña si vendes a personas. Habla también con al menos diez clientes potenciales. Pregunta cómo resuelven hoy el problema y cuánto les cuesta. No preguntes si tu idea les gusta.</p>\n<h2>Semana 3: mide señales de compra</h2>\n<p>Ordena la evidencia de menor a mayor fuerza: un elogio vale poco, un correo vale algo, una cita vale más y un pago es la señal más fuerte. Pedir una reserva o un anticipo te dirá más que cualquier encuesta.</p>\n<h2>Semana 4: decide con criterios previos</h2>\n<p>Define antes de empezar qué resultado te haría continuar. El umbral depende de tu precio y tu canal, por lo que no existe un porcentaje universal. Hay tres salidas válidas:</p>\n<ul>\n<li><strong>Seguir:</strong> hay personas dispuestas a comprometerse.</li>\n<li><strong>Ajustar:</strong> el problema existe, pero la oferta no convence.</li>\n<li><strong>Detener:</strong> nadie actúa. Es un buen resultado, porque ahorraste la inversión.</li>\n</ul>\n<h2>Un ejemplo de hipótesis</h2>\n<p>Imagina un servicio de menús semanales para restaurantes pequeños. Una hipótesis floja sería: <em>a los restaurantes les sirve la tecnología</em>. Una hipótesis útil sería: <em>los restaurantes de Medellín con menos de diez mesas pagarían una mensualidad por recibir pedidos por QR sin comisiones</em>. La segunda dice quién, qué y cuánto, así que se puede comprobar.</p>\n<h2>Errores que invalidan el experimento</h2>\n<ul>\n<li><strong>Preguntar a familiares y amigos.</strong> Quieren apoyarte, no darte datos.</li>\n<li><strong>Preguntar si comprarían.</strong> Decir que sí no cuesta nada. Pide una acción.</li>\n<li><strong>Probar sin precio.</strong> Sin precio no sabes si hay disposición a pagar.</li>\n<li><strong>Cambiar todo a la vez.</strong> Si modificas público, oferta y precio, no sabrás qué funcionó.</li>\n<li><strong>Mover la meta.</strong> Fija el criterio antes de ver los resultados.</li>\n</ul>\n<h2>Herramientas para hacerlo sin programar</h2>\n<p>Para una validación inicial basta con un creador de páginas, un formulario, un enlace de pago y una herramienta de analítica. Si vendes por WhatsApp, usa un enlace directo y anota cada conversación en una hoja de cálculo. Lo importante no es la herramienta, sino registrar quién hizo qué.</p>\n<h2>Después de validar</h2>\n<p>Con evidencia en la mano, sigue el <a href=\"/que-es-un-mvp-guia-definitiva-startups-colombia/\">MVP funcional</a>. Puedes revisar <a href=\"/cuanto-cuesta-desarrollar-un-mvp-en-colombia/\">cuánto cuesta construirlo</a> o <a href=\"/impulsa-desarrollo-producto-minimo-viable/\">hablar con nosotros sobre tu MVP</a>.</p>",
+ "faqs": [
+  {
+   "q": "¿Se puede validar una idea sin programar?",
+   "a": "Sí. Una landing, entrevistas y una preventa pueden darte evidencia antes de escribir código."
+  },
+  {
+   "q": "¿Cuántas personas necesito para validar?",
+   "a": "No hay un número universal. Define antes qué resultado te haría continuar, según tu precio y tu canal."
+  },
+  {
+   "q": "¿Qué hago si la idea no se valida?",
+   "a": "Revisa si falló el problema, el público o la oferta. Ajusta una variable y repite, o detén la idea."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Entrepreneur: por qué fracasan las startups según CB Insights",
+   "url": "https://entrepreneur.com/business-news/why-startups-fail-according-to-their-founders/238088"
+  }
+ ],
+ "seo": {
+  "title": "Cómo validar una idea de negocio en 30 días | Agencia IDP",
+  "description": "Plan de 4 semanas para validar una idea de negocio antes de invertir: hipótesis, landing, tráfico real, señales de compra y decisión con datos.",
+  "image": "/media/2026-09-chatgpt-image-21-sept-2026-03-31-30-p-m.webp"
+ }
+}

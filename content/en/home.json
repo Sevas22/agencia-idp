@@ -1,0 +1,73 @@
+{
+ "intro": "The MVP factory",
+ "about": "People and companies are constantly growing, changing and evolving. At IDP software we go one step further: we are reinventing innovation services. Discover the power of reinvention with us and see our most successful transformations.",
+ "techIntro": [
+  "At Agencia IDP we combine the best of today’s technology ecosystem, integrating open-source tools and high-performance proprietary solutions to build digital products that stand out for speed, security and efficiency.",
+  "We are a software factory in Colombia that carefully chooses each technology based on maturity, community support, scalability and fit with the project’s goals. This hybrid strategy lets us balance flexibility, cost and technical robustness."
+ ],
+ "focus": [
+  "Superior performance: We optimize every layer of the software, from architecture to frontend, to ensure minimal load times, smooth execution and a fast user experience.",
+  "Advanced security: We apply cybersecurity best practices from the design stage, using encryption, strong authentication and access control policies to protect our clients’ and end users’ data.",
+  "Scalability and efficiency: We design solutions that grow with the business and adapt to different loads and scenarios without sacrificing performance or inflating operating costs.",
+  "Innovation and support: By combining cutting-edge open-source technologies with leading commercial tools, we keep the technology stack current and backed by large communities and reliable vendors."
+ ],
+ "focusEnd": "The result: solid, reliable digital products ready for the future.",
+ "techs": [
+  {
+   "title": "FRONTEND technologies",
+   "pct": 93,
+   "text": "We transform your digital experience with modern frontend technologies. From responsive design to performance optimization, we build attractive, functional interfaces that engage your users and strengthen your brand on every device.",
+   "stack": "React JS · Angular · Flutter"
+  },
+  {
+   "title": "BACKEND technologies",
+   "pct": 96,
+   "text": "We strengthen your digital infrastructure with high-performance backend technologies. From scalable databases to robust APIs, we optimize your internal processes and keep your platform running efficiently, reliably and securely for your users.",
+   "stack": "Node JS · PHP · .NET"
+  },
+  {
+   "title": "Data science",
+   "pct": 82,
+   "text": "We power your data analysis with advanced data science methods. From data collection and cleaning to predictive models, we help you uncover valuable insights and make informed, data-driven decisions about your strategy and processes.",
+   "stack": "Python"
+  },
+  {
+   "title": "Content management systems",
+   "pct": 86,
+   "text": "We boost your content management with innovative tools and strategies. From creating and organizing content to automating publishing and measuring performance, we streamline your workflow and maximize the impact of your content.",
+   "stack": ""
+  },
+  {
+   "title": "Mobile apps",
+   "pct": 90,
+   "text": "We elevate your mobile experience with intuitive, high-performance apps. From engaging interface design to advanced features and performance tuning, we build mobile apps that delight your users and strengthen your brand on every device.",
+   "stack": ""
+  }
+ ],
+ "services": [
+  {
+   "title": "Low Code",
+   "paragraphs": [
+    "We build websites, e-commerce stores, marketplaces, landing pages and web forms on low-code platforms. This lets us deliver fast, efficient and lower-cost solutions, integrating payment gateways, plugins and advanced tools to boost each project’s performance."
+   ]
+  },
+  {
+   "title": "Software Development",
+   "paragraphs": [
+    "We build custom platforms, mobile apps, web apps and progressive web apps with cutting-edge technology tailored to your business. We integrate AI chatbots, robust software architecture and data science tools to deliver innovative, scalable and highly efficient solutions."
+   ]
+  },
+  {
+   "title": "Digital Marketing (SEO)",
+   "paragraphs": [
+    "We are SEO experts, the key to ranking your website organically in search engines. We run complete digital marketing strategies that include SEO, SEM and social media management, backed by data analysis to grow your business."
+   ]
+  }
+ ],
+ "work": "Our goal-focused experience gives you peace of mind while you save money on a well-executed business transformation.",
+ "testimonials": [
+  "An amazing experience working with this software agency in Medellín. They turned our ideas into a functional, attractive app that has greatly improved our users’ experience. Their attention to detail and ability to understand our needs were exceptional. I would definitely recommend them to anyone looking for quality app development.",
+  "We are delighted with the results this digital marketing team achieved. They increased our online visibility, improved our advertising strategies and helped us reach our target audience effectively. Their professionalism and expertise have let us grow significantly in the digital market. Highly recommended!",
+  "We couldn’t be happier with the graphic and web design work by Agencia IDP. They completely transformed our brand image with creative, eye-catching designs that captured our customers’ attention. Their focus on usability and user experience was key to our website’s success. True experts in their field!"
+ ]
+}

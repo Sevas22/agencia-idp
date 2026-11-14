@@ -1,0 +1,505 @@
+{
+ "slug": "automatizaciones-con-ia",
+ "title": "AI automation",
+ "seo": {
+  "title": "AI Automation for Businesses | Agencia IDP",
+  "description": "Automate your business processes with artificial intelligence. Agencia IDP designs and builds AI automations that cut costs, remove repetitive tasks and speed up operations.",
+  "image": "/media/2024-08-instagram-1.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "kicker",
+     "text": "Welcome to chat-ia-melo"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "AI automation tailored to your company or business."
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-instagram-1.webp",
+     "width": 240,
+     "height": 240,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-whatsapp-1.webp",
+     "width": 230,
+     "height": 233,
+     "alt": ""
+    },
+    {
+     "t": "rich",
+     "html": "<p>We specialize in fully custom software automation for your company. Our technology lets you run your own customer service, appointment booking and sales processes with an approach built around your needs.</p>"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-calendario-1.webp",
+     "width": 281,
+     "height": 257,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-8380029-1.webp",
+     "width": 203,
+     "height": 204,
+     "alt": ""
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "Contact us"
+    },
+    {
+     "t": "button",
+     "href": "/en/contact/",
+     "text": "I NEED IT"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "kicker",
+     "text": "OUR SERVICES"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "WE AUTOMATE PROCESSES SUCH AS"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-redes-y-calendario.webp",
+     "width": 788,
+     "height": 140,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-agendamiento-citas2.webp",
+     "width": 500,
+     "height": 541,
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Appointment booking"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Automate appointment booking and manage reservations efficiently, saving time without adding staff.</p>"
+    },
+    {
+     "t": "button",
+     "href": "#citac",
+     "text": "Learn more"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-redes.webp",
+     "width": 788,
+     "height": 140,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-atencion-al-cliente.webp",
+     "width": 500,
+     "height": 461,
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Customer service"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Give fast, accurate answers 24/7, improving satisfaction and efficiency without human intervention.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ21u9G4wLCgER87BeMPR86SS_flbp9EmjmCLpg6OsxDsYab1J-qSXKS2Ir29JfKD98h6t8fJ1L4",
+     "text": "Learn more"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-redes.webp",
+     "width": 788,
+     "height": 140,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-venta-productos-y-servicios.webp",
+     "width": 500,
+     "height": 978,
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Product and service sales"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Automate the sale of products and services, managing orders and inventory efficiently and improving the customer experience.</p>"
+    },
+    {
+     "t": "button",
+     "href": "#ventaspc",
+     "text": "Learn more"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-redes.webp",
+     "width": 788,
+     "height": 140,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-recurso-1gestion-cartera.webp",
+     "width": 500,
+     "height": 537,
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Collections"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Streamline payment follow-up and reduce late payments with automatic, effective reminders.</p>"
+    },
+    {
+     "t": "button",
+     "href": "/en/contact/",
+     "text": "Learn more"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-redes.webp",
+     "width": 788,
+     "height": 140,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-recurso-2seguimiento-elads.webp",
+     "width": 500,
+     "height": 431,
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Lead follow-up"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Automate lead follow-up, stay in touch with prospects and build loyalty with existing customers to improve conversions.</p>"
+    },
+    {
+     "t": "button",
+     "href": "/en/contact/",
+     "text": "Learn more"
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-redes.webp",
+     "width": 788,
+     "height": 140,
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "/media/2024-08-postventa.webp",
+     "width": 500,
+     "height": 452,
+     "alt": "automatizaciones con ia"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "After-sales service"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Automate after-sales service, handling questions and requests quickly to keep customers satisfied and loyal.</p>"
+    },
+    {
+     "t": "button",
+     "href": "#led",
+     "text": "Learn more"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "anchor",
+     "id": "citac"
+    },
+    {
+     "t": "card",
+     "title": "Appointment booking",
+     "html": "<p>Save time and resources with our automated appointment booking system. Built to manage reservations efficiently, it lets your customers schedule appointments without human intervention, for a smooth, professional experience.</p><ul><li>Operational efficiency: Reduces administrative work and the time spent managing appointments by hand.</li><li>24/7 availability: Lets customers book at any time, even outside business hours.</li><li>Fewer errors: Minimizes human errors in scheduling and handling appointments.</li><li>Better customer experience: Offers a simple, accessible experience that raises satisfaction.</li><li>Automatic reminders: Sends reminders to reduce cancellations and no-shows.</li><li>Seamless integration: Connects with your existing systems and preferred platforms for centralized management.</li></ul>",
+     "kicker": "Benefits",
+     "image": {
+      "src": "/media/2024-08-automatizacion-citas.webp",
+      "width": 667,
+      "height": 1000,
+      "alt": ""
+     },
+     "href": "https://calendar.app.google/LMM7fpZbvoKX4H979",
+     "cta": "I need this service"
+    },
+    {
+     "t": "gallery",
+     "images": [
+      {
+       "src": "/media/2024-08-calendar-idm-1.webp",
+       "width": 294,
+       "height": 140,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-slack-idm.webp",
+       "width": 556,
+       "height": 299,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-calendly-idm.webp",
+       "width": 296,
+       "height": 154,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-backgroundborder.webp",
+       "width": 556,
+       "height": 298,
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "t": "anchor",
+     "id": "clientepc"
+    },
+    {
+     "t": "card",
+     "title": "Customer service",
+     "html": "<p>Improve your customer experience with our automated customer service system. Built to give fast, accurate answers, it lets customers resolve their questions efficiently, 24 hours a day.</p><ul><li>Instant response: Answers customer questions quickly, improving satisfaction.</li><li>24/7 availability: Serves your customers at any hour.</li><li>Lower costs: Reduces operating costs by lowering the need for support staff.</li><li>Consistent answers: Ensures uniform, accurate answers to frequent questions.</li><li>Higher customer satisfaction: Improves how customers see your service with constant, efficient support.</li><li>Scalability: Handles a high volume of requests without sacrificing quality.</li><li>Personalization: Adapts answers and tone to your business’s specific needs.</li></ul>",
+     "kicker": "Benefits",
+     "image": {
+      "src": "/media/2024-08-atencion-al-cliente-automatizacion-ai.webp",
+      "width": 667,
+      "height": 1000,
+      "alt": ""
+     },
+     "href": "https://calendar.app.google/LMM7fpZbvoKX4H979",
+     "cta": "I need this service"
+    },
+    {
+     "t": "gallery",
+     "images": [
+      {
+       "src": "/media/2024-08-watsap-idp.webp",
+       "width": 235,
+       "height": 125,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-instagram-idp.webp",
+       "width": 237,
+       "height": 125,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-mesenger-idp.webp",
+       "width": 237,
+       "height": 121,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-telegram-idp.webp",
+       "width": 239,
+       "height": 121,
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "t": "anchor",
+     "id": "ventaspc"
+    },
+    {
+     "t": "card",
+     "title": "Product and Service Sales",
+     "html": "<p>Speed up and simplify the sale of your products and services with our automated system. Built to manage orders and payments efficiently, it improves your customers’ buying experience and increases conversions.</p><ul><li>Simplified sales process: Automates everything from product selection to final payment.</li><li>24/7 availability: Lets customers buy at any time, with no schedule limits.</li><li>Fewer errors: Minimizes mistakes in order and payment handling.</li><li>Better customer experience: Offers a fast, frictionless purchase.</li><li>More sales: Makes buying easier and faster, increasing conversions.</li><li>Efficient inventory management: Syncs sales with your inventory system automatically.</li><li>Analytics and reports: Gives you detailed insight into your customers’ buying behavior.</li></ul>",
+     "kicker": "Benefits",
+     "image": {
+      "src": "/media/2024-08-319476.webp",
+      "width": 561,
+      "height": 1000,
+      "alt": "VENTA DE PRODUCTOS automatizado"
+     },
+     "href": "https://calendar.app.google/LMM7fpZbvoKX4H979",
+     "cta": "I need this service"
+    },
+    {
+     "t": "gallery",
+     "images": [
+      {
+       "src": "/media/2024-08-shopify-idm.webp",
+       "width": 149,
+       "height": 77,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-wordpress-idp.webp",
+       "width": 155,
+       "height": 77,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-google-idm.webp",
+       "width": 152,
+       "height": 80,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-whatsap2-idp.webp",
+       "width": 149,
+       "height": 78,
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "t": "card",
+     "title": "Collections",
+     "html": "<p>Built to improve payment follow-up and reduce late payments, our service sends automatic reminders and simplifies collection, keeping your accounts receivable under control.</p><ul><li>Efficient follow-up: Automates tracking of pending payments with scheduled reminders.</li><li>Fewer late payments: Lowers the risk of non-payment through steady, timely communication.</li><li>Time savings: Frees your team from repetitive tasks so they can focus on higher-value work.</li><li>Better cash flow: Ensures a steady inflow of funds and improves financial planning.</li><li>Transparency and control: Provides detailed tracking and reports on the status of receivables.</li><li>Happier customers: Makes paying easier with multiple options and timely reminders.</li></ul>",
+     "kicker": "Benefits",
+     "image": {
+      "src": "/media/2024-08-recoleccion-de-cartera-automatizada.webp",
+      "width": 665,
+      "height": 1000,
+      "alt": ""
+     },
+     "href": "https://wa.link/k9m8qz",
+     "cta": "I need this service"
+    },
+    {
+     "t": "anchor",
+     "id": "led"
+    },
+    {
+     "t": "card",
+     "title": "Lead Follow-up",
+     "html": "<p>Maximize conversions and build loyalty with our automated lead follow-up system. Built to stay in touch with prospects and existing customers, it lets you manage every stage of the sales process efficiently and personally.</p><ul><li>Higher conversion: Raises conversion rates with steady, personalized follow-up.</li><li>Stronger loyalty: Keeps current customers engaged with relevant, timely messages.</li><li>Time savings: Automates follow-up so your sales team can focus on qualified leads.</li><li>Personalized communication: Adapts messages and offers to each lead’s behavior and preferences.</li><li>Shorter sales cycle: Reduces cycle time with continuous, efficient communication.</li></ul> <ul><li>Analytics and reports: Gives you detailed insight into how well your follow-up strategies work.</li></ul>",
+     "kicker": "Benefits",
+     "image": {
+      "src": "/media/2024-08-seguimiento-de-leads-automatizado.webp",
+      "width": 667,
+      "height": 1000,
+      "alt": ""
+     },
+     "href": "https://wa.link/k9m8qz",
+     "cta": "I need this service"
+    },
+    {
+     "t": "gallery",
+     "images": [
+      {
+       "src": "/media/2024-08-watsap-idp.webp",
+       "width": 235,
+       "height": 125,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-instagram-idp.webp",
+       "width": 237,
+       "height": 125,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-mesenger-idp.webp",
+       "width": 237,
+       "height": 121,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-telegram-idp.webp",
+       "width": 239,
+       "height": 121,
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "t": "anchor",
+     "id": "pospc"
+    },
+    {
+     "t": "card",
+     "title": "After-sales Service",
+     "html": "<p>Keep customers satisfied and loyal with our automated after-sales service. Built to handle questions and requests quickly, it provides continuous, efficient support that improves the post-purchase experience.</p><ul><li>Fast response: Gives customers immediate solutions to their questions and issues.</li><li>24/7 availability: Provides support at any time to keep customers happy.</li><li>Lower costs: Reduces operating costs by automating after-sales service.</li><li>Consistent answers: Ensures uniform, accurate answers to frequent questions.</li><li>Better retention: Increases customer loyalty through excellent support.</li></ul>",
+     "kicker": "Benefits",
+     "image": {
+      "src": "/media/2024-08-servicio-postvent-a-automatizado.webp",
+      "width": 563,
+      "height": 1000,
+      "alt": ""
+     },
+     "href": "https://wa.link/k9m8qz",
+     "cta": "I need this service"
+    },
+    {
+     "t": "gallery",
+     "images": [
+      {
+       "src": "/media/2024-08-watsap-idp.webp",
+       "width": 235,
+       "height": 125,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-instagram-idp.webp",
+       "width": 237,
+       "height": 125,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-mesenger-idp.webp",
+       "width": 237,
+       "height": 121,
+       "alt": ""
+      },
+      {
+       "src": "/media/2024-08-telegram-idp.webp",
+       "width": 239,
+       "height": 121,
+       "alt": ""
+      }
+     ]
+    },
+    {
+     "t": "anchor",
+     "id": "cartera2"
+    }
+   ]
+  }
+ ],
+ "modified": "2025-11-20T13:50:24"
+}

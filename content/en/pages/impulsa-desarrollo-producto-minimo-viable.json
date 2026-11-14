@@ -1,0 +1,292 @@
+{
+ "slug": "impulsa-desarrollo-producto-minimo-viable",
+ "title": "MVP development company",
+ "seo": {
+  "title": "MVP Development Company in Colombia | Agencia IDP",
+  "description": "Build your MVP with Agencia IDP, an MVP development company in Colombia. We validate your idea in weeks with minimal risk and investment, starting at USD 1,000.",
+  "image": "/media/2025-04-oip-2.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Your minimum viable product, validated with technology and strategy"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Scalable products · Fair price · Beautiful · UX/UI"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "rich",
+     "html": "<p>MVP development with Agencia IDP: we design, build and test your minimum viable product with real users.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "/media/2025-05-desarrollando-software-agencia-idp-1024x683.webp",
+     "width": 1024,
+     "height": 683,
+     "alt": "Desarrollando software en agencia IDP"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-overlay.webp",
+     "width": 932,
+     "height": 648,
+     "alt": ""
+    },
+    {
+     "t": "rich",
+     "html": "<p>At <a href=\"/en/\"><strong>Agencia IDP</strong></a> we specialize in building <strong>minimum viable products</strong> (MVPs) that help founders, startups and companies validate business ideas quickly, affordably and with room to scale.</p>"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "We build your MVP from:"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "USD 1,000"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Have an idea in mind?"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "Let's talk"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "What is an MVP?"
+    },
+    {
+     "t": "rich",
+     "html": "<p>A <strong>Minimum Viable Product (MVP)</strong> is the fastest and most effective way to take your idea to market without overspending. You build only what is essential to solve a real problem, test it with users and learn before investing more.</p>"
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "I have an MVP"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Early product validation",
+      "Significant savings on development costs",
+      "A solid foundation to scale later",
+      "Shorter time to market"
+     ]
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-desarrollando-paginas-web-agencia-idp-1024x683.webp",
+     "width": 1024,
+     "height": 683,
+     "alt": "desarrollando páginas web con agencia IDP"
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-desarrollo-software-idp-empresarios-felices-scaled.webp",
+     "width": 1600,
+     "height": 1067,
+     "alt": "desarrollo software idp empresarios felices"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "href": "https://wa.link/k9m8qz",
+     "text": "Contact us"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "What does our MVP development service include?"
+    },
+    {
+     "t": "rich",
+     "html": "<p>At <strong>Agencia IDP</strong> we don’t just write code: <strong>we guide you through the entire process</strong> of building your product from scratch.</p>"
+    },
+    {
+     "t": "card",
+     "title": "Problem and solution definition",
+     "html": "<p>Together we identify the core need and how your product solves it.</p>"
+    },
+    {
+     "t": "card",
+     "title": "Usability-driven UX/UI",
+     "html": "<p>We design attractive, intuitive, user-centered interfaces.</p>"
+    },
+    {
+     "t": "card",
+     "title": "Agile, scalable development",
+     "html": "<p>We use modern, secure, easy-to-maintain technologies.</p>"
+    },
+    {
+     "t": "card",
+     "title": "Testing with real users",
+     "html": "<p>We include real-world testing to ensure functionality and usability.</p>"
+    },
+    {
+     "t": "card",
+     "title": "Launch and ongoing support",
+     "html": "<p>We deploy your MVP and advise you on the next stage.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "If you are..."
+    },
+    {
+     "t": "list",
+     "items": [
+      "A founder who wants to validate an idea before investing more",
+      "A startup that needs a working product to attract investment",
+      "A company that wants to test a new service without committing its whole budget",
+      "An innovator looking for speed and market clarity"
+     ]
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "...we make your idea happen"
+    },
+    {
+     "t": "button",
+     "href": "/en/contact/",
+     "text": "Let's talk"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "We choose the technology that best fits your idea and your budget."
+    },
+    {
+     "t": "button",
+     "href": "https://wa.link/2wt1q1",
+     "text": "Contact us"
+    },
+    {
+     "t": "chips",
+     "items": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Flutter",
+      "MongoDB",
+      "AWS",
+      "And more..."
+     ]
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "With more than 6 years of experience, we help you launch your product in record time, gather real user feedback and get ready for future funding rounds or growth."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "A Minimum Viable Product (MVP) is the simplest working version of your product, designed to solve a specific problem and reach the market as soon as possible."
+    },
+    {
+     "t": "image",
+     "src": "/media/2025-05-transformando-ideas-en-productos-digitales-scaled.webp",
+     "width": 1600,
+     "height": 1068,
+     "alt": "Reunión con empresas transformando ideas en productos digitales"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "stat",
+     "value": "5",
+     "suffix": "%",
+     "label": "margin of error"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Less risk, more learning</p>"
+    },
+    {
+     "t": "stat",
+     "value": "-30",
+     "suffix": "",
+     "label": "days"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Fast time to market</p>"
+    },
+    {
+     "t": "stat",
+     "value": "100",
+     "suffix": "%",
+     "label": "real users"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Real validation with users</p>"
+    },
+    {
+     "t": "stat",
+     "value": "80",
+     "suffix": "%",
+     "label": "savings"
+    },
+    {
+     "t": "rich",
+     "html": "<p>Lower costs and focus on what matters</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "href": "https://wa.link/2wt1q1",
+     "text": "Let's talk"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-02-17T09:14:27"
+}

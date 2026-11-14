@@ -1,0 +1,77 @@
+{
+ "slug": "soluciones",
+ "title": "soluciones",
+ "seo": {
+  "title": "Soluciones Tecnológicas para Empresas en Colombia | Agencia IDP",
+  "description": "Agencia IDP ofrece soluciones tecnológicas integrales para empresas colombianas: software a medida, automatización con IA, apps móviles, e-commerce y transformación digital.",
+  "image": "/media/tor-thumbs-d1dc5a9f-055d-488c-bdda-4bacb506d8f0-rh72hvf4hz2u36n6ik73moeabvks5cyfqp15o2x4jk.webp"
+ },
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Nuestras soluciones"
+    },
+    {
+     "t": "card",
+     "title": "SEDEFY",
+     "html": "<p>Organiza, automatiza y mejora cada proceso académico y administrativo desde una sola plataforma. Mejora el rendimiento academico de los estudiantes de preescolar, primaria y secundaria. </p>",
+     "kicker": "Transformamos la gestión educativa.",
+     "image": {
+      "src": "/media/tor-thumbs-d1dc5a9f-055d-488c-bdda-4bacb506d8f0-rh72hvf4hz2u36n6ik73moeabvks5cyfqp15o2x4jk.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "d1dc5a9f-055d-488c-bdda-4bacb506d8f0"
+     },
+     "href": "https://sedeapp.com/",
+     "cta": "Visitar"
+    },
+    {
+     "t": "card",
+     "title": "Pushleads",
+     "html": "<p>Nuestro agente de IA analiza, hipersegmenta y genera campañas 24/7 en todos tus canales</p>",
+     "kicker": "Campañas super optimizadas en piloto automático",
+     "image": {
+      "src": "/media/tor-thumbs-e1b61d05-2b30-480d-9a8d-36fb32db6a67-rh72l7qgsrnjd9sf007chu1ad73rim82v8jb3hyqf4.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "e1b61d05-2b30-480d-9a8d-36fb32db6a67"
+     },
+     "href": "https://pushleads.co/",
+     "cta": "Visitar"
+    },
+    {
+     "t": "card",
+     "title": "Pidelo ya",
+     "html": "<p>POS, menú digital, pedidos QR, reservaciones, inventario y más. Todo en una plataforma intuitiva diseñada para restaurantes que quieren crecer.</p>",
+     "kicker": "Gestiona tu restaurante sin complicaciones",
+     "image": {
+      "src": "/media/or-thumbs-whatsapp-image-2026-01-05-at-01-25-20-rh72nl9s2owmpsc64j6eaqg8f9e5z2nnizwhrofwow.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "WhatsApp Image 2026-01-05 at 01.25.20"
+     },
+     "href": "https://www.pideloya.app/",
+     "cta": "Visitar"
+    },
+    {
+     "t": "card",
+     "title": "Dominios y Hosting rápido seguro y ecológico.",
+     "html": "<p>Plantamos un arbol en zonas deforestadas de la amazonia por cada hosting y dominio comprado</p>",
+     "kicker": "BRAND DESIGN",
+     "image": {
+      "src": "/media/or-thumbs-whatsapp-image-2026-01-05-at-01-27-00-rh72q6bsvag0n6l015egnkyv8eni53x2vshka2lxkw.webp",
+      "width": 1440,
+      "height": 800,
+      "alt": "WhatsApp Image 2026-01-05 at 01.27.00"
+     },
+     "href": "https://capihost.com/index.php",
+     "cta": "Visitar"
+    }
+   ]
+  }
+ ],
+ "modified": "2026-01-05T01:30:46"
+}
