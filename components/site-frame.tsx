@@ -51,7 +51,8 @@ export function SiteFrame({ lang, children }: { lang: Lang; children: ReactNode 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([organization, websiteOf(lang)]) }} />
       <Integrations />
       <Motion />
-      {process.env.NODE_ENV === 'production' && <Analytics />}
+      {/* Vercel Analytics solo funciona alojado en Vercel; en Dokploy no se carga. */}
+      {process.env.VERCEL && <Analytics />}
     </LangProvider>
   )
 }

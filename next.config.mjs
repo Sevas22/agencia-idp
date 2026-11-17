@@ -51,6 +51,8 @@ const legacyRedirects = [
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   poweredByHeader: false,
+  // Servidor autónomo para la imagen Docker de Dokploy (ver Dockerfile).
+  output: 'standalone',
   // Un layout raíz por idioma (app/(site) y app/(en)) y app/global-not-found.tsx para las URLs que no existen.
   experimental: { globalNotFound: true },
   // WordPress publicaba todas las URLs con "/" final; se mantienen idénticas.
