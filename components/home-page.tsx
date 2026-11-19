@@ -1,5 +1,5 @@
 import Script from 'next/script'
-import { ArrowUpRight, Play } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import { Btn, Label, NumberedList, Pic } from '@/components/nx'
 import { ProjectRail } from '@/components/project-rail'
 import { getPage, read, readLocal, type Img } from '@/lib/content'
@@ -38,11 +38,6 @@ export async function HomePage() {
   const clients = getClients()
   const casesPath = pathOf('cases', lang)
 
-  const stats = [
-    ['300+', t('Proyectos realizados', 'Projects delivered')],
-    ['6+', t('Años de experiencia', 'Years of experience')],
-    ['200+', t('Empresas impactadas', 'Companies served')],
-  ]
 
   const cases = getPage('crea-paginas-web-profesionales-colombia').sections.flatMap((s) => s.blocks)
   // Un solo carrusel con las capturas completas de los proyectos, sin recortes.
@@ -75,7 +70,7 @@ export async function HomePage() {
               <li>{t('Nuevos modelos de negocio digitales', 'New digital business models')}</li>
             </ul>
             <div className="nx-actions">
-              <Btn href={site.calendar}>{t('Hablemos', "Let's talk")}</Btn>
+              <Btn href="#agenda">{t('Agenda una llamada', 'Book a call')}</Btn>
               <Btn href={casesPath} variant="white">
                 {t('Ver casos de éxito', 'See case studies')}
               </Btn>
@@ -101,31 +96,71 @@ export async function HomePage() {
         </div>
       </section>
 
-      <section className="nx-section nx-center nx-grey" data-theme="light">
+      <section className="nx-section" id="metodologia" data-theme="light">
         <div className="nx-wrap">
-          <h2 className="nx-h2">{copy.intro}</h2>
-          <p className="nx-lead nx-measure">{copy.about}</p>
-          <dl className="nx-stats">
-            {stats.map(([value, label]) => (
-              <div key={label}>
-                <dd>{value}</dd>
-                <dt>{label}</dt>
-              </div>
-            ))}
-          </dl>
-          <a className="nx-film is-orbit" href={site.video} target="_blank" rel="noopener noreferrer" aria-label={t('Ver el video de Agencia IDP', 'Watch the Agencia IDP video')}>
-            <span className="nx-arc" aria-hidden />
-            <span className="nx-film-word" aria-hidden>
-              {t('Innovación', 'Innovation')}
-            </span>
-            <i>
-              <Play size={22} fill="currentColor" aria-hidden />
-            </i>
-          </a>
+          <div className="nx-head-row">
+            <div>
+              <Label>{t('Metodología IDP · Innova Desarrollando Producto', 'IDP methodology · Innovate by Developing Product')}</Label>
+              <h2 className="nx-h2">{t('Del concepto al código y al mercado', 'From concept to code to market')}</h2>
+              <p className="nx-lead nx-head-text">
+                {t(
+                  'Idear + Desarrollar + Probar negocio. Nada de teorías complicadas, solo MVPs que funcionan y se validan con usuarios reales.',
+                  'Ideate + Develop + Test the business. No complicated theory, just MVPs that work and are validated with real users.',
+                )}
+              </p>
+            </div>
+            <div className="nx-actions">
+              <Btn href="#agenda">{t('Hablemos', "Let's talk")}</Btn>
+              <Btn href={media.brochure} variant="white">
+                {t('Descargar brochure', 'Download brochure')}
+              </Btn>
+            </div>
+          </div>
+          <IdpMethod />
         </div>
       </section>
 
-      <section className="nx-section" id="servicios" data-theme="light">
+      <section className="nx-section nx-grey" data-theme="light">
+        <div className="nx-wrap nx-sticky-grid">
+          <div className="nx-sticky">
+            <Label>{t('Nuestro stack', 'Our stack')}</Label>
+            <h2 className="nx-h2">{t('Tecnologías', 'Technologies')}</h2>
+            <p className="nx-strong">{copy.techIntro[0]}</p>
+            <p>{copy.techIntro[1]}</p>
+          </div>
+          <NumberedList items={copy.techs.map((tech) => ({ title: tech.title, meta: `${tech.pct}%`, text: tech.stack ? `${tech.text} ${tech.stack}` : tech.text }))} />
+        </div>
+        <div className="nx-wrap nx-focus">
+          <p className="nx-label">{t('Nuestro enfoque incluye', 'Our approach includes')}</p>
+          <ul>
+            {copy.focus.map((text) => {
+              const [title, ...rest] = text.split(':')
+              return (
+                <li key={title}>
+                  <h3>{title}</h3>
+                  <p>{rest.join(':').trim()}</p>
+                </li>
+              )
+            })}
+          </ul>
+          <p className="nx-strong">{copy.focusEnd}</p>
+        </div>
+      </section>
+
+      <section className="nx-section" data-theme="light">
+        <div className="nx-wrap">
+          <div className="nx-head-row">
+            <div>
+              <Label>{t('Casos de éxito', 'Case studies')}</Label>
+              <h2 className="nx-h2">{t('Proyectos realizados', 'Featured projects')}</h2>
+            </div>
+            <Btn href={casesPath}>{t('Ver todos', 'View all')}</Btn>
+          </div>
+          <ProjectRail projects={projects} />
+        </div>
+      </section>
+
+      <section className="nx-section nx-grey" id="servicios" data-theme="light">
         <div className="nx-wrap">
           <Label>{t('Nuestros servicios', 'Our services')}</Label>
           <RevealText
@@ -189,70 +224,6 @@ export async function HomePage() {
             </div>
             <Btn href={site.calendar}>{t('Contactar', 'Contact us')}</Btn>
           </div>
-        </div>
-      </section>
-
-      <section className="nx-section nx-grey" data-theme="light">
-        <div className="nx-wrap nx-sticky-grid">
-          <div className="nx-sticky">
-            <Label>{t('Nuestro stack', 'Our stack')}</Label>
-            <h2 className="nx-h2">{t('Tecnologías', 'Technologies')}</h2>
-            <p className="nx-strong">{copy.techIntro[0]}</p>
-            <p>{copy.techIntro[1]}</p>
-          </div>
-          <NumberedList items={copy.techs.map((tech) => ({ title: tech.title, meta: `${tech.pct}%`, text: tech.stack ? `${tech.text} ${tech.stack}` : tech.text }))} />
-        </div>
-        <div className="nx-wrap nx-focus">
-          <p className="nx-label">{t('Nuestro enfoque incluye', 'Our approach includes')}</p>
-          <ul>
-            {copy.focus.map((text) => {
-              const [title, ...rest] = text.split(':')
-              return (
-                <li key={title}>
-                  <h3>{title}</h3>
-                  <p>{rest.join(':').trim()}</p>
-                </li>
-              )
-            })}
-          </ul>
-          <p className="nx-strong">{copy.focusEnd}</p>
-        </div>
-      </section>
-
-      <section className="nx-section" data-theme="light">
-        <div className="nx-wrap">
-          <div className="nx-head-row">
-            <div>
-              <Label>{t('Casos de éxito', 'Case studies')}</Label>
-              <h2 className="nx-h2">{t('Proyectos realizados', 'Featured projects')}</h2>
-            </div>
-            <Btn href={casesPath}>{t('Ver todos', 'View all')}</Btn>
-          </div>
-          <ProjectRail projects={projects} />
-        </div>
-      </section>
-
-      <section className="nx-section nx-grey" id="metodologia" data-theme="light">
-        <div className="nx-wrap">
-          <div className="nx-head-row">
-            <div>
-              <Label>{t('Metodología IDP · Innova Desarrollando Producto', 'IDP methodology · Innovate by Developing Product')}</Label>
-              <h2 className="nx-h2">{t('Del concepto al código y al mercado', 'From concept to code to market')}</h2>
-              <p className="nx-lead nx-head-text">
-                {t(
-                  'Idear + Desarrollar + Probar negocio. Nada de teorías complicadas, solo MVPs que funcionan y se validan con usuarios reales.',
-                  'Ideate + Develop + Test the business. No complicated theory, just MVPs that work and are validated with real users.',
-                )}
-              </p>
-            </div>
-            <div className="nx-actions">
-              <Btn href="#agenda">{t('Hablemos', "Let's talk")}</Btn>
-              <Btn href={media.brochure} variant="white">
-                {t('Descargar brochure', 'Download brochure')}
-              </Btn>
-            </div>
-          </div>
-          <IdpMethod />
         </div>
       </section>
 

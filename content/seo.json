@@ -15,13 +15,13 @@
   "image": null
  },
  "blog": {
-  "title": "blog - Agencia IDP",
-  "description": "",
+  "title": "Blog de Innovación, Software y Marketing | Agencia IDP",
+  "description": "Guías prácticas sobre MVP, software a la medida, inteligencia artificial, SEO y transformación digital para empresas de Colombia y Latinoamérica.",
   "image": null
  },
  "ui-ux": {
-  "title": "Diseño UI/UX para Apps y Plataformas Digitales | Agencia IDP",
-  "description": "Agencia IDP diseña experiencias de usuario (UI/UX) centradas en conversión. Apps móviles, plataformas web y dashboards con diseño profesional para empresas colombianas.",
+  "title": "Diseño UI/UX para Apps y Plataformas | Agencia IDP",
+  "description": "Diseñamos experiencias de usuario (UI/UX) centradas en conversión: apps móviles, plataformas web y dashboards con diseño profesional para tu empresa.",
   "image": null
  },
  "precios": {
@@ -30,8 +30,8 @@
   "image": null
  },
  "pagina-posicionamiento-seo": {
-  "title": "Posicionamiento SEO en Colombia | Estrategia y Resultados | Agencia IDP",
-  "description": "Mejora tu posicionamiento SEO en Colombia con Agencia IDP. Estrategias de contenido, optimización técnica y SEO local para que tu empresa aparezca primero en Google.",
+  "title": "Posicionamiento SEO en Colombia | Agencia IDP",
+  "description": "Mejora tu posicionamiento SEO en Colombia: estrategia de contenido, optimización técnica y SEO local para que tu empresa aparezca primero en Google.",
   "image": null
  },
  "agentes-seo": {
@@ -40,13 +40,13 @@
   "image": null
  },
  "home": {
-  "title": "Empresa de Innovación y Desarrollo de Software en Colombia | Agencia IDP",
-  "description": "Agencia IDP es una empresa de innovación con fábrica de software in house en Colombia. Creamos MVPs, apps, plataformas web e IA para que tu empresa venda más y lance nuevos modelos de negocio digitales.",
+  "title": "Empresa de Innovación en Colombia | Agencia IDP",
+  "description": "Empresa de innovación con fábrica de software in house. Creamos MVPs, apps, webs e IA para que tu empresa venda más y lance nuevos negocios digitales.",
   "image": "/media/2026-07-db1be1c7-ecf7-4092-b9b2-d699ef95f6be.webp"
  },
  "contacto": {
-  "title": "Contáctanos | Agencia IDP – Empresa de Innovación en Colombia",
-  "description": "Habla con nuestro equipo. En Agencia IDP respondemos en menos de 24 horas. Cuéntanos tu proyecto de software, MVP o transformación digital y te damos una propuesta sin costo.",
+  "title": "Contacto | Agencia IDP, empresa de innovación",
+  "description": "Habla con nuestro equipo: respondemos en menos de 24 horas. Cuéntanos tu proyecto de software, MVP o transformación digital: propuesta sin costo.",
   "image": null
  }
 }

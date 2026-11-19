@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 
 // Bloques que entran con un desplazamiento suave al aparecer en pantalla.
 const REVEAL = [
-  '.nx-page .nx-section .nx-wrap > :not(.nx-trio):not(.nx-posts):not(.nx-quotes):not(.nx-cards):not(.nx-logos):not(.nx-abt-values):not(.nx-abt-team):not(.nx-sticky-grid):not(.nx-feat):not(.nx-process):not(.nx-stack):not(.nx-whocards):not(.nx-autorows):not(.nx-benefits):not(.nx-autoblock-top):not(.nx-guide-grid):not(.nx-cases):not(.nx-channels)',
+  '.nx-page .nx-section .nx-wrap > :not(.nx-trio):not(.nx-posts):not(.nx-quotes):not(.nx-cards):not(.nx-logos):not(.nx-abt-values):not(.nx-abt-team):not(.nx-sticky-grid):not(.nx-feat):not(.nx-process):not(.nx-stack):not(.nx-whocards):not(.nx-autorows):not(.nx-benefits):not(.nx-autoblock-top):not(.nx-guide-grid):not(.nx-cases):not(.nx-channels):not(.nx-svcgrid)',
   '.nx-feat > li',
   '.nx-process > li',
   '.nx-stack > article',
@@ -14,6 +14,7 @@ const REVEAL = [
   '.nx-autorows > article',
   '.nx-benefits > li',
   '.nx-channels > li',
+  '.nx-svcgrid > li',
   '.nx-guide-body > *',
   '.nx-autoblock-top > *',
   '.nx-page .nx-sticky-grid > *',

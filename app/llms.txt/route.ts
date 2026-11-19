@@ -4,6 +4,9 @@ import { site } from '@/lib/site'
 export const dynamic = 'force-static'
 
 const services = [
+  ['Idear: Design Sprint e ideación de producto', '/design-sprint-ideacion-de-producto/'],
+  ['Desarrollar: desarrollo de software a la medida', '/desarrollo-de-software-a-la-medida/'],
+  ['Probar negocio: Venture Lab de validación de negocios', '/venture-lab-validacion-de-negocios/'],
   ['Desarrollo de MVP', '/impulsa-desarrollo-producto-minimo-viable/'],
   ['Software nearshore en Colombia', '/software-nearshore-en-colombia/'],
   ['Transformación digital', '/empresa-de-transformacion-digital/'],
@@ -18,6 +21,9 @@ const services = [
 
 // Versión en inglés para asistentes que responden en inglés (GEO).
 const english = [
+  ['Ideate: Design Sprint', '/en/design-sprint/'],
+  ['Develop: custom software development', '/en/custom-software-development/'],
+  ['Test the business: Venture Lab', '/en/venture-lab/'],
   ['MVP development', '/en/mvp-development/'],
   ['Nearshore software development in Colombia', '/en/nearshore-software-development/'],
   ['Digital transformation', '/en/digital-transformation/'],

@@ -24,6 +24,10 @@ export function SiteHeader() {
   const other = lang === 'en' ? 'es' : 'en'
   // Mismo contenido en el otro idioma (o su inicio si la página no está traducida).
   const switchHref = counterpart(pathname, other)
+  // Si ya estás en la página del enlace (p. ej. Inicio en la portada), vuelve arriba.
+  const toTop = (href: string) => {
+    if (href === pathname) window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   useEffect(() => {
     setOpen(false)
@@ -81,7 +85,7 @@ export function SiteHeader() {
 
   return (
     <header className={`nx-header ${dark ? 'is-dark' : ''} ${open ? 'is-open' : ''} ${atTop ? 'is-top' : ''}`}>
-      <Link href={pathOf('home', lang)} className="nx-logo" aria-label={t('Agencia IDP, ir al inicio', 'Agencia IDP, go to home')}>
+      <Link href={pathOf('home', lang)} onClick={() => toTop(pathOf('home', lang))} className="nx-logo" aria-label={t('Agencia IDP, ir al inicio', 'Agencia IDP, go to home')}>
         <img src={dark ? '/brand/logo-agencia-idp-blanco.webp' : '/brand/logo-agencia-idp.webp'} alt="Agencia IDP" width={640} height={401} />
       </Link>
 
@@ -89,7 +93,7 @@ export function SiteHeader() {
         <ul>
           {items.map((item) => (
             <li key={item.label} className={item.children ? `has-sub ${openSub === item.label ? 'is-open' : ''}` : undefined}>
-              <Link href={item.href} aria-current={pathname === item.href ? 'page' : undefined}>
+              <Link href={item.href} aria-current={pathname === item.href ? 'page' : undefined} onClick={() => toTop(item.href)}>
                 {item.label}
                 {item.children && <Plus size={13} aria-hidden />}
               </Link>

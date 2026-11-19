@@ -1764,3 +1764,55 @@ a:hover > .nx-arrow, .nx-btn:hover .nx-arrow { transform: translateX(4px); }
   .nx-home .nx-hero-col { padding: 16px 20px; gap: 12px; }
   .nx-home .nx-hero-shot { max-width: 300px; }
 }
+
+/* Servicios de la portada: 4 tarjetas que llevan a cada servicio (2026-11-19) */
+.nx-svcgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: clamp(40px, 5vw, 56px) 0 0; padding: 0; list-style: none; }
+.nx-svcgrid a { position: relative; display: flex; flex-direction: column; gap: 10px; height: 100%; padding: 28px 24px; border: 1px solid var(--nx-line); background: #fff; color: #0e0f10; transition: border-color .3s, box-shadow .3s, transform .3s; }
+.nx-svcgrid a:hover { border-color: var(--nx-orange); box-shadow: 0 18px 40px rgb(14 15 16 / .07); transform: translateY(-4px); }
+.nx-svcgrid-num { position: absolute; top: 24px; right: 24px; color: #9a9ca1; font-family: var(--nx-mono); font-size: 12px; }
+.nx-svcgrid-icon { display: grid; place-items: center; width: 48px; height: 48px; margin-bottom: 14px; background: #fff4ee; color: var(--nx-orange); }
+.nx-svcgrid strong { font-size: clamp(21px, 1.7vw, 25px); font-weight: 500; letter-spacing: -0.03em; line-height: 1.15; }
+.nx-svcgrid-text { color: var(--nx-muted); font-size: 15px; line-height: 1.55; }
+.nx-svcgrid-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.nx-svcgrid-tags small { padding: 4px 9px; background: var(--nx-grey); color: #54575d; font-family: var(--nx-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase; }
+.nx-svcgrid-link { display: inline-flex; align-items: center; gap: 6px; margin-top: auto; padding-top: 14px; font-family: var(--nx-mono); font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.nx-svcgrid-link svg { color: var(--nx-orange); transition: transform .25s; }
+.nx-svcgrid a:hover .nx-svcgrid-link svg { transform: rotate(45deg); }
+@media (max-width: 1120px) { .nx-svcgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .nx-svcgrid { grid-template-columns: minmax(0, 1fr); } }
+#metodologia, #servicios { scroll-margin-top: 40px; }
+
+/* Páginas de las fases de la metodología IDP (2026-11-19) */
+.nx-phasenav { padding: 28px; background: #fff; border: 1px solid var(--nx-line); box-shadow: 0 18px 40px rgb(14 15 16 / .06); }
+.nx-phasenav ol { display: grid; gap: 8px; margin: 8px 0 0; padding: 0; list-style: none; }
+.nx-phasenav a { display: grid; grid-template-columns: 36px minmax(0, 1fr); align-items: center; column-gap: 12px; padding: 16px; border: 1px solid var(--nx-line); color: #0e0f10; transition: border-color .25s, background .25s; }
+.nx-phasenav a span { grid-row: span 2; display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid var(--nx-line); font-family: var(--nx-mono); font-size: 12px; color: var(--nx-muted); }
+.nx-phasenav strong { font-size: 18px; font-weight: 500; letter-spacing: -0.02em; }
+.nx-phasenav small { color: var(--nx-muted); font-family: var(--nx-mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+.nx-phasenav a:hover { border-color: #c9cbcf; background: var(--nx-grey); }
+.nx-phasenav .is-current a { border-color: var(--nx-orange); background: #fff4ee; }
+.nx-phasenav .is-current a span { background: var(--nx-orange); border-color: var(--nx-orange); color: #171819; }
+
+.nx-phase-intro { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 80px); align-items: center; }
+.nx-phase-intro .nx-answer { margin: 0; }
+.nx-phase-intro h2 { margin: 0 0 14px; color: #0e0f10; font-size: clamp(24px, 2.2vw, 32px); font-weight: 500; letter-spacing: -0.03em; }
+.nx-phase-intro > div:last-child p { margin: 0; font-size: 17px; }
+
+.nx-phase-extra { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 32px; align-items: center; margin-top: 20px; padding: clamp(24px, 3vw, 40px); background: #fff; border: 1px solid var(--nx-line); }
+.nx-phase-extra h3 { margin: 0; color: #0e0f10; font-size: clamp(20px, 1.8vw, 26px); font-weight: 500; letter-spacing: -0.03em; line-height: 1.2; }
+.nx-phase-extra ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.nx-phase-extra li { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--nx-line); color: #0e0f10; font-size: 15px; }
+.nx-phase-extra li svg { color: var(--nx-orange); }
+
+.nx-phase-next { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 4px 12px; margin-top: 28px; padding: 20px; background: #fff; border: 1px solid var(--nx-line); color: #0e0f10; transition: border-color .25s; }
+.nx-phase-next small { grid-column: 1; color: var(--nx-orange); font-family: var(--nx-mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+.nx-phase-next strong { grid-column: 1; font-size: 20px; font-weight: 500; letter-spacing: -0.02em; }
+.nx-phase-next svg { grid-column: 2; grid-row: 1 / span 2; color: var(--nx-orange); transition: transform .25s; }
+.nx-phase-next:hover { border-color: var(--nx-orange); }
+.nx-phase-next:hover svg { transform: translateX(4px); }
+
+@media (max-width: 900px) {
+  .nx-phase-intro, .nx-phase-extra { grid-template-columns: minmax(0, 1fr); }
+}
+.nx-method-more { display: inline-flex; align-items: center; gap: 8px; margin-top: 22px; padding-bottom: 3px; border-bottom: 1px solid currentColor; color: #0e0f10; font-family: var(--nx-mono); font-size: 12px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.nx-method-more:hover { color: var(--nx-orange); }

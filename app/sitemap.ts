@@ -12,7 +12,7 @@ const withAlternates = (path: string, lastModified?: string) => {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const fixed = ['/', '/contacto/', '/precios/', '/blog/', '/agentes-seo/', '/pagina-posicionamiento-seo/', '/ui-ux/']
+  const fixed = ['/', '/contacto/', '/precios/', '/blog/', '/agentes-seo/', '/pagina-posicionamiento-seo/', '/ui-ux/', '/design-sprint-ideacion-de-producto/', '/desarrollo-de-software-a-la-medida/', '/venture-lab-validacion-de-negocios/']
   const english = Object.values(routes).map(([es, en]) => {
     const slug = es.replace(/^\/|\/$/g, '')
     const modified = getPageSlugs().includes(slug) ? getPage(slug).modified : undefined

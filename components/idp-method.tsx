@@ -1,6 +1,8 @@
 'use client'
 
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { ArrowRight } from 'lucide-react'
+import { pathOf, type RouteKey } from '@/lib/i18n'
 import { useLang, useT } from './lang-context'
 
 // Metodología IDP tomada de la presentación corporativa de la empresa.
@@ -77,6 +79,9 @@ const phasesEn: typeof phasesEs = [
     ],
   },
 ]
+
+// Página de cada fase.
+const phaseRoutes: RouteKey[] = ['ideate', 'develop', 'validate']
 
 const STICKY_TOP = 96
 
@@ -193,6 +198,9 @@ export function IdpMethod() {
                   <p className="nx-method-count">
                     <strong>{String(lit).padStart(2, '0')}</strong> / {String(phase.steps.length).padStart(2, '0')} {t('pasos', 'steps')}
                   </p>
+                  <a className="nx-method-more" href={pathOf(phaseRoutes[i], lang)}>
+                    {t(`Conoce la fase ${phasesEs[i].name}`, `Explore the ${phasesEn[i].name} phase`)} <ArrowRight size={15} className="nx-arrow" aria-hidden />
+                  </a>
                 </div>
                 <ol>
                   {phase.steps.map(([title, text], j) => (

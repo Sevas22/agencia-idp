@@ -29,12 +29,15 @@ export const socials = [
 export type NavItem = { label: string; href: string; children?: { label: string; href: string }[] }
 
 export const nav: NavItem[] = [
-  { label: 'Nuestro servicio', href: '/#servicios' },
+  { label: 'Inicio', href: '/' },
   { label: 'Sobre nosotros', href: '/transforma-agencia-software-colombia/' },
   {
     label: 'Servicios',
     href: '/#servicios',
     children: [
+      { label: 'Idear · Design Sprint', href: '/design-sprint-ideacion-de-producto/' },
+      { label: 'Desarrollar · Software a la medida', href: '/desarrollo-de-software-a-la-medida/' },
+      { label: 'Probar negocio · Venture Lab', href: '/venture-lab-validacion-de-negocios/' },
       { label: 'Desarrollo de productos mínimos viables', href: '/impulsa-desarrollo-producto-minimo-viable/' },
       { label: 'Software nearshore', href: '/software-nearshore-en-colombia/' },
       { label: 'Transformación digital', href: '/empresa-de-transformacion-digital/' },
@@ -58,12 +61,15 @@ export const footerLinks = [
 
 // Menú y pie en inglés. El blog sigue en español y se enlaza tal cual.
 export const navEn: NavItem[] = [
-  { label: 'What we do', href: '/en/#servicios' },
+  { label: 'Home', href: '/en/' },
   { label: 'About us', href: '/en/about-us/' },
   {
     label: 'Services',
     href: '/en/#servicios',
     children: [
+      { label: 'Ideate · Design Sprint', href: '/en/design-sprint/' },
+      { label: 'Develop · Custom software', href: '/en/custom-software-development/' },
+      { label: 'Test the business · Venture Lab', href: '/en/venture-lab/' },
       { label: 'MVP development', href: '/en/mvp-development/' },
       { label: 'Nearshore software', href: '/en/nearshore-software-development/' },
       { label: 'Digital transformation', href: '/en/digital-transformation/' },
