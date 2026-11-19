@@ -122,7 +122,7 @@ export function MetricsBand({ items }: { items: { value: string; label: string; 
 /** Cierre oscuro con título grande y botones. */
 export function BigCta({ label, title, text, children }: { label: string; title: string; text?: string; children: ReactNode }) {
   return (
-    <section className="nx-section nx-abt-cta nx-glow" data-theme="dark">
+    <section className="nx-section nx-abt-cta nx-grey" data-theme="light">
       <div className="nx-wrap">
         <Label>{label}</Label>
         <h2 className="nx-display">{title}</h2>

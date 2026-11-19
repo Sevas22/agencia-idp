@@ -1,9 +1,9 @@
 {
  "slug": "transforma-agencia-software-colombia",
- "title": "Software Development Agency in Colombia: Transform and Optimize Your Business",
+ "title": "Agencia IDP: innovation company with an in-house software factory in Colombia",
  "seo": {
-  "title": "About Agencia IDP: Software Development Agency in Colombia",
-  "description": "Meet Agencia IDP, a software development agency in Medellín, Colombia. We build MVPs, web platforms, apps and AI solutions for companies in Latin America and the US.",
+  "title": "About Agencia IDP: Innovation Company in Colombia",
+  "description": "Agencia IDP is an innovation company with an in-house software factory in Colombia. Our commitment: helping clients sell more in their business and through new digital business models.",
   "image": "/media/2025-04-jefferson-espana.webp"
  },
  "sections": [
@@ -12,12 +12,12 @@
     {
      "t": "heading",
      "level": 2,
-     "text": "Software development agency in Colombia"
+     "text": "Innovation company in Colombia"
     },
     {
      "t": "heading",
      "level": 2,
-     "text": "A digital transformation factory"
+     "text": "Innovation with an in-house software factory"
     },
     {
      "t": "card",
@@ -332,7 +332,7 @@
     },
     {
      "t": "rich",
-     "html": "<p>As a software company, we are proud to have worked with some of the largest brands in Colombia, delivering innovative technology solutions that transformed their operations and digital experiences. We have had the privilege of working with well-known companies in retail, banking, healthcare and manufacturing.</p>"
+     "html": "<p>At Agencia IDP we are proud to have worked with some of the largest brands in Colombia, delivering innovative technology solutions that transformed their operations and digital experiences. We have had the privilege of working with well-known companies in retail, banking, healthcare and manufacturing.</p>"
     },
     {
      "t": "button",

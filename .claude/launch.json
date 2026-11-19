@@ -2,6 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     { "name": "agencia-idp", "runtimeExecutable": "node", "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "-p", "3000"], "port": 3000 },
-    { "name": "agencia-idp-3001", "runtimeExecutable": "node", "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "-p", "3001"], "port": 3001 }
+    { "name": "agencia-idp-3001", "runtimeExecutable": "node", "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "-p", "3001"], "port": 3001 },
+    { "name": "agencia-idp-3002", "runtimeExecutable": "node", "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "-p", "3002"], "port": 3002 }
   ]
 }

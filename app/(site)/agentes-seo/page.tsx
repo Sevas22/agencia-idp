@@ -30,7 +30,7 @@ const sample: [string, number][] = [
 export default function SeoAgentsPage() {
   return (
     <div className="nx-page">
-      <section className="nx-section nx-split-hero" data-theme="dark">
+      <section className="nx-section nx-split-hero nx-grey" data-theme="light">
         <div className="nx-wrap nx-split">
           <div>
             <Label>Diagnóstico automatizado</Label>
@@ -88,7 +88,7 @@ export default function SeoAgentsPage() {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap nx-sticky-grid">
           <div className="nx-sticky">
             <h2 className="nx-h2">Qué recibes</h2>

@@ -39,7 +39,7 @@ export async function GET() {
     .join('\n')
   const body = `# Agencia IDP
 
-> Agencia de desarrollo de software en Medellín, Colombia. Construye MVP, aplicaciones web y móviles, automatizaciones con IA y estrategias de SEO y GEO con su metodología IDP (Innova Desarrollando Producto).
+> Empresa de innovación con fábrica de software in house, con sede en Medellín, Colombia, y presencia en Florida (EE. UU.). Su compromiso es que sus clientes vendan más en su negocio y con nuevos modelos de negocio digitales. Construye MVP, aplicaciones web y móviles, automatizaciones con IA y estrategias de SEO y GEO con su metodología IDP (Idear, Desarrollar, Probar negocio).
 
 ## Servicios
 
@@ -47,7 +47,7 @@ ${services.map(([label, href]) => `- [${label}](${site.url}${href})`).join('\n')
 
 ## English
 
-> Agencia IDP is a software development agency in Medellín, Colombia, with offices in Colombia and Florida (USA). It builds MVPs, web and mobile apps, AI automation and nearshore development teams for companies in the US and Latin America, using the IDP methodology (Ideate, Develop, Test the business). MVPs start at USD 1,000.
+> Agencia IDP is an innovation company with an in-house software factory, based in Medellín, Colombia, with offices in Colombia and Florida (USA). Its commitment is to help clients sell more in their business and through new digital business models. It builds MVPs, web and mobile apps, AI automation and nearshore development teams for companies in the US and Latin America, using the IDP methodology (Ideate, Develop, Test the business). MVPs start at USD 1,000.
 
 ${english.map(([label, href]) => `- [${label}](${site.url}${href})`).join('\n')}
 

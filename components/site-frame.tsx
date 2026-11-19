@@ -23,6 +23,8 @@ const organization = {
   address: { '@type': 'PostalAddress', addressLocality: 'Medellín', addressRegion: 'Antioquia', addressCountry: 'CO' },
   areaServed: ['CO', 'US', 'MX', 'DO', 'CR', 'ES', 'BR'],
   knowsLanguage: ['es', 'en'],
+  slogan: 'Impulsamos tus ideas',
+  description: 'Empresa de innovación con fábrica de software in house en Colombia. Su compromiso es que sus clientes vendan más en su negocio y con nuevos modelos de negocio digitales.',
   sameAs: socials.filter((s) => !s.href.includes('wa.link')).map((s) => s.href),
   openingHours: ['Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00'],
 }
@@ -33,7 +35,12 @@ const websiteOf = (lang: Lang) => ({
   '@id': `${site.url}${pick(lang, '/', '/en/')}#website`,
   url: `${site.url}${pick(lang, '/', '/en/')}`,
   name: site.name,
-  alternateName: pick(lang, 'Agencia de software en Medellín', 'Software development agency in Colombia'),
+  alternateName: pick(lang, 'Empresa de innovación en Medellín', 'Innovation company in Colombia'),
+  description: pick(
+    lang,
+    'Empresa de innovación con fábrica de software in house. Ayudamos a nuestros clientes a vender más en su negocio y con nuevos modelos de negocio digitales.',
+    'Innovation company with an in-house software factory. We help clients sell more in their business and through new digital business models.',
+  ),
   inLanguage: pick(lang, 'es-CO', 'en'),
   publisher: { '@id': `${site.url}/#organization` },
 })

@@ -1,7 +1,6 @@
 'use client'
 
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { ArrowRight, Check, CircleStop, RotateCcw, Shuffle, SlidersHorizontal, TrendingUp, X } from 'lucide-react'
 import { useLang, useT } from './lang-context'
 
 // Metodología IDP tomada de la presentación corporativa de la empresa.
@@ -33,10 +32,10 @@ const phasesEs = [
     sprint: 'Venture Lab',
     text: 'Una célula de venture lanza, opera y valida tu producto en el mercado real. Lo hacemos contigo.',
     steps: [
-      ['Validamos', 'El problema y la propuesta de valor.'],
+      ['Definimos', 'Hipótesis, experimentos y estrategias.'],
       ['Atraemos', 'Usuarios reales con estrategias probadas.'],
       ['Gestionamos', 'La operación comercial punta a punta.'],
-      ['Medimos', 'CAC, conversión y retención.'],
+      ['Medimos', 'Comportamientos clave y resultados de negocio.'],
       ['Optimizamos', 'Iteramos para aprender más rápido.'],
     ],
   },
@@ -70,35 +69,14 @@ const phasesEn: typeof phasesEs = [
     sprint: 'Venture Lab',
     text: 'A venture cell launches, runs and validates your product in the real market. We do it with you.',
     steps: [
-      ['Validate', 'The problem and the value proposition.'],
+      ['Define', 'Hypotheses, experiments and strategies.'],
       ['Attract', 'Real users with proven strategies.'],
       ['Manage', 'End-to-end commercial operations.'],
-      ['Measure', 'CAC, conversion and retention.'],
+      ['Measure', 'Key behaviors and business results.'],
       ['Optimize', 'We iterate to learn faster.'],
     ],
   },
 ]
-
-const outcomesEn = {
-  escalar: ['Scale with confidence', 'Acquisition and retention are proven: it is time to invest.'],
-  ajustar: ['Adjust with direction', 'There is traction, but the model or audience needs fine-tuning.'],
-  pivotear: ['Pivot', 'The problem is real, but the solution does not fit. We change course with data.'],
-  detener: ['Stop in time', 'Early invalidation before spending more on an idea the market does not want.'],
-} as const
-
-const outcomesEs = {
-  escalar: ['Escalar con confianza', 'La adquisición y la retención están probadas: es momento de invertir.'],
-  ajustar: ['Ajustar con dirección', 'Hay tracción, pero el modelo o la audiencia necesitan afinación.'],
-  pivotear: ['Pivotear', 'El problema existe, pero la solución no encaja. Cambiamos con datos en mano.'],
-  detener: ['Detener a tiempo', 'Invalidación temprana antes de gastar más en una idea que el mercado no quiere.'],
-} as const
-type Outcome = keyof typeof outcomesEs
-const outcomeIcons = {
-  escalar: TrendingUp,
-  ajustar: SlidersHorizontal,
-  pivotear: Shuffle,
-  detener: CircleStop,
-}
 
 const STICKY_TOP = 96
 
@@ -174,7 +152,7 @@ export function IdpMethod() {
 
   return (
     <div className="nx-method">
-      <div ref={track} className={`nx-method-track ${pinned ? 'is-pinned' : ''}`} style={pinned ? { height: `${phases.length * 85}vh` } : undefined}>
+      <div ref={track} className={`nx-method-track ${pinned ? 'is-pinned' : ''}`} style={pinned ? { height: `${phases.length * 60}vh` } : undefined}>
         <div ref={stage} className="nx-method-stage">
           <div className="nx-method-rail" role="tablist" aria-label={t('Fases de la metodología IDP', 'IDP methodology phases')}>
             {phases.map((phase, i) => (
@@ -233,85 +211,6 @@ export function IdpMethod() {
           {pinned && <p className="nx-method-hint">{t('Desplázate para recorrer las fases', 'Scroll to move through the phases')}</p>}
         </div>
       </div>
-
-      <Diagnostic />
-    </div>
-  )
-}
-
-/** Mini diagnóstico: dos preguntas llevan a uno de los cuatro escenarios de la metodología. */
-function Diagnostic() {
-  const lang = useLang()
-  const t = useT()
-  const outcomes = lang === 'en' ? outcomesEn : outcomesEs
-  const [returns, setReturns] = useState<boolean | null>(null)
-  const [second, setSecond] = useState<boolean | null>(null)
-  const result: Outcome | null = returns === null || second === null ? null : returns ? (second ? 'escalar' : 'ajustar') : second ? 'pivotear' : 'detener'
-  const question =
-    returns === null
-      ? t('¿Tus usuarios usan el producto y vuelven?', 'Do your users use the product and come back?')
-      : returns
-        ? t('¿Conseguir cada cliente es rentable?', 'Is acquiring each customer profitable?')
-        : t('¿Los usuarios confirman que el problema existe?', 'Do users confirm the problem exists?')
-  const reset = () => {
-    setReturns(null)
-    setSecond(null)
-  }
-
-  return (
-    <div className="nx-diag">
-      <div className="nx-diag-ask">
-        <div>
-          <p className="nx-label">{t('Diagnóstico rápido', 'Quick diagnostic')}</p>
-          <p className="nx-diag-title">{t('¿Este negocio funciona o no?', 'Does this business work or not?')}</p>
-          <p className="nx-diag-intro">{t('Responde dos preguntas y te mostramos qué camino seguir.', 'Answer two questions and we will show you which path to take.')}</p>
-        </div>
-        {result ? (
-          <div className="nx-diag-result" aria-live="polite">
-            <p>{t('Tu escenario:', 'Your scenario:')}</p>
-            <strong>{outcomes[result][0]}</strong>
-            <div className="nx-diag-actions">
-              <a href="#agenda" className="nx-diag-cta">
-                {t('Hablemos de tu caso', "Let's talk about your case")} <ArrowRight size={16} className="nx-arrow" aria-hidden />
-              </a>
-              <button type="button" onClick={reset} className="nx-diag-reset">
-                <RotateCcw size={14} aria-hidden /> {t('Repetir', 'Start over')}
-              </button>
-            </div>
-          </div>
-        ) : (
-          <div className="nx-diag-q" aria-live="polite">
-            <p className="nx-diag-question">{question}</p>
-            <div className="nx-diag-options">
-              <button type="button" className="is-yes" onClick={() => (returns === null ? setReturns(true) : setSecond(true))}>
-                <Check size={18} aria-hidden /> {t('Sí', 'Yes')}
-              </button>
-              <button type="button" className="is-no" onClick={() => (returns === null ? setReturns(false) : setSecond(false))}>
-                <X size={18} aria-hidden /> No
-              </button>
-            </div>
-          </div>
-        )}
-        <div className="nx-diag-progress" aria-hidden>
-          <span className={returns !== null || result ? 'is-on' : 'is-now'} />
-          <span className={result ? 'is-on' : returns !== null ? 'is-now' : undefined} />
-          <small>{result ? t('Listo', 'Done') : `${t('Paso', 'Step')} ${returns === null ? 1 : 2} ${t('de', 'of')} 2`}</small>
-        </div>
-      </div>
-      <ul className="nx-diag-grid">
-        {(Object.keys(outcomes) as Outcome[]).map((key) => (
-          <li key={key} className={result ? (result === key ? 'is-match' : 'is-dim') : undefined}>
-            <span className="nx-diag-icon">
-              {(() => {
-                const Icon = outcomeIcons[key]
-                return <Icon size={22} aria-hidden />
-              })()}
-            </span>
-            <strong>{outcomes[key][0]}</strong>
-            <p>{outcomes[key][1]}</p>
-          </li>
-        ))}
-      </ul>
     </div>
   )
 }

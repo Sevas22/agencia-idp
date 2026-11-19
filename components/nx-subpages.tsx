@@ -56,7 +56,7 @@ const Logos = ({ images, seven }: { images: Img[]; seven?: boolean }) => (
 
 function ContactBand({ title, intro, rows, side, button }: { title: string; intro?: string; rows: [string, string][]; side: ReactNode; button: ReactNode }) {
   return (
-    <section className="nx-section nx-glow" data-theme="dark">
+    <section className="nx-section nx-grey" data-theme="light">
       <div className="nx-wrap nx-split">
         <div>
           <h2 className="nx-h3">{title}</h2>
@@ -127,7 +127,7 @@ function Mvp({ page }: { page: Page }) {
         </div>
       </ServiceHero>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{what[0].text}</Label>
           <RevealText className="nx-statement" text={t('Lanza solo lo esencial, pruébalo con usuarios reales y aprende antes de invertir más.', 'Launch only the essentials, test with real users and learn before investing more.')} />
@@ -231,7 +231,7 @@ function Transformacion({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{t("Soluciones", "Solutions")}</Label>
           <h2 className="nx-h2">{solutions[0].text}</h2>
@@ -259,11 +259,11 @@ function Transformacion({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{t("El equipo", "The team")}</Label>
           <h2 className="nx-h2 nx-head-text">{team[0].text}</h2>
-          <div className="nx-quotes is-dark">
+          <div className="nx-quotes">
             {people.map((person) => (
               <figure key={person.name}>
                 <blockquote>{person.text}</blockquote>
@@ -334,7 +334,7 @@ function Automatizaciones({ page }: { page: Page }) {
         </div>
       </ServiceHero>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{services[0].text}</Label>
           <RevealText className="nx-statement" text={t('Tu negocio responde, agenda y vende 24/7, sin sumar personal.', 'Your business answers, books and sells 24/7 without adding staff.')} />
@@ -382,7 +382,7 @@ function Automatizaciones({ page }: { page: Page }) {
           return { title: title.trim(), text: rest.join(':').trim() }
         })
         return (
-          <section key={card.title} id={autoId(row)} className={`nx-section nx-autoblock ${index % 2 ? 'is-flipped' : ''}`} data-theme={index % 2 ? 'dark' : 'light'}>
+          <section key={card.title} id={autoId(row)} className={`nx-section nx-autoblock ${index % 2 ? 'is-flipped nx-grey' : ''}`} data-theme="light">
             <div className="nx-wrap">
               <div className="nx-autoblock-top">
                 <div>
@@ -440,7 +440,7 @@ function Colombia({ page }: { page: Page }) {
   const pushleads = { kicker: work[3].text, title: work[4].text, html: work[5].html, image: work[2], href: work[6].href, cta: work[6].text }
   return (
     <div className="nx-page">
-      <section className="nx-section nx-split-hero" data-theme="dark">
+      <section className="nx-section nx-split-hero nx-grey" data-theme="light">
         <div className="nx-wrap nx-split">
           <div>
             <h1 className="nx-display">{hero[0].text}</h1>
@@ -472,7 +472,7 @@ function Colombia({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap nx-sticky-grid">
           <div className="nx-sticky">
             <Label>{why[0].title}</Label>
@@ -590,7 +590,7 @@ function SobreNosotros({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{t("Lo que nos mueve", "What drives us")}</Label>
           <RevealText
@@ -605,7 +605,7 @@ function SobreNosotros({ page }: { page: Page }) {
           <div className="nx-sticky">
             <Label>{top[2].title}</Label>
             <h2 className="nx-h2">{t("Así nació Agencia IDP", "How Agencia IDP began")}</h2>
-            <p>{t("De una idea simple a una fábrica de transformación digital que acompaña a empresas en toda Colombia.", "From a simple idea to a digital transformation factory serving companies across Colombia and beyond.")}</p>
+            <p>{t("De una idea simple a una empresa de innovación, con fábrica de software propia, que ayuda a sus clientes a vender más.", "From a simple idea to an innovation company, with its own software factory, that helps clients sell more.")}</p>
           </div>
           <ol className="nx-abt-story">
             {story.map((html, i) => (
@@ -621,7 +621,7 @@ function SobreNosotros({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{top[4].title}</Label>
           <h2 className="nx-h2">{t("Lo que defendemos en cada proyecto", "What we stand for in every project")}</h2>
@@ -693,7 +693,7 @@ function SobreNosotros({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section nx-abt-cta" data-theme="dark">
+      <section className="nx-section nx-abt-cta nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{t("Trabajamos con ambición", "We work with ambition")}</Label>
           <h2 className="nx-display">{t("¿Tienes un proyecto para empezar? Hablemos y creemos algo impresionante.", "Have a project to start? Let's talk and build something impressive.")}</h2>
@@ -751,7 +751,7 @@ function Shopify({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <div className="nx-feature-grid">
             {features.map((card) => (
@@ -816,7 +816,7 @@ function Dominicana({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap nx-sticky-grid">
           <div className="nx-sticky">
             <h2 className="nx-h2">{process[0].text}</h2>
@@ -861,7 +861,7 @@ function Secretaria({ page }: { page: Page }) {
   const highlight = '60% del costo'
   return (
     <div className="nx-page">
-      <section className="nx-imagehero" data-theme="dark" style={{ backgroundImage: `linear-gradient(90deg, rgb(14 15 16 / .9), rgb(14 15 16 / .55)), url(${media.asociaciones.src})` }}>
+      <section className="nx-imagehero nx-grey" data-theme="light" style={{ backgroundImage: `linear-gradient(90deg, rgb(255 255 255 / .96), rgb(255 255 255 / .82)), url(${media.asociaciones.src})` }}>
         <div className="nx-wrap">
           <Label>{hero[2].text}</Label>
           <h1 className="nx-display">{hero[3].text}</h1>
@@ -965,7 +965,7 @@ function CasosExito({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{t("Cómo los hacemos", "How we build them")}</Label>
           <RevealText className="nx-statement" text={t('Cada caso empezó como una idea. Hoy es un producto que funciona.', 'Every case started as an idea. Today it is a product that works.')} />

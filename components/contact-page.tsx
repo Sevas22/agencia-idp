@@ -70,7 +70,7 @@ export function ContactPage() {
             <ContactEmbed />
           </div>
 
-          <aside className="nx-contact2-card" data-theme="dark">
+          <aside className="nx-contact2-card" data-theme="light">
             <p className="nx-label">{t('Datos de contacto', 'Contact details')}</p>
             <ul className="nx-contact2-list">
               <li>
@@ -127,7 +127,7 @@ export function ContactPage() {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap nx-presence">
           <div>
             <Label>{t('Dónde estamos', 'Where we are')}</Label>

@@ -32,7 +32,7 @@ export function Nearshore({ page }: { page: Page }) {
         </div>
       </ServiceHero>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{why[0].text}</Label>
           <h2 className="nx-h2">{why[1].text}</h2>
@@ -61,11 +61,11 @@ export function Nearshore({ page }: { page: Page }) {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap">
           <Label>{cases[0].text}</Label>
           <h2 className="nx-h2">{cases[1].text}</h2>
-          <div className="nx-quotes is-dark">
+          <div className="nx-quotes">
             {people.map((person) => (
               <figure key={person.title}>
                 <Html html={person.quote} className="nx-quote-text" />

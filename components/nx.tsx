@@ -88,7 +88,7 @@ export function ContactEmbed() {
 
 export function DarkHero({ label, title, html, children }: { label: string; title: string; html?: string; children?: ReactNode }) {
   return (
-    <section className="nx-pagehero nx-center" data-theme="dark">
+    <section className="nx-pagehero nx-center nx-grey" data-theme="light">
       <span className="nx-arc" aria-hidden />
       <div className="nx-wrap">
         <Label>{label}</Label>

@@ -1565,3 +1565,202 @@ a:hover > .nx-arrow, .nx-btn:hover .nx-arrow { transform: translateX(4px); }
 @media (max-width: 1120px), (hover: none) and (max-width: 1366px) {
   .nx-lang { justify-content: center; width: 100%; min-height: 48px; margin-top: 16px; opacity: 1; }
 }
+
+/* Portada rebalanceada (2026-11-17): bloques oscuro/claro alternos como el referente */
+.nx-trio.is-row { align-items: stretch; margin-top: clamp(40px, 5vw, 56px); }
+.nx-trio.is-row article { min-height: 560px; padding: clamp(24px, 2.4vw, 32px); }
+.nx-trio.is-row h3 { font-size: clamp(24px, 2vw, 30px); }
+.nx-trio.is-row .nx-trio-shots { height: 190px; }
+.nx-trio.is-row .nx-trio-shots img { height: 150px; }
+.nx-kinetic span { font-size: clamp(36px, 5vw, 76px); }
+.nx-kinetic-wrap { padding-block: clamp(40px, 5vw, 72px); }
+.nx-ratings.is-inline { margin: 0 0 clamp(40px, 5vw, 56px); padding: 28px 0 24px; background: #fff; border: 1px solid var(--nx-line); border-bottom: 1px solid var(--nx-line); }
+.nx-ratings.is-inline .nx-ratings-widget { width: min(980px, 100% - 32px); }
+@media (max-width: 900px) {
+  .nx-trio.is-row { grid-template-columns: minmax(0, 1fr); }
+  .nx-trio.is-row article { min-height: 0; }
+}
+
+/* ── Portada clara y minimalista (2026-11-18): sin bloques negros, naranja solo como acento ── */
+.nx-home { --home-line: var(--nx-line); }
+.nx-home .nx-section { padding-block: clamp(80px, 9vw, 128px); }
+
+/* Héroe */
+.nx-home .nx-hero { background: #fff; border-bottom: 1px solid var(--home-line); }
+.nx-home .nx-now { color: var(--nx-muted) !important; }
+.nx-home .nx-now::before { background: var(--nx-orange); box-shadow: none; }
+.nx-home .gradient-text { background: none; color: var(--nx-orange); -webkit-text-fill-color: currentColor; animation: none; }
+.nx-home .nx-hero-copy .nx-lead { color: #2a2b2d; }
+.nx-home .nx-hero-copy > p:not(.nx-display):not(.nx-lead):not(.nx-hero-stat) { color: var(--nx-muted); }
+.nx-home .nx-hero-stat { color: var(--nx-muted); }
+.nx-home .nx-hero-media { background: var(--nx-grey); }
+.nx-home .nx-hero-col { padding: 16px; animation-duration: 120s; }
+.nx-home .nx-hero-shot { border-color: var(--home-line); box-shadow: 0 10px 30px rgb(14 15 16 / .06); }
+.nx-home .nx-hero-shot figcaption { background: #fff; border: 1px solid var(--home-line); color: #0e0f10; }
+
+/* Clientes */
+.nx-home .nx-trust { padding-block: 36px; border-bottom: 1px solid var(--home-line); }
+.nx-home .nx-trust p { color: #0e0f10; font-size: 16px; }
+
+/* Intro y bloque de video en claro */
+.nx-home .nx-stats dd { color: #0e0f10; }
+.nx-home .nx-film.is-orbit { background: #fff; border-color: var(--home-line); }
+.nx-home .nx-film.is-orbit::before { background-image: radial-gradient(rgb(14 15 16 / .1) 1px, transparent 1.4px); }
+.nx-home .nx-film.is-orbit .nx-arc { background: radial-gradient(closest-side, var(--nx-grey) 96%, transparent); box-shadow: 0 -1px 0 rgb(255 102 26 / .5), 0 -24px 80px 4px rgb(255 102 26 / .12); }
+.nx-home .nx-film-word { background: linear-gradient(180deg, #0e0f10 20%, rgb(14 15 16 / .15)); -webkit-background-clip: text; background-clip: text; }
+.nx-home .nx-film.is-orbit i { border-color: var(--home-line); background: #fff; color: #0e0f10; box-shadow: 0 10px 30px rgb(14 15 16 / .1); }
+.nx-home .nx-film.is-orbit:hover i { background: var(--nx-orange); border-color: var(--nx-orange); color: #171819; }
+
+/* Servicios: tres tarjetas blancas iguales */
+.nx-home .nx-trio article { background: #fff; border-color: var(--home-line); }
+.nx-home .nx-trio article:hover { border-color: #c9cbcf; }
+.nx-home .nx-trio-tiles li { background: var(--nx-grey); border: 1px solid var(--home-line); color: #0e0f10; }
+.nx-home .nx-trio-rows li { border-color: var(--home-line); color: #0e0f10; }
+.nx-home .nx-trio-rows li:last-child { border-bottom-color: var(--home-line); }
+.nx-home .nx-band { background: var(--nx-grey); }
+
+/* Tecnologías */
+.nx-home .nx-focus li { background: #fff; border-color: var(--home-line); }
+
+/* Metodología en claro */
+.nx-home .nx-method-rail button:hover, .nx-home .nx-method-rail button.is-active { color: #0e0f10; }
+.nx-home .nx-method-rail button.is-done { color: var(--nx-muted); }
+.nx-home .nx-method-rail button i { background: var(--home-line); }
+.nx-home .nx-method-panel { background: #fff; border-color: var(--home-line); }
+.nx-home .nx-method-big { -webkit-text-stroke: 1px rgb(14 15 16 / .07); }
+.nx-home .nx-method-copy h3, .nx-home .nx-method-panel li strong { color: #0e0f10; }
+.nx-home .nx-method-panel ol::before { background: var(--home-line); }
+.nx-home .nx-method-panel li > span { background: #fff; border-color: var(--home-line); color: var(--nx-muted); }
+.nx-home .nx-method-panel li.is-lit > span { background: var(--nx-orange); border-color: var(--nx-orange); color: #171819; }
+.nx-home .nx-method-panel li.is-current { background: linear-gradient(90deg, rgb(255 102 26 / .07), transparent 80%); }
+.nx-home .nx-method-count strong { color: var(--nx-orange); }
+
+/* Proyectos y testimonios */
+.nx-home .nx-quotes figure { background: #fff; }
+.nx-home .nx-ratings.is-inline { background: var(--nx-grey); border-color: transparent; }
+
+@media (max-width: 900px) {
+  .nx-home .nx-hero-media { background: none; }
+  .nx-home .nx-hero-col { padding: 0; }
+}
+/* Menos saturación: titular en negro, el naranja queda en botones y detalles */
+.nx-home .gradient-text { color: #0e0f10; }
+.nx-home .nx-hero .nx-display { font-weight: 500; }
+.nx-home .nx-film { height: clamp(260px, 30vw, 420px); }
+
+/* ── Sitio claro y minimalista (2026-11-18): bloques negros y naranjas pasan a blanco/gris; el naranja queda como acento ── */
+.nx-page [data-theme='light'] .nx-btn-white { border-color: var(--nx-line); }
+.nx-page [data-theme='light'] .nx-btn-white:hover { background: #0e0f10; border-color: #0e0f10; color: #fff; }
+
+/* Héroes que eran oscuros */
+.nx-page .nx-pagehero .nx-arc, .nx-page .nx-film.is-orbit .nx-arc { background: radial-gradient(closest-side, #fff 96%, transparent); box-shadow: 0 -1px 0 rgb(255 102 26 / .45), 0 -24px 80px 4px rgb(255 102 26 / .1); }
+.nx-page .nx-imagehero .nx-lead { color: #2a2b2d; }
+
+/* Franjas naranjas a sangre → gris claro con texto oscuro */
+.nx-page .nx-orange, .nx-page [data-theme='light'].nx-orange, .nx-page .nx-orange-cta, .nx-page [data-theme='light'].nx-orange-cta { background: var(--nx-grey); border-block: 1px solid var(--nx-line); }
+.nx-page .nx-orange-text strong { color: var(--nx-orange); }
+.nx-page .nx-orange dd { color: #0e0f10; }
+.nx-page .nx-btn-dark:hover { background: var(--nx-orange); border-color: var(--nx-orange); color: #171819; }
+
+/* Cifras en franja */
+.nx-page .nx-metricband { background: var(--nx-grey); border-block: 1px solid var(--nx-line); }
+.nx-page .nx-metricband div { border-left-color: var(--nx-line); }
+.nx-page .nx-metricband dd { color: #0e0f10; }
+.nx-page .nx-metricband dt { color: var(--nx-orange); }
+
+/* Tarjetas con fondo negro o naranja → blancas */
+.nx-page .nx-pricecard { background: #fff; border: 1px solid var(--nx-line); color: var(--nx-muted); }
+.nx-page .nx-pricecard > p:not(.nx-label) { color: #0e0f10; }
+.nx-page .nx-pricecard .nx-chips li { border-color: var(--nx-line); color: #0e0f10; }
+.nx-page .nx-stack article.is-orange, .nx-page .nx-stack article.is-black { background: #fff; border-color: var(--nx-line); color: var(--nx-muted); }
+.nx-page .nx-stack .is-orange h3, .nx-page .nx-stack .is-black h3, .nx-page .nx-stack .is-orange strong, .nx-page .nx-stack .is-black strong { color: #0e0f10; }
+.nx-page .nx-stack .is-orange .nx-stack-label span { color: var(--nx-orange); }
+.nx-page .nx-stack .is-orange .nx-stack-cta:hover { color: var(--nx-orange); }
+.nx-page .nx-plans .is-orange { background: #fff; border-color: var(--nx-orange); color: var(--nx-muted); box-shadow: 0 18px 40px rgb(14 15 16 / .06); }
+.nx-page .nx-plans .is-orange h3, .nx-page .nx-plans .is-orange .nx-plan-price { color: #0e0f10; }
+.nx-page .nx-plans .is-orange li svg { color: var(--nx-orange); }
+.nx-page .nx-plans .is-orange .nx-btn { background: var(--nx-orange); border-color: var(--nx-orange); color: #171819; }
+.nx-page .nx-plans .is-black { background: #fff; border-color: var(--nx-line); color: var(--nx-muted); }
+.nx-page .nx-plans .is-black h3, .nx-page .nx-plans .is-black .nx-plan-price { color: #0e0f10; }
+
+/* Sobre nosotros */
+.nx-page .nx-abt-values, .nx-page .nx-abt-values li { border-color: var(--nx-line); }
+.nx-page .nx-abt-values li:hover { background: #fff; }
+.nx-page .nx-abt-contact { border-top-color: var(--nx-line); }
+.nx-page .nx-abt-contact div + div { border-left-color: var(--nx-line); }
+.nx-page .nx-abt-contact dd { color: #0e0f10; }
+
+/* Guía del MVP */
+.nx-page .nx-guide-phases li, .nx-page .nx-guide-phases li:nth-child(2) { background: #fff; border: 1px solid var(--nx-line); color: var(--nx-muted); }
+.nx-page .nx-guide-phases li + li { border-left: 0; }
+.nx-page .nx-guide-phases strong, .nx-page .nx-guide-phases li:nth-child(2) strong { color: #0e0f10; }
+.nx-page .nx-guide-phases span, .nx-page .nx-guide-phases li:nth-child(2) span { color: var(--nx-orange); }
+.nx-page .nx-guide-price { background: var(--nx-grey); }
+.nx-page .nx-guide-price p { color: #2a2b2d; }
+.nx-page .nx-guide-cta { background: #fff; border: 1px solid var(--nx-line); }
+.nx-page .nx-guide-cta p:not(.nx-label) { color: #0e0f10; }
+.nx-page .nx-guide-cta .nx-label { color: var(--nx-orange); }
+.nx-page .nx-guide-link { color: #0e0f10; }
+
+/* Automatizaciones */
+.nx-page .nx-autoblock-media figcaption { background: #fff; border: 1px solid var(--nx-line); color: #0e0f10; box-shadow: 0 12px 30px rgb(14 15 16 / .08); }
+.nx-page .nx-autoblock-media::before { background: var(--nx-grey); border: 1px solid var(--nx-line); }
+
+/* Efectos de hover que llenaban de negro → gris suave */
+.nx-page .nx-hoverlist li::before { background: var(--nx-grey); }
+.nx-page .nx-hoverlist li:hover strong { color: #0e0f10; }
+.nx-page .nx-whocards li:hover { background: #fff; border-color: var(--nx-orange); color: #0e0f10; }
+.nx-page .nx-channels a::before { background: var(--nx-grey); }
+.nx-page .nx-channels a:hover { border-color: #c9cbcf; color: #0e0f10; }
+.nx-page .nx-channels a:hover .nx-channels-text { color: var(--nx-muted); }
+
+/* Contacto */
+.nx-page .nx-contact2-card { background: #fff; border: 1px solid var(--nx-line); color: var(--nx-muted); }
+.nx-page .nx-contact2-list li, .nx-page .nx-contact2-social { border-color: var(--nx-line); }
+.nx-page .nx-contact2-list a, .nx-page .nx-contact2-list span, .nx-page .nx-contact2-steps strong { color: #0e0f10; }
+.nx-page .nx-contact2-steps li > span, .nx-page .nx-contact2-social a { border-color: var(--nx-line); }
+.nx-page .nx-contact2-social a { color: #0e0f10; }
+.nx-page .nx-presence-groups li { border-color: var(--nx-line); color: #0e0f10; background: #fff; }
+.nx-page .nx-presence-groups li.is-main { background: #fff; border-color: var(--nx-orange); color: #0e0f10; }
+.nx-page .nx-presence-groups li.is-main svg { color: var(--nx-orange); }
+
+/* Citas que estaban sobre fondo negro */
+.nx-page .nx-quotes figure { background: #fff; border-color: var(--nx-line); }
+
+/* Metodología (también en otras páginas si se usa) */
+.nx-page .nx-method-rail button:hover, .nx-page .nx-method-rail button.is-active { color: #0e0f10; }
+/* Tarjetas de proyecto y etiquetas de tecnología en claro */
+.nx-page .nx-tile { background: #fff; border: 1px solid var(--nx-line); color: var(--nx-muted); }
+.nx-page a.nx-tile:hover { border-color: #c9cbcf; box-shadow: 0 18px 40px rgb(14 15 16 / .08); }
+.nx-page .nx-tile-body strong { color: #0e0f10; }
+.nx-page .nx-tile-body div strong { color: inherit; }
+.nx-page .nx-tiles li { border-color: var(--nx-line); background: #fff; color: #0e0f10; }
+/* Héroe centrado más compacto (Precios) */
+.nx-page .nx-pagehero { min-height: 0; padding-block: clamp(150px, 16vw, 210px) clamp(64px, 7vw, 96px); }
+
+/* Héroe de portada: mensaje de posicionamiento (2026-11-18) */
+.nx-home .nx-hero .nx-display { max-width: 640px; font-size: clamp(42px, 5vw, 72px); }
+.nx-home .nx-hero-copy .nx-lead { margin-top: 24px; font-size: clamp(18px, 1.5vw, 21px); }
+.nx-home .nx-hero-copy .nx-lead strong { color: #0e0f10; font-weight: 600; }
+.nx-hero-points { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 0; padding: 0; list-style: none; }
+.nx-hero-points li { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--nx-line); color: #0e0f10; font-family: var(--nx-mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+.nx-hero-points li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--nx-orange); }
+
+/* Héroe: columna de capturas más pequeña y discreta (2026-11-18) */
+@media (min-width: 901px) {
+  .nx-home .nx-hero-grid { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); }
+  .nx-home .nx-hero-media { align-self: center; height: min(78vh, 680px); min-height: 0; margin-block: 48px; border-radius: 0; contain: none; }
+  .nx-home .nx-hero-col { padding: 20px 28px; gap: 14px; }
+  .nx-home .nx-hero-shot { max-width: 440px; margin-inline: auto; }
+  .nx-home .nx-hero-shot figcaption { font-size: 10px; padding: 4px 8px; }
+}
+@media (min-width: 901px) {
+  .nx-home .nx-hero-media { height: min(70vh, 600px); margin-block: 64px; border: 1px solid var(--nx-line); -webkit-mask-image: linear-gradient(180deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(180deg, transparent, #000 10%, #000 90%, transparent); }
+  .nx-home .nx-hero-shot { max-width: 400px; }
+}
+@media (min-width: 901px) {
+  .nx-home .nx-hero-grid { grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr); }
+  .nx-home .nx-hero-media { height: min(56vh, 460px); margin-block: 96px; }
+  .nx-home .nx-hero-col { padding: 16px 20px; gap: 12px; }
+  .nx-home .nx-hero-shot { max-width: 300px; }
+}

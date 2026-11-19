@@ -1,9 +1,9 @@
 {
  "slug": "transforma-agencia-software-colombia",
- "title": "Agencia de Software en Colombia impulsa Transforma y Optimiza tu Negocio con 3 Ventajas IDP",
+ "title": "Agencia IDP: empresa de innovación con fábrica de software in house en Colombia",
  "seo": {
-  "title": "Agencia de Software en Colombia: Transforma tu Negocio | Agencia IDP",
-  "description": "Transforma y optimiza tu empresa con la mejor agencia de software en Colombia. Agencia IDP desarrolla soluciones digitales a medida con tecnología de punta. Cotiza tu proyecto hoy.",
+  "title": "Sobre Agencia IDP: Empresa de Innovación en Colombia | Agencia IDP",
+  "description": "Agencia IDP es una empresa de innovación con fábrica de software in house en Colombia. Nuestro compromiso: que nuestros clientes vendan más en su negocio y con nuevos modelos de negocio digitales.",
   "image": "/media/2025-04-jefferson-espana.webp"
  },
  "sections": [
@@ -12,12 +12,12 @@
     {
      "t": "heading",
      "level": 2,
-     "text": "Agencia de desarrollo de software en Colombia."
+     "text": "Empresa de innovación en Colombia"
     },
     {
      "t": "heading",
      "level": 2,
-     "text": "Una fábrica de transformación digital"
+     "text": "Innovación con fábrica de software in house"
     },
     {
      "t": "card",
@@ -332,7 +332,7 @@
     },
     {
      "t": "rich",
-     "html": "<p>En nuestra empresa de software, nos enorgullece haber colaborado con algunas de las marcas más grandes de Colombia, brindando soluciones tecnológicas innovadoras que han transformado sus operaciones y experiencias digitales. Hemos tenido el privilegio de trabajar con reconocidas empresas en sectores como el comercio minorista, la banca, la salud y la industria manufacturera.</p>"
+     "html": "<p>En Agencia IDP nos enorgullece haber colaborado con algunas de las marcas más grandes de Colombia, brindando soluciones tecnológicas innovadoras que han transformado sus operaciones y experiencias digitales. Hemos tenido el privilegio de trabajar con reconocidas empresas en sectores como el comercio minorista, la banca, la salud y la industria manufacturera.</p>"
     },
     {
      "t": "button",

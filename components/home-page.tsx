@@ -9,7 +9,6 @@ import { site } from '@/lib/site'
 import { getClients, getProjects } from '@/lib/showcase'
 import { LogoMarquee } from '@/components/logo-marquee'
 import { RevealText } from '@/components/reveal-text'
-import { KineticBand } from '@/components/kinetic-band'
 import { IdpMethod } from '@/components/idp-method'
 
 type HomeCopy = {
@@ -54,28 +53,27 @@ export async function HomePage() {
   const [lowCode, software, marketing] = copy.services
 
   return (
-    <div className="nx-page">
-      <section className="nx-hero" data-theme="dark">
+    <div className="nx-page nx-home">
+      <section className="nx-hero" data-theme="light">
         <div className="nx-wrap nx-hero-grid">
           <div className="nx-hero-copy">
-            <h1 className="nx-now">{t('Agencia IDP - Transformación digital', 'Agencia IDP - Software development agency')}</h1>
-            <p className="nx-display">
-              <span className="gradient-text">{t('Creamos el futuro', 'We build the future')}</span> {t('en cada desarrollo', 'in every product')}
-            </p>
+            <p className="nx-now">{t('Agencia IDP · Empresa de innovación', 'Agencia IDP · Innovation company')}</p>
+            <h1 className="nx-display">{t('Hacemos que tu negocio venda más', 'We help your business sell more')}</h1>
             <p className="nx-lead">
-              {t('¡Somos expertos en desarrollar tecnología para ', 'We are experts in building technology for ')}
-              <strong>MVPs</strong>
-              {t(' y nuevos modelos de negocio!', ' and new business models.')}
+              {t('Somos una ', 'We are an ')}
+              <strong>{t('empresa de innovación con fábrica de software in house', 'innovation company with an in-house software factory')}</strong>.
             </p>
             <p>
               {t(
-                'Llevamos a las compañías a transformar ideas en productos digitales con nuestra metodología IDP (Innova Desarrollando Producto). Nada de teorías complicadas, solo MVPs que funcionan.',
-                'We help companies turn ideas into digital products with our IDP methodology (Innovate by Developing Product). No complicated theory, just MVPs that work.',
+                'Nuestro compromiso es que vendas más en tu negocio actual y con nuevos modelos de negocio digitales.',
+                'Our commitment is to help you sell more in your current business and through new digital business models.',
               )}
             </p>
-            <p className="nx-hero-stat">
-              <strong>1 M +</strong> {t('usuarios impactados', 'users reached')}
-            </p>
+            <ul className="nx-hero-points">
+              <li>{t('Innovación', 'Innovation')}</li>
+              <li>{t('Fábrica de software in house', 'In-house software factory')}</li>
+              <li>{t('Nuevos modelos de negocio digitales', 'New digital business models')}</li>
+            </ul>
             <div className="nx-actions">
               <Btn href={site.calendar}>{t('Hablemos', "Let's talk")}</Btn>
               <Btn href={casesPath} variant="white">
@@ -96,22 +94,14 @@ export async function HomePage() {
         </div>
       </section>
 
-      <section className="nx-ratings" data-theme="light" aria-label={t('Calificaciones de clientes', 'Client ratings')}>
-        <div className="nx-wrap">
-          <p className="nx-label">{t('Lo que dicen nuestros clientes', 'What our clients say')}</p>
-          <div className="nx-ratings-widget" data-posrank-ratings="2c5acec9-f541-46d5-b660-a1687ed04f2e" data-template="platforms" data-theme="light" data-lang={lang} />
-          <Script src="https://posrank.co/posrank-ratings.js?v=6" strategy="afterInteractive" />
-        </div>
-      </section>
-
-      <section className="nx-trust" data-theme="dark">
+      <section className="nx-trust" data-theme="light">
         <div className="nx-wrap nx-trust-grid">
           <p>{t('Confían en nosotros', 'Trusted by')}</p>
-          <LogoMarquee logos={clients} />
+          <LogoMarquee logos={clients} className="is-light" />
         </div>
       </section>
 
-      <section className="nx-section nx-center" data-theme="dark">
+      <section className="nx-section nx-center nx-grey" data-theme="light">
         <div className="nx-wrap">
           <h2 className="nx-h2">{copy.intro}</h2>
           <p className="nx-lead nx-measure">{copy.about}</p>
@@ -135,22 +125,6 @@ export async function HomePage() {
         </div>
       </section>
 
-      <section className="nx-kinetic-wrap" data-theme="light">
-        <KineticBand
-          rows={
-            lang === 'en'
-              ? [
-                  ['Websites', 'Custom software', 'MVPs', 'AI automation'],
-                  ['Digital marketing', 'SEO', 'UX/UI', 'Digital transformation'],
-                ]
-              : [
-                  ['Sitios web', 'Software a la medida', 'MVPs', 'Automatización con IA'],
-                  ['Marketing digital', 'SEO', 'UX/UI', 'Transformación digital'],
-                ]
-          }
-        />
-      </section>
-
       <section className="nx-section" id="servicios" data-theme="light">
         <div className="nx-wrap">
           <Label>{t('Nuestros servicios', 'Our services')}</Label>
@@ -158,11 +132,11 @@ export async function HomePage() {
             as="h2"
             className="nx-statement"
             text={t(
-              'Todo producto digital que funciona empieza con una idea validada. Nosotros la llevamos al mercado.',
-              'Every digital product that works starts with a validated idea. We take it to market.',
+              'Nuestro compromiso: que vendas más en tu negocio y con nuevos modelos de negocio digitales.',
+              'Our commitment: help you sell more in your business and through new digital business models.',
             )}
           />
-          <div className="nx-trio is-stack">
+          <div className="nx-trio is-row">
             <article>
               <h3>{lowCode.title}</h3>
               {lowCode.paragraphs.map((text) => (
@@ -177,7 +151,7 @@ export async function HomePage() {
                 ))}
               </div>
             </article>
-            <article className="is-orange">
+            <article>
               <h3>{software.title}</h3>
               {software.paragraphs.map((text) => (
                 <p key={text}>{text}</p>
@@ -191,7 +165,7 @@ export async function HomePage() {
                 ))}
               </ul>
             </article>
-            <article className="is-black">
+            <article>
               <h3>{marketing.title}</h3>
               {marketing.paragraphs.map((text) => (
                 <p key={text}>{text}</p>
@@ -218,7 +192,7 @@ export async function HomePage() {
         </div>
       </section>
 
-      <section className="nx-section" data-theme="dark">
+      <section className="nx-section nx-grey" data-theme="light">
         <div className="nx-wrap nx-sticky-grid">
           <div className="nx-sticky">
             <Label>{t('Nuestro stack', 'Our stack')}</Label>
@@ -245,7 +219,20 @@ export async function HomePage() {
         </div>
       </section>
 
-      <section className="nx-section nx-glow" id="metodologia" data-theme="dark">
+      <section className="nx-section" data-theme="light">
+        <div className="nx-wrap">
+          <div className="nx-head-row">
+            <div>
+              <Label>{t('Casos de éxito', 'Case studies')}</Label>
+              <h2 className="nx-h2">{t('Proyectos realizados', 'Featured projects')}</h2>
+            </div>
+            <Btn href={casesPath}>{t('Ver todos', 'View all')}</Btn>
+          </div>
+          <ProjectRail projects={projects} />
+        </div>
+      </section>
+
+      <section className="nx-section nx-grey" id="metodologia" data-theme="light">
         <div className="nx-wrap">
           <div className="nx-head-row">
             <div>
@@ -271,21 +258,13 @@ export async function HomePage() {
 
       <section className="nx-section" data-theme="light">
         <div className="nx-wrap">
-          <div className="nx-head-row">
-            <div>
-              <Label>{t('Casos de éxito', 'Case studies')}</Label>
-              <h2 className="nx-h2">{t('Proyectos realizados', 'Featured projects')}</h2>
-            </div>
-            <Btn href={casesPath}>{t('Ver todos', 'View all')}</Btn>
-          </div>
-          <ProjectRail projects={projects} />
-        </div>
-      </section>
-
-      <section className="nx-section nx-grey" data-theme="light">
-        <div className="nx-wrap">
           <h2 className="nx-h2">{t('Testimonios', 'Testimonials')}</h2>
           <p className="nx-lead">{t('Más de 200 empresas en todo el mundo han trabajado con nosotros', 'More than 200 companies around the world have worked with us')}</p>
+          <div className="nx-ratings is-inline" aria-label={t('Calificaciones de clientes', 'Client ratings')}>
+            <p className="nx-label">{t('Lo que dicen nuestros clientes', 'What our clients say')}</p>
+            <div className="nx-ratings-widget" data-posrank-ratings="2c5acec9-f541-46d5-b660-a1687ed04f2e" data-template="platforms" data-theme="light" data-lang={lang} />
+            <Script src="https://posrank.co/posrank-ratings.js?v=6" strategy="afterInteractive" />
+          </div>
           <div className="nx-quotes">
             {testimonialPeople.map((person, index) => (
               <figure key={person.name}>
