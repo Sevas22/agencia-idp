@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { getPage, getPageSlugs, getPosts } from '@/lib/content'
+import { blogCategories, categoryPath } from '@/lib/blog-categories'
 import { keyOf, languagesOf, routes } from '@/lib/i18n'
 import { site } from '@/lib/site'
 
@@ -20,6 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   })
   return [
     ...fixed.map((path) => withAlternates(path)),
+    ...blogCategories.map((c) => ({ url: `${site.url}${categoryPath(c)}` })),
     ...getPageSlugs().map((slug) => withAlternates(`/${slug}/`, getPage(slug).modified)),
     ...english,
     ...(await getPosts()).map((post) => ({ url: `${site.url}/${post.slug}/`, lastModified: post.modified })),

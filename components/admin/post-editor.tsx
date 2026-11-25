@@ -9,6 +9,7 @@ import { scoreContent, type Check as ScoreCheck, type Score } from '@/lib/conten
 import type { DbPost, PostInput } from '@/lib/posts-repo'
 import { DeleteButton } from './delete-button'
 import { RichEditor } from './rich-editor'
+import { blogCategories } from '@/lib/blog-categories'
 
 type Props = { post: DbPost | null; revisions?: number; dates?: { created: string; updated: string }; children?: React.ReactNode }
 
@@ -22,7 +23,7 @@ const slugify = (text: string) =>
     .slice(0, 75)
     .replace(/-+$/g, '')
 
-const empty: PostInput = { slug: '', title: '', excerpt: '', html: '', category: 'Blog', status: 'draft', keywords: [], seoTitle: '', seoDescription: '', image: null, faqs: [], sources: [] }
+const empty: PostInput = { slug: '', title: '', excerpt: '', html: '', category: blogCategories[0].name, status: 'draft', keywords: [], seoTitle: '', seoDescription: '', image: null, faqs: [], sources: [] }
 
 async function uploadImage(file: File) {
   const body = new FormData()
@@ -217,6 +218,18 @@ export function PostEditor({ post, revisions = 0, dates }: Props) {
               Keywords objetivo (SEO/GEO)
               <input id="f-keywords" value={keywordsText} onChange={(e) => { setKeywordsText(e.target.value); setDirty(true) }} placeholder="agencia de software en Colombia, desarrollo de MVP" />
               <small>Separadas por comas. La primera es la principal.</small>
+            </label>
+            <label className="adm-field">
+              Categoría
+              <select id="f-category" value={data.category} onChange={(e) => set('category', e.target.value)}>
+                {!blogCategories.some((c) => c.name === data.category) && <option value={data.category}>{data.category} (sin página)</option>}
+                {blogCategories.map((c) => (
+                  <option key={c.slug} value={c.name}>
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+              <small>Define en qué página de categoría del blog aparece el artículo.</small>
             </label>
             <label className="adm-field">
               Título

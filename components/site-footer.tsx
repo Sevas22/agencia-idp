@@ -107,7 +107,7 @@ export function SiteFooter() {
           <div className="nx-footer-end">
             <p>Copyright © IDP Agency LLC {new Date().getFullYear()}. All rights reserved.</p>
             <p className="nx-footer-eco">
-              <img src={ecoBadge.src} alt="Certified as eco friendly" width={ecoBadge.width} height={ecoBadge.height} loading="lazy" />
+              <img src={ecoBadge.src} alt={t('Sello de sitio web ecológico', 'Eco-friendly website badge')} width={ecoBadge.width} height={ecoBadge.height} loading="lazy" />
               <span>
                 {t('Gracias a este sitio web, estamos', 'Thanks to this website, we are')}{' '}
                 <a href="https://capihost.com/" target="_blank" rel="noopener noreferrer">

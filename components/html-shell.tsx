@@ -5,6 +5,7 @@ import type { Lang } from '@/lib/i18n'
 import { site } from '@/lib/site'
 import '../app/globals.css'
 import '../app/redesign.css'
+import '../app/blog.css'
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--font-jakarta', display: 'swap' })
 const mono = Source_Code_Pro({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-mono', display: 'swap' })
