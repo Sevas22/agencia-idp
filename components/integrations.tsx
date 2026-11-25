@@ -17,6 +17,10 @@ export function Integrations() {
           .map((id) => `gtag('config','${id}');`)
           .join('')}`}
       </Script>
+      {/* Conversiones: clics en WhatsApp, agenda, correo y teléfono como eventos de GA4 (generate_lead). */}
+      <Script id="ga-leads" strategy="lazyOnload">
+        {`document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a||typeof gtag!=='function')return;var h=a.getAttribute('href')||'',m=null;if(/wa\\.me|wa\\.link|api\\.whatsapp|web\\.whatsapp/i.test(h))m='whatsapp';else if(/calendar\\.app\\.google|calendar\\.google|#agenda/i.test(h))m='agenda';else if(/^mailto:/i.test(h))m='email';else if(/^tel:/i.test(h))m='telefono';else if(/\\/contacto\\/|\\/en\\/contact\\//.test(h))m='contacto';if(!m)return;gtag('event','generate_lead',{method:m,link_url:h,page_path:location.pathname});gtag('event','clic_'+m,{page_path:location.pathname});},true);`}
+      </Script>
       <Script id="clarity-init" strategy="lazyOnload">
         {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","${tracking.clarity}");`}
       </Script>

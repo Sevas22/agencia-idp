@@ -6,10 +6,17 @@ import { site } from '@/lib/site'
 
 export const revalidate = 3600
 
+/** Fecha en formato W3C con zona horaria; Google rechaza fechas con hora pero sin zona. */
+const w3c = (value?: string) => {
+  if (!value) return undefined
+  const date = new Date(value)
+  return Number.isNaN(date.getTime()) ? undefined : date.toISOString()
+}
+
 /** Las páginas traducidas llevan sus alternativas hreflang también en el sitemap. */
 const withAlternates = (path: string, lastModified?: string) => {
   const key = keyOf(path)
-  return { url: `${site.url}${path}`, lastModified, ...(key ? { alternates: { languages: languagesOf(key) } } : {}) }
+  return { url: `${site.url}${path}`, lastModified: w3c(lastModified), ...(key ? { alternates: { languages: languagesOf(key) } } : {}) }
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -24,6 +31,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...blogCategories.map((c) => ({ url: `${site.url}${categoryPath(c)}` })),
     ...getPageSlugs().map((slug) => withAlternates(`/${slug}/`, getPage(slug).modified)),
     ...english,
-    ...(await getPosts()).map((post) => ({ url: `${site.url}/${post.slug}/`, lastModified: post.modified })),
+    ...(await getPosts()).map((post) => ({ url: `${site.url}/${post.slug}/`, lastModified: w3c(post.modified) })),
   ]
 }
