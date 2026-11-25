@@ -221,3 +221,4 @@
   .adm-settings-row, .adm-cover-row, .adm-repeat.is-inline { grid-template-columns: minmax(0, 1fr); }
   .adm-rich-area { padding: 16px; }
 }
+.adm-pagehead-actions { display: flex; flex-wrap: wrap; gap: 10px; }

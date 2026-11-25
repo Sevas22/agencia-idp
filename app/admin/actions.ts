@@ -108,3 +108,10 @@ export async function deletePostAction(id: string) {
   revalidatePath('/blog/page/[n]', 'page')
   redirect('/admin/')
 }
+
+/** Regenera todas las páginas públicas con los datos actuales de la base (útil después de un despliegue). */
+export async function refreshSiteAction() {
+  await requireAdmin()
+  revalidatePath('/', 'layout')
+  redirect('/admin/?actualizado=1')
+}

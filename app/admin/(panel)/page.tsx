@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ExternalLink, Pencil, Plus, Search } from 'lucide-react'
+import { ExternalLink, Pencil, Plus, RefreshCw, Search } from 'lucide-react'
+import { refreshSiteAction } from '../actions'
 import { DeleteButton } from '@/components/admin/delete-button'
 import { Topbar } from '@/components/admin/topbar'
 import { scoreContent } from '@/lib/content-score'
@@ -8,13 +9,13 @@ import { listAll } from '@/lib/posts-repo'
 
 export const metadata: Metadata = { title: 'Posts' }
 
-type Props = { searchParams: Promise<{ q?: string; estado?: string; orden?: string }> }
+type Props = { searchParams: Promise<{ q?: string; estado?: string; orden?: string; actualizado?: string }> }
 
 const tone = (n: number) => (n >= 80 ? 'is-good' : n >= 60 ? 'is-mid' : 'is-low')
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
 export default async function PostsPage({ searchParams }: Props) {
-  const { q = '', estado = 'todos', orden = 'recientes' } = await searchParams
+  const { q = '', estado = 'todos', orden = 'recientes', actualizado } = await searchParams
   const posts = (await listAll()).map((post) => ({ post, ...scoreContent(post) }))
 
   const published = posts.filter((p) => p.post.status === 'published').length
@@ -42,10 +43,18 @@ export default async function PostsPage({ searchParams }: Props) {
               SEO medio <b className={tone(avg('seo'))}>{avg('seo')}</b> · GEO medio <b className={tone(avg('geo'))}>{avg('geo')}</b>
             </span>
           </p>
-          <Link href="/admin/posts/new/" className="adm-btn is-primary">
-            <Plus size={19} aria-hidden /> Nuevo post
-          </Link>
+          <div className="adm-pagehead-actions">
+            <form action={refreshSiteAction}>
+              <button type="submit" className="adm-btn" title="Regenera todas las páginas públicas con los datos actuales de la base">
+                <RefreshCw size={17} aria-hidden /> Actualizar sitio
+              </button>
+            </form>
+            <Link href="/admin/posts/new/" className="adm-btn is-primary">
+              <Plus size={19} aria-hidden /> Nuevo post
+            </Link>
+          </div>
         </div>
+        {actualizado && <p className="adm-ok">Listo: el sitio público se regeneró con los datos actuales.</p>}
 
         <div className="adm-filterbar">
           <nav className="adm-tabs" aria-label="Estado">
