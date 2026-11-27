@@ -15,6 +15,8 @@ export const rootMetadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Agencia IDP', template: '%s | Agencia IDP' },
   alternates: { types: { 'application/rss+xml': `${site.url}/feed.xml` } },
+  // Verificación de propiedad en Google Search Console (método etiqueta HTML).
+  verification: { google: '2jmGGBF5Zbq9zTnhiuhWeCfwfqzutveDQAU5shNHTI0' },
 }
 
 export const rootViewport: Viewport = { colorScheme: 'light', themeColor: '#f6f6f6' }

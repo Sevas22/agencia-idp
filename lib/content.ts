@@ -138,7 +138,8 @@ export function buildMetadata(seo: Seo, pathname: string, opts: { noindex?: bool
       locale: lang === 'en' ? 'en_US' : 'es_CO',
       alternateLocale: key ? [lang === 'en' ? 'es_CO' : 'en_US'] : undefined,
       type: opts.type ?? 'website',
-      images: seo.image ? [seo.image] : undefined,
+      // Sin imagen propia, cada página comparte la imagen de marca de su idioma.
+      images: [seo.image ? seo.image : { url: `/og/agencia-idp-${lang}.jpg`, width: 1200, height: 630, alt: lang === 'en' ? 'Agencia IDP, innovation company' : 'Agencia IDP, empresa de innovación' }],
     },
   }
 }
