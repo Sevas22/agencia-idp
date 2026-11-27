@@ -3,7 +3,7 @@ import path from 'node:path'
 import type { ReactNode } from 'react'
 import { ArrowRight, ArrowUpRight, Check, Play } from 'lucide-react'
 import type { Img, Page } from '@/lib/content'
-import { getProjects } from '@/lib/showcase'
+import { getClients, getProjects } from '@/lib/showcase'
 import { pathOf } from '@/lib/i18n'
 import { getLang, t } from '@/lib/lang'
 import { site } from '@/lib/site'
@@ -44,11 +44,17 @@ const Chips = ({ items }: { items: string[] }) => (
   </ul>
 )
 
+/** Texto alternativo de un logo: el nombre del cliente si se conoce. */
+const logoAlt = (image: Img) => {
+  const name = image.alt || getClients().find((client) => client.src === image.src)?.alt
+  return name && name !== 'Cliente de Agencia IDP' ? t(`Logo de ${name}`, `${name} logo`) : t('Logo de cliente de Agencia IDP', 'Agencia IDP client logo')
+}
+
 const Logos = ({ images, seven }: { images: Img[]; seven?: boolean }) => (
   <div className={`nx-logos ${seven ? 'is-seven' : ''}`}>
     {images.map((image) => (
       <span key={image.src}>
-        <Pic image={image} />
+        <Pic image={image} alt={logoAlt(image)} />
       </span>
     ))}
   </div>
@@ -217,7 +223,7 @@ function Transformacion({ page }: { page: Page }) {
   const people = only(team, 'quote').map((quote, i) => ({ ...quote, image: only(team, 'image')[i] }))
   return (
     <div className="nx-page">
-      <ServiceHero label={t('Transformación digital', 'Digital transformation')} title={hero[0].text} html={hero[1].html} aside={<Pic image={media.transformHero} alt="" className="nx-svchero-photo" eager />}>
+      <ServiceHero label={t('Transformación digital', 'Digital transformation')} title={hero[0].text} html={hero[1].html} aside={<Pic image={media.transformHero} alt={t("Equipo trabajando en la transformación digital de una empresa", "Team working on a company digital transformation")} className="nx-svchero-photo" eager />}>
         <div className="nx-actions">
           <Btn href={hero[2].href}>{hero[2].text}</Btn>
         </div>
@@ -320,7 +326,7 @@ function Automatizaciones({ page }: { page: Page }) {
           <div className="nx-orbit-icons" aria-hidden>
             {[hero[2], hero[3], hero[5], hero[6]].map((image) => (
               <span key={image.src}>
-                <Pic image={image} alt="" />
+                <Pic image={image} alt={image.alt || t("Ícono de automatización con IA", "AI automation icon")} />
               </span>
             ))}
           </div>
@@ -347,7 +353,7 @@ function Automatizaciones({ page }: { page: Page }) {
           <div className="nx-auto-grid">
             {items.map((item) => (
               <article key={item.title}>
-                <Pic image={item.image} alt="" />
+                <Pic image={item.image} alt={t(`Ilustración: ${item.title}`, `Illustration: ${item.title}`)} />
                 <h3>{item.title}</h3>
                 <Html html={item.html} />
                 <SmartLink href={item.button.href} className="nx-more">
@@ -516,7 +522,7 @@ function Colombia({ page }: { page: Page }) {
               {cta[3].text} <ArrowRight size={16} strokeWidth={2.2} className="nx-arrow" aria-hidden />
             </SmartLink>
           </div>
-          <Pic image={cta[4]} alt="" className="nx-split-photo is-short" />
+          <Pic image={cta[4]} alt={t("Equipo de Agencia IDP en una reunión de trabajo", "Agencia IDP team in a work meeting")} className="nx-split-photo is-short" />
         </div>
       </section>
       <RecentProjects />
@@ -828,7 +834,7 @@ function Dominicana({ page }: { page: Page }) {
           <div className="nx-stack">
             {only(process, 'card').map((card) => (
               <article key={card.title}>
-                <Pic image={card.image} alt="" />
+                <Pic image={card.image} alt={t(`Ilustración: ${card.title}`, `Illustration: ${card.title}`)} />
                 <h3>{card.title}</h3>
                 <Html html={card.html} />
               </article>

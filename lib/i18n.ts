@@ -21,6 +21,7 @@ export const routes = {
   shopify: ['/shopify-en-colombia/', '/en/shopify-development/'],
   colombia: ['/agencia-de-software-en-colombia/', '/en/software-development-company-colombia/'],
   tools: ['/herramientas/', '/en/tools/'],
+  faq: ['/preguntas-frecuentes/', '/en/faq/'],
   // Fases de la metodología IDP, cada una con su página de servicio.
   ideate: ['/design-sprint-ideacion-de-producto/', '/en/design-sprint/'],
   develop: ['/desarrollo-de-software-a-la-medida/', '/en/custom-software-development/'],

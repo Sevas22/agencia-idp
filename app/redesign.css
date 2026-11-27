@@ -1831,3 +1831,10 @@ a:hover > .nx-arrow, .nx-btn:hover .nx-arrow { transform: translateX(4px); }
   .nx-blogcats::-webkit-scrollbar { display: none; }
   .nx-blogcats a { flex: none; }
 }
+
+/* Preguntas frecuentes */
+.nx-faq-index { justify-content: center; margin: 28px auto 0; max-width: 920px; }
+.nx-faqpage .nx-section { scroll-margin-top: 90px; }
+@media (max-width: 720px) {
+  .nx-faq-index { justify-content: flex-start; }
+}

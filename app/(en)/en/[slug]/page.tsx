@@ -4,6 +4,7 @@ import { ContactPage } from '@/components/contact-page'
 import { nxPages } from '@/components/nx-subpages'
 import { PhasePage, phaseMetadata, type PhaseKey } from '@/components/phase-page'
 import { PricingPage } from '@/components/pricing-page'
+import { FaqPage, faqSeo } from '@/components/faq-page'
 import { buildMetadata, getPage, getSeo } from '@/lib/content'
 import { enSlugs, routes, type RouteKey } from '@/lib/i18n'
 import { setLang } from '@/lib/lang'
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pathname = routes[key][1]
   if (key === 'contact') return buildMetadata(getSeo('contacto'), pathname)
   if (key === 'pricing') return buildMetadata(getSeo('precios'), pathname)
+  if (key === 'faq') return buildMetadata(faqSeo('en'), pathname)
   if (phaseKeys.includes(key)) return phaseMetadata(key as PhaseKey, 'en')
   return buildMetadata(getPage(esSlugOf(key)).seo, pathname)
 }
@@ -41,6 +43,7 @@ export default async function EnglishPage({ params }: Props) {
   if (!key) notFound()
   if (key === 'contact') return <ContactPage />
   if (key === 'pricing') return <PricingPage />
+  if (key === 'faq') return <FaqPage />
   if (phaseKeys.includes(key)) return <PhasePage phase={key as PhaseKey} />
   const esSlug = esSlugOf(key)
   const Composed = nxPages[esSlug]

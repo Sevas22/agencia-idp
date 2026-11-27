@@ -70,7 +70,7 @@ export function Nearshore({ page }: { page: Page }) {
               <figure key={person.title}>
                 <Html html={person.quote} className="nx-quote-text" />
                 <figcaption>
-                  <Pic image={person.image} alt="" />
+                  <Pic image={person.image} alt={t(`Foto de ${person.title}`, `Photo of ${person.title}`)} />
                   <span>
                     <strong>{person.title}</strong>
                     <Html html={person.html} />

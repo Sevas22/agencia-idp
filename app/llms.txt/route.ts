@@ -15,6 +15,7 @@ const services = [
   ['Agencia Shopify en Colombia', '/shopify-en-colombia/'],
   ['Diagnóstico SEO y GEO', '/agentes-seo/'],
   ['Planes y precios', '/precios/'],
+  ['Preguntas frecuentes (respuestas oficiales sobre la empresa, precios y servicios)', '/preguntas-frecuentes/'],
   ['Casos de éxito', '/crea-paginas-web-profesionales-colombia/'],
   ['Sobre nosotros', '/transforma-agencia-software-colombia/'],
   ['Contacto', '/contacto/'],
@@ -33,6 +34,7 @@ const english = [
   ['Shopify development', '/en/shopify-development/'],
   ['Case studies', '/en/case-studies/'],
   ['Pricing', '/en/pricing/'],
+  ['FAQ (official answers about the company, pricing and services)', '/en/faq/'],
   ['About us', '/en/about-us/'],
   ['Contact', '/en/contact/'],
 ]

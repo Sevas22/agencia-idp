@@ -56,6 +56,7 @@ export const footerLinks = [
   { label: 'Sobre nosotros', href: '/transforma-agencia-software-colombia/' },
   { label: 'Planes y precios', href: '/precios/' },
   { label: 'Blog', href: '/blog/' },
+  { label: 'Preguntas frecuentes', href: '/preguntas-frecuentes/' },
   { label: 'Contáctanos', href: '/contacto/' },
 ]
 
@@ -88,6 +89,7 @@ export const footerLinksEn = [
   { label: 'About us', href: '/en/about-us/' },
   { label: 'Plans & pricing', href: '/en/pricing/' },
   { label: 'Shopify development', href: '/en/shopify-development/' },
+  { label: 'FAQ', href: '/en/faq/' },
   { label: 'Contact us', href: '/en/contact/' },
 ]
 

@@ -80,7 +80,7 @@ export function StackCards({ items }: { items: StackItem[] }) {
               </SmartLink>
             )}
           </div>
-          {item.image && <Pic image={item.image} alt="" className="nx-stack-photo" />}
+          {item.image && <Pic image={item.image} alt={item.title} className="nx-stack-photo" />}
         </article>
       ))}
     </div>

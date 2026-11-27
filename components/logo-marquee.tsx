@@ -10,7 +10,7 @@ export function LogoMarquee({ logos, className }: { logos: Img[]; className?: st
       <ul className="nx-marquee-track" aria-label="Clientes que confían en nosotros">
         {[...logos, ...logos].map((logo, i) => (
           <li key={`${logo.src}-${i}`} aria-hidden={i >= logos.length || undefined} className={boxed.has(logo.alt ?? '') ? 'is-boxed' : undefined}>
-            <img src={logo.src} alt={i >= logos.length ? '' : (logo.alt ?? '')} width={logo.width} height={logo.height} loading="lazy" />
+            <img src={logo.src} alt={logo.alt ? `Logo de ${logo.alt}` : 'Logo de cliente de Agencia IDP'} width={logo.width} height={logo.height} loading="lazy" />
           </li>
         ))}
       </ul>

@@ -1,6 +1,6 @@
 import Script from 'next/script'
 import { ArrowUpRight } from 'lucide-react'
-import { Btn, Label, NumberedList, Pic } from '@/components/nx'
+import { Btn, FaqList, Label, NumberedList, Pic } from '@/components/nx'
 import { ProjectRail } from '@/components/project-rail'
 import { getPage, read, readLocal, type Img } from '@/lib/content'
 import { pathOf } from '@/lib/i18n'
@@ -43,6 +43,17 @@ export async function HomePage() {
   // Un solo carrusel con las capturas completas de los proyectos, sin recortes.
   const shots = cases.flatMap((b) => (b.t === 'card' && b.image ? [{ image: b.image, title: b.title as string }] : [])).slice(0, 8)
 
+  // Preguntas frecuentes de la portada: se muestran y se publican como FAQPage para Google y las IA.
+  const homeFaqs = [
+    { q: t('¿Qué es Agencia IDP?', 'What is Agencia IDP?'), a: t('Agencia IDP es una empresa de innovación con fábrica de software in house, con sede en Medellín, Colombia, y presencia en Florida, Estados Unidos. Su compromiso es que sus clientes vendan más en su negocio y con nuevos modelos de negocio digitales.', 'Agencia IDP is an innovation company with an in-house software factory, based in Medellín, Colombia, with presence in Florida, USA. Its commitment is to help clients sell more in their business and through new digital business models.') },
+    { q: t('¿Qué servicios ofrece Agencia IDP?', 'What services does Agencia IDP offer?'), a: t('Desarrollo de MVP, software a la medida, apps móviles, automatizaciones con IA, equipos de software nearshore, tiendas Shopify, sitios web y diagnóstico SEO y GEO.', 'MVP development, custom software, mobile apps, AI automation, nearshore software teams, Shopify stores, websites and SEO and GEO audits.') },
+    { q: t('¿Cuánto cuesta un proyecto con Agencia IDP?', 'How much does a project with Agencia IDP cost?'), a: t('Los MVP parten de 1.000 USD y los sitios web desde 310 USD. Los planes web y de SEO están publicados en la página de precios; el valor final depende del alcance.', 'MVPs start at USD 1,000 and websites at USD 310. Web and SEO plans are published on the pricing page; the final price depends on scope.') },
+    { q: t('¿Cómo funciona la metodología IDP?', 'How does the IDP methodology work?'), a: t('Tiene tres fases: idear, con un Design Sprint que define la hipótesis y el alcance; desarrollar, con un sprint de construcción del MVP; y probar el negocio, con un Venture Lab que lanza y mide el producto con usuarios reales.', 'It has three phases: ideate, with a Design Sprint that defines the hypothesis and scope; develop, with an MVP build sprint; and test the business, with a Venture Lab that launches and measures the product with real users.') },
+    { q: t('¿Cuánto tarda en estar listo un MVP?', 'How long does an MVP take?'), a: t('Depende del alcance y de las integraciones. Un MVP enfocado en un solo flujo se construye en semanas, no en meses, y se entrega por partes para que puedas revisar avances.', 'It depends on scope and integrations. An MVP focused on a single flow is built in weeks, not months, and delivered in increments so you can review progress.') },
+    { q: t('¿Trabajan con empresas fuera de Colombia?', 'Do you work with companies outside Colombia?'), a: t('Sí. Trabajamos con empresas de Colombia, Estados Unidos y otros países, en español e inglés y en un horario compatible con Estados Unidos.', 'Yes. We work with companies in Colombia, the United States and other countries, in Spanish and English and in a time zone compatible with the US.') },
+    { q: t('¿De quién es el código del proyecto?', 'Who owns the project code?'), a: t('Del cliente. Al terminar entregamos el código, los accesos y la documentación a nombre de tu empresa.', 'The client. At the end we deliver the code, access and documentation in your company name.') },
+  ]
+
   const projects = getProjects()
 
   const [lowCode, software, marketing] = copy.services
@@ -80,7 +91,7 @@ export async function HomePage() {
             <div className="nx-hero-col">
               {[...shots, ...shots].map((shot, i) => (
                 <figure key={i} className="nx-hero-shot">
-                  <Pic image={shot.image} alt="" eager={i < 2} />
+                  <Pic image={shot.image} alt={t(`Proyecto ${shot.title} desarrollado por Agencia IDP`, `${shot.title} project built by Agencia IDP`)} eager={i < 2} />
                   <figcaption>{shot.title}</figcaption>
                 </figure>
               ))}
@@ -181,8 +192,8 @@ export async function HomePage() {
                 {t('Más información', 'Learn more')} <ArrowUpRight size={15} aria-hidden />
               </a>
               <div className="nx-trio-shots" aria-hidden>
-                {shots.slice(2, 5).map(({ image }) => (
-                  <Pic key={image.src} image={image} alt="" />
+                {shots.slice(2, 5).map(({ image, title }) => (
+                  <Pic key={image.src} image={image} alt={t(`Proyecto ${title} de Agencia IDP`, `${title} project by Agencia IDP`)} />
                 ))}
               </div>
             </article>
@@ -242,7 +253,7 @@ export async function HomePage() {
                 <p className="nx-label">{person.date}</p>
                 <blockquote>{copy.testimonials[index]}</blockquote>
                 <figcaption>
-                  <Pic image={media[person.key]} alt="" />
+                  <Pic image={media[person.key]} alt={t(`Foto de ${person.name}`, `Photo of ${person.name}`)} />
                   <span>
                     <strong>{person.name}</strong>
                     {person.role}
@@ -252,6 +263,27 @@ export async function HomePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="nx-section nx-grey" id="preguntas" data-theme="light">
+        <div className="nx-wrap nx-sticky-grid">
+          <div className="nx-sticky">
+            <Label>{t('Preguntas frecuentes', 'FAQ')}</Label>
+            <h2 className="nx-h2">{t('Lo que nos preguntan antes de empezar', 'What clients ask before we start')}</h2>
+            <p className="nx-lead">{t('Respuestas cortas sobre cómo trabajamos, costos y tiempos.', 'Short answers about how we work, costs and timelines.')}</p>
+          </div>
+          <FaqList items={homeFaqs.map((f) => ({ q: f.q, a: `<p>${f.a}</p>` }))} />
+        </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: homeFaqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
       </section>
     </div>
   )
